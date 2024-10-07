@@ -4,13 +4,16 @@
     "uniqueTo": "The Forgotten Kingdom of Wasteland",
     "unitType": "Scrapper",
     "movement": 2,
-    "strength": 22,
-    "cost": 55,
+    "strength": 25,
+    "cost": 50,
     "obsoleteTech": "Rifling",
-    "upgradesTo": "Machete",
-    "uniques": ["Low Tech", "[+50]% Strength <vs [Mounted] units>",
-    "[+1] Movement <in [Friendly Land] tiles>"],
-    "attackSound": "nonmetalhit"
+    "upgradesTo": "Militia",
+    "uniques": ["Low Tech", 
+    "[+50]% Strength <vs [Mounted] units>",
+    "[+1] Movement <in [Friendly Land] tiles>",
+    "[+15]% Strength <when fighting in [Friendly Land] tiles>",],
+    
+   "attackSound": "nonmetalhit"
   },
 
 {
@@ -21,7 +24,7 @@
  "movement": 2,
 "strength": 15,
 "obsoleteTech": "Replaceable Parts",
-"cost": 30
+"cost": 25
 "upgradesTo": "Forward Observer",
 "uniques":["Low Tech",
 "[-50]% Strength <vs cities>",
@@ -51,13 +54,11 @@
 			"Low Tech","Personnel",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
 			"[+50]% Strength <vs [Low Tech] units>",
-			"[-33]% Strength <vs [Siege] units> <when defending>",
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Blast Furnace] is constructed>"
 		],
 		"attackSound": "metalhit"
 },
-	//Lets see how ridiculously op this is
 	{
 	"name": "Dark Slayer",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -71,8 +72,8 @@
 	"uniques": [
 			"Low Tech","Personnel",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
+			"[+25]% Strength <vs [Low Tech] units>",
 			"[+50]% Strength <vs [Low Tech] units>",
-			"[-66]% Strength <vs [Siege] units> <when defending>",
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Heavy Metal Works] is constructed>"
 		],
