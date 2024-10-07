@@ -79,7 +79,6 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"maintenance": 1,
 		"specialistSlots": {"Administrator": 1},
-		"happiness": -1,
 		"uniques": [
 		"[-25]% Culture cost of natural border growth [in this city]",
 		"[-25]% Gold cost of acquiring tiles [in this city]",
@@ -89,7 +88,7 @@
 	
 		"civilopediaText": [
 			{
-				"text": "Building where King can rest from his political efforts. Meanwhile constant influx of royal rule leads common people into unrest"
+				"text": "Building where King can rest from his political efforts."
 			}]
 			}
 	{
@@ -117,15 +116,15 @@
 	},
 	//Advisors 
 	
-	// Sovereignity or Supermacy?,
 	{
 		"name":"The Conqueror"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
-		"[+20]% Strength <for [Land] units> <when fighting in [Foreign Land] tiles>",
-		"[+5]% Strength <for [Personnel] units> <when fighting in [Foreign Land] tiles>",
+		"[+10]% Strength <for [Land] units> <when fighting in [Foreign Land] tiles>",
+		"[+10]% Strength <for [Personnel] units> <when fighting in [Enemy Land] tiles>",
 		"[-20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
+		"[-25]% maintenance costs <for [Military] units>",
 		
 		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
 		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
@@ -136,7 +135,7 @@
 		"Destroyed when the city is captured"]
 		
 	},
-	// Bad balancing possibility. -25% when fithing barbarians?,
+	
 	{"name":"Cultural Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
@@ -170,7 +169,6 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
-		"[+1 Gold] from every [Moisture trap]",
 		"[+1 Gold] from every [Market]",
 		"[+2 Gold] from every [Water Storage]",
 		"[+2 Gold] from every [Water Plant]",
@@ -254,6 +252,7 @@
 		"name": "Worldwide Embassy",
 		"replaces": "Public Works Administration",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"culture":3,
 		"cost": 200,
 		"greatPersonPoints": { "Great Administrator": 3 },
 		"isNationalWonder": true,
@@ -262,7 +261,6 @@
 			"[+50]% Golden Age length",
 			"[+1 Production] [in all cities connected to capital]",
 			"[+1 Gold, +1 Culture] from every [Representation Center] <after discovering [Flight]>",
-			"[+3 Culture] [in this city] <after discovering [Flight]>",
 			"[+1 Happiness] from every [Natural Wonder]",
 			"Only available <if [King's Residence] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
