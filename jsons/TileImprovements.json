@@ -12,7 +12,7 @@
 	"[+1 Culture] <after discovering [Civil Service]>",
 	"[+1 Culture] <after discovering [Social Engineering]>",
 	"[+1 Culture] <after discovering [Incentivization]>",
-	"[+1 Food] <with [1] to [6] neighboring [Farm] tiles> <after discovering [Botany]>",
+	"[+1 Food] <with [1] to [6] neighboring [Food source] tiles>",
 
 	"Removes removable features when built",
 	"Pillaging this improvement yields approximately [+20 Gold, +30 Culture]"]
