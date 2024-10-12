@@ -8,7 +8,8 @@
     "cost": 50,
     "obsoleteTech": "Rifling",
     "upgradesTo": "Militia",
-    "uniques": ["Low Tech", 
+    "uniques": [
+    "Low Tech", 
     "[+50]% Strength <vs [Mounted] units>",
     "[+1] Movement <in [Friendly Land] tiles>",
     "[+15]% Strength <when fighting in [Friendly Land] tiles>"],
@@ -26,7 +27,8 @@
 "obsoleteTech": "Replaceable Parts",
 "cost": 25
 "upgradesTo": "Forward Observer",
-"uniques":["Low Tech",
+"uniques":[
+"Low Tech",
 "[-50]% Strength <vs cities>",
 "Unable to capture cities",
 "Can see over obstacles",	
@@ -68,14 +70,31 @@
 	"cost": 175
 	"requiredTech": "Replaceable Parts",
 	"obsoleteTech": "Energy Weapons",
-	"upgradesTo": "Exo-Trooper",
+	"upgradesTo": "Dark Corruptor",
 	"uniques": [
 			"Low Tech","Personnel",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
-			"[+25]% Strength <vs [Low Tech] units>",
+			"[+25]% Strength <vs [Personnel] units>",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Heavy Metal Works] is constructed>"
+		],
+		"attackSound": "metalhit"
+},
+{
+	"name": "Dark Corruptor",
+	"uniqueTo": "The Forgotten Kingdom of Wasteland",
+	"unitType": "Scrapper",
+	"movement": 3,
+	"strength": 90,
+	"cost": 350
+	"requiredTech": "Energy Weapons",
+	"uniques": [
+			"Personnel",
+			"[+50]% Strength <vs [Ranged] units> <when defending>",
+			"[+25]% Strength <vs [Personnel] units>",
+			"[-33]% Strength <vs [Armor] units>",
+			"Only available <if [Automated Factory] is constructed>"
 		],
 		"attackSound": "metalhit"
 },
