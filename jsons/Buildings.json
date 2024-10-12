@@ -102,7 +102,7 @@
 		"uniques": [
 			"Only available <in cities with a [Library]>",
 			"[+2 Production] [in this city] <when above [0] [Power]>",
-			"[+3 Production] [in this city] <when above [0] [Coal]>",,
+			"[+3 Production] [in this city] <when above [0] [Coal]>",
 			"Consumes [1] [Coal]",
 		],
 		"requiredTech": "Manufacturing",
@@ -179,7 +179,7 @@
 		"[+1]% [Gold] from every [Greywater Treatment Plant]",
 		"[+1]% [Gold] from every [Desalination Plant]",
 		"[+1]% [Gold] from every [Rainwater Purifier]",
-		"[-15]% Production when constructing [All] buildings [in all cities]",
+		"[-20]% Production when constructing [All] buildings [in all cities]",
 		"[-25]% Production when constructing [All] units [in all cities]",
 	
 		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
