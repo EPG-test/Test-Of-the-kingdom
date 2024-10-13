@@ -54,7 +54,6 @@
 		"cityStrength": 2,
 		"cost": 120,
 		"cityHealth": 40,
-		"maintenance": 1,
 		"uniques": [
 		"Only available <in cities with a [Defensive Emplacements]>",
 		"Only available <in cities without a [Bomb Shelter]> <hidden from users>",
@@ -66,7 +65,6 @@
 		"requiredTech": "Engineering",
 		"cityStrength": 4,
 		"cityHealth": 50,
-		"maintenance": 1,
 		"cost": 150,
 		"uniques": [
 		"Only available <in cities with a [Defensive Emplacements]>",
@@ -179,7 +177,7 @@
 		"[+1]% [Gold] from every [Greywater Treatment Plant]",
 		"[+1]% [Gold] from every [Desalination Plant]",
 		"[+1]% [Gold] from every [Rainwater Purifier]",
-		"[-20]% Production when constructing [All] buildings [in all cities]",
+		"[-15]% Production when constructing [All] buildings [in all cities]",
 		"[-25]% Production when constructing [All] units [in all cities]",
 	
 		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
@@ -208,7 +206,7 @@
 		"[+5]% [Science] [in all cities] <starting from the [Industrial era]>",
 		"[-1 Culture] [in all Cities]",
 		"[-2 Gold] [in all Cities]",
-		"[-10]% [Gold] [in all Cities]",
+		"[-5]% [Gold] [in all Cities]",
 		
 		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
 		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
