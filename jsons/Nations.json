@@ -33,9 +33,6 @@
 "[+15]% Production when constructing [Water Storage] buildings [in all cities] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 "[+1 Culture, +1 Faith] from every [Natural Wonder]",
 "[+100]% Yield from every [Natural Wonder]",
-"[+1 Food] from [Farm] tiles [in All cities] <in [Wasteland] tiles>",
-"[+1 Food] from [Farm] tiles [in All cities] <in [Badlands] tiles>",
-
 "Starts with [Construction]",
 "Starts with [Iron Working]",
 "Comment [Congress and Council buildings are replaced with Royal Advisors]",
