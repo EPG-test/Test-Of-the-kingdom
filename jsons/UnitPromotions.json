@@ -5,18 +5,56 @@
 		"name": "Worlds Fervor",
 		"uniques": ["[+5]% Strength"]
 	},
-
-	{
+1 Column
+{
 		"name": "Bloodthirst",
 		"uniques": [
-			"[+25]% Strength <vs [Wounded] units>",
-],
+			"[+15]% Strength <vs [Wounded] units> <when attacking>",
+			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 1,
         "row": 1
-	},
+},
 
+{
+		"name":"Hardening",
+		"uniques": [
+			"[+15]% Strength <when defending>",
+					],
+		"unitTypes": ["Dark Soldier"],
+		"column": 1,
+        "row": 2
+},
+2 Column
+{
+		"name":"Hawk Eye Group",
+				"prerequisites": [
+			"Hardening",
+			"Bloodthirst"
+						],
 
+		"uniques": [
+			"[+1] Sight",
+			],
+		"unitTypes": ["Dark Soldier"],
+		"column": 2,
+        "row": 1
+},
+3 Column
+{
+		"name":"Motorised movement",
+				"prerequisites": [
+			"Hardening",
+			"Bloodthirst"
+						],
+		"uniques": [
+		"[+1] Movement",
+		"Ignores terrain cost",
+			],
+		"unitTypes": ["Dark Soldier"],
+		"column": 3,
+        "row": 1
+},
 
 
 
