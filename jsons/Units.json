@@ -48,7 +48,7 @@
 	"unitType": "Dark Soldier",
 	"movement": 2,
 	"strength": 40,
-	"cost": 125
+	"cost": 100
 	"requiredTech": "Steel",
 	"obsoleteTech": "Replaceable Parts",
 	"upgradesTo": "Dark Slayer",
@@ -74,7 +74,6 @@
 	"uniques": [
 			"Low Tech","Personnel",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
-			"[+25]% Strength <vs [Personnel] units>",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Great Metals Foundry] is constructed>"
