@@ -9,6 +9,7 @@
 "food": 2,
 "culture": 1,
 "gold": 1,
+"happiness":2,
 "cost": 1,
 "cityStrength": 7,
 "cityHealth": 70,
@@ -57,6 +58,7 @@
 		"maintenance": 1,
 		"uniques": [
 		"Only available <in cities with a [Defensive Emplacements]>",
+		"[+1 Happiness, +1 Culture] [in this city] <after discovering [Flight]>",
 		"Only available <in cities without a [Bomb Shelter]> <hidden from users>",
 		"Destroyed when the city is captured"]	   
 	},
@@ -105,21 +107,6 @@
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
 	},
-		{
-		"name": "Foundry",
-		"replaces": "Blast Furnace",
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"maintenance": 1,
-		"production": 2,
-		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
-		"uniques": [
-			"[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city]",
-			"[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city]",
-		],
-		"requiredTech": "Steel"
-	},
-	
 	{
 		"name": "Great Metals Industry",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -131,7 +118,8 @@
 		"uniques": [
 			"Only available <in cities with a [Library]>",
 			"[+2 Production] [in this city] <when above [0] [Power]>",
-			"[+3 Production] [in this city] <when above [0] [Coal]>",
+			"[+2 Production] [in this city] <when above [0] [Coal]>",
+			"[+1 Production] from [Metal] tiles [in this city]",
 			"Consumes [1] [Power]",
 		],
 		"requiredTech": "Manufacturing",
