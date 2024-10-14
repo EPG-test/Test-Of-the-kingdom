@@ -118,8 +118,8 @@
 		"uniques": [
 			"Only available <in cities with a [Library]>",
 			"[+2 Production] [in this city] <when above [0] [Power]>",
-			"[+2 Production] [in this city] <when above [0] [Coal]>",
-			"[+1 Production] from [Metal] tiles [in this city]",
+			"[+2 Production] [in this city] <when above [2] [Coal]>",
+			"[+2 Production] [in this city] <when above [2] [Aluminum]>",
 			"Consumes [1] [Power]",
 		],
 		"requiredTech": "Manufacturing",
@@ -169,7 +169,9 @@
 		"[-30]% City Strength from defensive buildings",
 		"[-40]% Strength for cities <with a garrison> <when attacking> <after adopting [Castle Doctrine]>",
 		"[-20]% Strength for cities <when attacking>",
-				
+		"[-25]% Strength <vs [Barbarian] units>",
+
+		
 		"Only available <in cities without a [Military Advisor]> <hidden from users>",
 		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
 		"Only available <in cities without a [Research Advisor]> <hidden from users>",
@@ -196,7 +198,8 @@
 		"[+2]% [Gold] from every [Greywater Treatment Plant]",
 		"[+2]% [Gold] from every [Desalination Plant]",
 		"[+5]% [Gold] from every [Rainwater Purifier]",
-		"[-15]% Production when constructing [All] buildings [in all cities]",
+		
+		"[-25]% Production when constructing [All] buildings [in all cities]",
 		"[-25]% Production when constructing [All] units [in all cities]",
 	
 		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
@@ -267,7 +270,7 @@
 		"replaces": "Public Works Administration",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"culture":3,
-		"cost": 250,
+		"cost": 300,
 		"greatPersonPoints": { "Great Administrator": 3 },
 		"isNationalWonder": true,
 		"uniques": [
