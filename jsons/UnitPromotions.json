@@ -6,7 +6,15 @@
 		"uniques": ["[+5]% Strength"]
 	},
 
-
+	{
+		"name": "Bloodthirst",
+		"uniques": [
+			"[+25]% Strength <vs [Wounded] units>",
+],
+		"unitTypes": ["Dark Soldier"],
+		"column": 1,
+        "row": 1
+	},
 
 
 
