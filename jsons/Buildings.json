@@ -108,7 +108,7 @@
 		]
 	},
 	{
-		"name": "Great Metals Industry",
+		"name": "Great Metals Foundry",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"replaces": "Factory",
 		"percentStatBonus": { "production": 20 },
