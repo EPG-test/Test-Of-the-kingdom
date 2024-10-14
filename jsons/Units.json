@@ -77,7 +77,7 @@
 			"[+25]% Strength <vs [Personnel] units>",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"[-33]% Strength <vs [Armor] units>",
-			"Only available <if [Great Metals Industry] is constructed>"
+			"Only available <if [Great Metals Foundry] is constructed>"
 		],
 		"attackSound": "metalhit"
 },
