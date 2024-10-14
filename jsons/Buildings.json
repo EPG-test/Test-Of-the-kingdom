@@ -114,10 +114,8 @@
 		"hurryCostModifier": 25,
 		"requiredNearbyImprovedResources": ["Scrap", "Metal"],
 		"uniques": [
-			"[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city] <if [Outlaws of the Wastes] is not enabled>",
-			"[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city] <if [Outlaws of the Wastes] is not enabled>",
-//			"[+1 Production] from [Scrap] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
-//			"[+1 Production] from [Metal] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
+			"[-1 Food, +2 Production, -1 Gold] from [Scrap] tiles [in this city]",
+			"[-1 Food, +2 Production, -1 Gold] from [Metal] tiles [in this city]",
 			"Consumes [1] [Coal]"
 		],
 		"requiredTech": "Steel"
