@@ -2,8 +2,8 @@
 	{
 		"name": "Dark Soldier",
         "uniques": [
-			"[+50]% maintenance costs",
-			"[-50]% XP gained from combat",
+			"[+25]% maintenance costs",
+			"[-25]% XP gained from combat",
 			"Cannot intercept [Stealth] units",
 			"Cannot intercept [Missile] units"
 		],
