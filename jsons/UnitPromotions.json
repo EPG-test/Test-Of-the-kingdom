@@ -13,7 +13,7 @@
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 1,
-        "row": 5
+        "row": 10
 },
 
 {
@@ -23,37 +23,34 @@
 					],
 		"unitTypes": ["Dark Soldier"],
 		"column": 2,
-        "row": 6,
+        "row": 11,
 },
 // 2 Column,
 {
 		"name":"Hawk Eye Group",
-				"prerequisites": [
+		"prerequisites": [
 			"Hardening",
 			"Bloodthirst"
-						],
+				],
 
 		"uniques": [
 			"[+1] Sight",
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 2,
-        "row": 5
+        "row": 10
 },
 // 3 Column,
 {
 		"name":"Motorised movement",
-				"prerequisites": [
-			"Hardening",
-			"Bloodthirst"
-						],
+		"prerequisites": ["Hawk Eye Group",],
 		"uniques": [
 		"[+1] Movement",
 		"Ignores terrain cost",
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 3,
-        "row": 5
+        "row": 11
 },
 
 
