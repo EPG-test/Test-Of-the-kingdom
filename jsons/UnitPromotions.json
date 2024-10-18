@@ -13,7 +13,7 @@
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 1,
-        "row": 10
+        "row": 20
 },
 
 {
@@ -23,7 +23,7 @@
 					],
 		"unitTypes": ["Dark Soldier"],
 		"column": 2,
-        "row": 11,
+        "row": 21,
 },
 // 2 Column,
 {
@@ -38,7 +38,7 @@
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 2,
-        "row": 10
+        "row": 20
 },
 // 3 Column,
 {
@@ -50,7 +50,7 @@
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 3,
-        "row": 11
+        "row": 21
 },
 
 
