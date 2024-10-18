@@ -3,9 +3,9 @@
 
 {
 		"name": "Worlds Fervor",
-		"uniques": ["[+5]% Strength"]
+		"uniques": ["[+5]% Strength"],
 	},
-1 Column
+//1 Column,
 {
 		"name": "Bloodthirst",
 		"uniques": [
@@ -23,9 +23,9 @@
 					],
 		"unitTypes": ["Dark Soldier"],
 		"column": 1,
-        "row": 2
+        "row": 2,
 },
-2 Column
+// 2 Column,
 {
 		"name":"Hawk Eye Group",
 				"prerequisites": [
@@ -40,7 +40,7 @@
 		"column": 2,
         "row": 1
 },
-3 Column
+// 3 Column,
 {
 		"name":"Motorised movement",
 				"prerequisites": [
