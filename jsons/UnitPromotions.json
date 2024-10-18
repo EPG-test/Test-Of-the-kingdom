@@ -13,7 +13,7 @@
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 1,
-        "row": 1
+        "row": 5
 },
 
 {
@@ -22,8 +22,8 @@
 			"[+15]% Strength <when defending>",
 					],
 		"unitTypes": ["Dark Soldier"],
-		"column": 1,
-        "row": 2,
+		"column": 2,
+        "row": 6,
 },
 // 2 Column,
 {
@@ -38,7 +38,7 @@
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 2,
-        "row": 1
+        "row": 5
 },
 // 3 Column,
 {
@@ -53,7 +53,7 @@
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 3,
-        "row": 1
+        "row": 5
 },
 
 
