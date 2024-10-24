@@ -104,7 +104,8 @@
     "movement": 2,
     "uniques": ["Can instantly construct a [Representation Center] improvement <by consuming this unit>",
 			"Great Person - [Culture]",
-			"Uncapturable", "Unbuildable"],
+			"Is part of Great Person group [Administrator]",
+	    		"Uncapturable", "Unbuildable","Cannot be purchased"],
   
   }
 ]
