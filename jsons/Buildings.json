@@ -134,7 +134,6 @@
 		]
 	},
 	//Advisors 
-	"[+1 Production, +2 Gold, +1 Culture] from [Gems] tiles [in this city]",
 	{
 		"name":"The Conqueror"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
