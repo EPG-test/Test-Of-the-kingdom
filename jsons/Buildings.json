@@ -58,7 +58,6 @@
 		"maintenance": 1,
 		"uniques": [
 		"Only available <in cities with a [Defensive Emplacements]>",
-		"[+1 Happiness, +1 Culture] [in this city] <after discovering [Flight]>",
 		"Only available <in cities without a [Bomb Shelter]> <hidden from users>",
 		"Destroyed when the city is captured"]	   
 	},
@@ -85,7 +84,9 @@
 		"[-25]% Culture cost of natural border growth [in this city]",
 		"[-25]% Gold cost of acquiring tiles [in this city]",
 		"[+1 Gold] from [Natural Wonder] tiles [in this city]",
-		"[+2 Happiness, +2 Culture] [in this city] <when above [0] [Power]>"],
+		"[+1 Happiness, +2 Culture] [in this city] <when above [0] [Power]>",
+		"[+1 Happiness, +1 Culture] [in this city] <after discovering [Flight]>",],
+
 		"requiredTech": "Civil Service",
 	
 		"civilopediaText": [
@@ -102,7 +103,8 @@
 		"specialistSlots": { "Engineer": 1 },
 		"requiredTech": "Iron Working",
 		"uniques": [
-			"[+15]% Production when constructing [Land] units [in this city]",
+			"[+5]% Production when constructing [Land] units [in this city]",
+			"[+15]% Production when constructing [Dark Soldier] units [in this city]",
 			"[+1 Production] [in this city] <when above [0] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
@@ -119,8 +121,10 @@
 			"Only available <in cities with a [Library]>",
 			"[+2 Production] [in this city] <when above [0] [Power]>",
 			"[+2 Production] [in this city] <when above [2] [Coal]>",
-			"[+2 Production] [in this city] <when above [2] [Aluminum]>",
-			"Consumes [1] [Power]",
+			
+			"[+1 Production] from [Metal] tiles [in this city]",
+			"[+1 Production] from [Aluminum] tiles [in this city]",
+			"Consumes [1] [Coal]",
 		],
 		"requiredTech": "Manufacturing",
 		"civilopediaText": [
@@ -130,7 +134,7 @@
 		]
 	},
 	//Advisors 
-	
+	"[+1 Production, +2 Gold, +1 Culture] from [Gems] tiles [in this city]",
 	{
 		"name":"The Conqueror"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -157,9 +161,9 @@
 		"uniques": [
 		"[+1 Culture] from every [Walls]",
 		"[+1 Culture] from every [Defensive Emplacements]",
-		"[+2 Culture] from every [Hardened Defenses]",
-		"[+3 Culture] from every [Bunker]",
-		"[+3 Culture] from every [Battery]",
+		"[+1 Culture] from every [Hardened Defenses]",
+		"[+2 Culture] from every [Bunker]",
+		"[+2 Culture] from every [Battery]",
 		"[+4 Culture] from every [Active Denial System]",
 		"[+5]% [Culture] from every [Castle]",
 		"[+5]% [Culture] from every [Golden Castle] <hidden from users>",
@@ -187,7 +191,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 		"[+1 Gold] from every [Market]",
-		"[+2 Gold] from every [Water Storage]",
+		"[+1 Gold] from every [Water Storage]",
 		"[+2 Gold] from every [Water Plant]",
 		"[+2 Gold] from every [Greywater Treatment Plant]",
 		"[+3 Gold] from every [Desalination Plant]",
@@ -279,7 +283,7 @@
 			"[+1 Gold, +1 Culture] from every [Representation Center] <after discovering [Flight]>",
 			"Gain [50] [Culture] <upon declaring friendship>",
 			"Gain [50] [Culture] <upon declaring a defensive pact>",
-
+			"[+50]% Golden Age length <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 			"Only available <if [King's Residence] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
