@@ -57,5 +57,32 @@
     ]
     "spyNames": [ "Stormwatch", "Terent", "Klint", "Yenner", "Miller","Wellsman","Voiceover","Oscar", "Melio", "Baron Von Baron"]
   }
+{
+    "name":"Last Bastion",
+    "leaderName":"The something",
+    "adjective": ["Sinner"],
+    "preferredVictoryType": "Diplomatic", 
+    "favoredReligion": "Humanism",
+   
+    "startIntroPart1":" sss" ,
+    "startIntroPart2": "snake"
+    "declaringWar": "."
+    "attacked": "fuck. "
+    "defeated": "W",
+    "introduction":" Wel."
+    "neutralHello": "What"
+    "hateHello": "You"
+    "tradeRequest": "Wo"
+    "outerColor": [157, 154, 158]
+    "innerColor":  [12, 17, 15],
+    "uniqueName":"God Please..."
+   "uniques":[
+"Comment [Cannot build Prison Camps]",
+"Cannot build [Enslaved] units"]
+    "cities": [ 
+    "Last Cross"
+    ]
+    "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
+  }
 ]
 
