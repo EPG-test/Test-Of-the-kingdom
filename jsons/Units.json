@@ -44,7 +44,7 @@
 {
 	"name": "Dark Knight", 
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
-	"unitType": "Dark Soldier",
+	"unitType": "Scrapper",
 	"movement": 2,
 	"strength": 40,
 	"cost": 100
@@ -63,7 +63,7 @@
 	{
 	"name": "Dark Slayer",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
-	"unitType": "Dark Soldier",
+	"unitType": "Scrapper",
 	"movement": 2,
 	"strength": 60,
 	"cost": 175
@@ -82,7 +82,7 @@
 {
 	"name": "Dark Corruptor",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
-	"unitType": "Dark Soldier",
+	"unitType": "Scrapper",
 	"movement": 3,
 	"strength": 90,
 	"cost": 350
