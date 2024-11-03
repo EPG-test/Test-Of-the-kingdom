@@ -311,4 +311,22 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
 	}
+//Last Bastion"Last Bastion",
+{ 
+"name": "Rose Petals Sanctuary" 
+"uniqueTo": "Last Bastion",
+"cost":0,
+"culture":1,
+"isWonder": true,
+"culture": 1,
+
+
+
+"uniques":[
+"[+1 Faith] per [1] population [in this city]",
+"Can only be built <in [Capital] cities>",
+"Automatically built in all cities where it is buildable",
+]
+	"quote": "S"
+}
 ]
