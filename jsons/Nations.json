@@ -65,17 +65,17 @@
     "favoredReligion": "Humanism",
    
     "startIntroPart1":" sss" ,
-    "startIntroPart2": "snake"
-    "declaringWar": "."
-    "attacked": "fuck. "
+    "startIntroPart2": "snake",
+    "declaringWar": ".",
+    "attacked": "fuck. ",
     "defeated": "W",
-    "introduction":" Wel."
-    "neutralHello": "What"
-    "hateHello": "You"
-    "tradeRequest": "Wo"
-    "outerColor": [157, 154, 158]
+    "introduction":" Wel.",
+    "neutralHello": "What",
+    "hateHello": "You",
+    "tradeRequest": "Wo",
+    "outerColor": [157, 154, 158],
     "innerColor":  [12, 17, 15],
-    "uniqueName":"God Please..."
+    "uniqueName":"God Please...",
    "uniques":[
 "Comment [Cannot build Prison Camps]",
 "Cannot build [Enslaved] units"]
