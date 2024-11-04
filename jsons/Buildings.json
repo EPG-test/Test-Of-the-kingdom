@@ -361,6 +361,7 @@
 },
 {
 		"name": "xxx",
+		"uniqueTo": "Last Bastion",
 		"food": 2,
 		"replaces": "Greenhouse",
 		"specialistSlots": {"Farmer": 1},
@@ -380,7 +381,7 @@
 {
 		"name": "Church of Wonders",
 		"replaces": "Grand Monastery",
-		
+		"uniqueTo": "Last Bastion",
 		"isNationalWonder": true,
 		"culture": 1,
 		"faith": 6,
