@@ -342,18 +342,60 @@
 "replaces": "Shrine",
 "cost":30,
 "faith": 1
-"uniques":[
+"uniques":[ "Only available <when religion is enabled>",
 "[+1 Happiness, +1 Culture, +1 Faith] [in this city] <with [Exotic Seeds]>"
 ]
 	"requiredTech": "Secrets of the Past"
 },
 { 
-"name": "Zen Area",
+"name": "Zen Garden",
 "uniqueTo": "Last Bastion",
 "replaces": "Monastery",
 "faith": 2
 "culture": 1
 "happiness":1
+	"requiredBuilding": "Shrine",
+	"uniques":[ "Only available <when religion is enabled>",
+]
 	"requiredTech": "Education"
-}
+},
+{
+		"name": "xxx",
+		"food": 2,
+		"replaces": "Greenhouse",
+		"specialistSlots": {"Farmer": 1},
+		"requiredBuilding": "Shrine",
+		"uniques": [
+			"[+1 Food, +1 Culture, +1 Faith] per [5] population [in this city]",
+			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
+			"[+1 Food] from [Cactus] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
+			"[+1 Food] [in this city] <with [Exotic Seeds]> <if [Outlaws of the Wastes] is enabled>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Botany"
+	},
+{
+		"name": "Church of Wonders",
+		"replaces": "Grand Monastery",
+		
+		"isNationalWonder": true,
+		"culture": 1,
+		"faith": 6,
+		"cost": 175,
+		"requiredTech": "Civil Service",
+		"uniques": ["Only available <if [Monastery] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city",
+			"Can only be built <in [Holy] cities>",
+			"Only available <after adopting [Theocracy]>",
+			"Only available <when religion is enabled>",
+			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
+			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
+			"[+1 Gold, +1 Science, +1 Culture, +1 Production, +1 Faith] from every [Monument]",
+			"[+2 Faith, +1 Culture] from every [National Wonder]"
+		]
+},
+
 ]
