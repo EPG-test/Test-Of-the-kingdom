@@ -318,15 +318,22 @@
 "cost":0,
 "culture":1,
 "isWonder": true,
-"culture": 1,
-
-
-
 "uniques":[
 "[+1 Faith] per [1] population [in this city]",
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 ]
 	"quote": "S"
+}
+{ 
+"name": "Monument of the old revelations" ,
+"uniqueTo": "Last Bastion",
+"replaces": "Monument",
+"culture":2,
+"isWonder": true,
+"uniques":[
+"[+1 Science] [in this city] <with [Books]>",
+"[+1 Culture] [in this city] <with [Artifacts]>"
+]
 }
 ]
