@@ -316,24 +316,44 @@
 "name": "Rose Petals Sanctuary" 
 "uniqueTo": "Last Bastion",
 "cost":0,
-"culture":1,
 "isWonder": true,
 "uniques":[
-"[+1 Faith] per [1] population [in this city]",
+"[+1 Faith] per [2] population [in this city]",
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 ]
 	"quote": "S"
-}
+},
 { 
-"name": "Monument of the old revelations" ,
+"name": "Monument of old revelations" ,
 "uniqueTo": "Last Bastion",
 "replaces": "Monument",
+"cost":40,
+"faith":1,
 "culture":2,
-"isWonder": true,
 "uniques":[
 "[+1 Science] [in this city] <with [Books]>",
 "[+1 Culture] [in this city] <with [Artifacts]>"
 ]
+}
+{ 
+"name": "Flower Bed",
+"uniqueTo": "Last Bastion",
+"replaces": "Shrine",
+"cost":30,
+"faith": 1
+"uniques":[
+"[+1 Happiness, +1 Culture, +1 Faith] [in this city] <with [Exotic Seeds]>"
+]
+	"requiredTech": "Secrets of the Past"
+},
+{ 
+"name": "Zen Area",
+"uniqueTo": "Last Bastion",
+"replaces": "Monastery",
+"faith": 2
+"culture": 1
+"happiness":1
+	"requiredTech": "Education"
 }
 ]
