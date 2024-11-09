@@ -323,7 +323,7 @@
 "cost":0,
 "isWonder": true,
 "uniques":[
-"[+1 Faith] [in all Cities]",
+"[+2 Faith] from every [City Center]",
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 ]
