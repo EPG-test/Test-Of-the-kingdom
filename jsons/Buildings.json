@@ -419,7 +419,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture, +1 Faith] per [5] population [in all cities]",
-			"[-10]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]"",
+			"[-10]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Council]>",
