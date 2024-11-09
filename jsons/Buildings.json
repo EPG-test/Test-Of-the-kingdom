@@ -8,7 +8,7 @@
 "science": 3,
 "food": 2,
 "culture": 1,
-"gold": 1,
+"gold": 3,
 "happiness":2,
 "cost": 1,
 "cityStrength": 7,
@@ -282,7 +282,7 @@
 			"[+1 Gold, +1 Culture] from every [Representation Center] <after discovering [Flight]>",
 			"Gain [50] [Culture] <upon declaring friendship>",
 			"Gain [50] [Culture] <upon declaring a defensive pact>",
-			"[+50]% Golden Age length <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+			"[+50]% Golden Age length <if [Outlaws of the Wastes] is enabled>",
 			"Only available <if [King's Residence] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"
 		],
@@ -318,7 +318,7 @@
 "cost":0,
 "isWonder": true,
 "uniques":[
-"[+1 Faith] per [2] population [in this city]",
+"[+2 Faith] [in all Cities]",
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 ]
@@ -329,11 +329,11 @@
 "uniqueTo": "Last Bastion",
 "replaces": "Monument",
 "cost":40,
-"faith":1,
 "culture":2,
 "uniques":[
 "[+1 Science] [in this city] <with [Books]>",
-"[+1 Culture] [in this city] <with [Artifacts]>"
+"[+1 Culture] [in this city] <with [Artifacts]>",
+"[+1 Faith] [in this city] <in cities following our religion>"
 ]
 }
 { 
@@ -367,7 +367,7 @@
 		"specialistSlots": {"Farmer": 1},
 		"requiredBuilding": "Shrine",
 		"uniques": [
-			"[+1 Food, +1 Culture, +1 Faith] per [5] population [in this city]",
+			"[+1 Food, +1 Culture, +1 Faith] per [4] population [in this city]",
 			"[+1 Food] from [Tubers] tiles [in this city]",
 			"[+1 Food] from [Grain] tiles [in this city]",
 			"[+1 Food] from [Maize] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
@@ -398,5 +398,49 @@
 			"[+2 Faith, +1 Culture] from every [National Wonder]"
 		]
 },
+{
+		"name": "Withering Rose Project",
+		"replaces": "Manhattan Project",
+		"uniqueTo": "Last Bastion",
+		"isNationalWonder": true,
+		"requiredTech": "Rocketry",
+		"uniques": [
+			"Enables nuclear weapon <hidden from users>",
+			"Comment [Enables Advanced Long-range Missle Weapons Production]",
+			"Triggers a global alert upon completion"
+		
+		]
+	},
+{
+		"name": "Congress",
+		"uniqueTo": "Last Bastion",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Faith] per [5] population [in all cities]",
+			"[-10]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]"",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Gardeners Gathering",
+		"replaces": "Council",
+		"uniqueTo": "Last Bastion",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"Provides [3] [Flowers]",
+			"[+25]% Production when constructing [Faith] buildings [in all cities]",
+			"[+1 Faith] from every [Flower Field's]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
 
 ]
