@@ -321,9 +321,11 @@
 "name": "Rose Petals Sanctuary" 
 "uniqueTo": "Last Bastion",
 "cost":0,
+"Faith":1,
+"Culture":1,
 "isWonder": true,
 "uniques":[
-"[+2 Faith] from every [City Center]",
+"[+1 Faith] per [2] population [in this city]",
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 ]
