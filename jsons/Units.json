@@ -107,5 +107,64 @@
 			"Is part of Great Person group [Administrator]",
 	    		"Uncapturable", "Unbuildable","Cannot be purchased"],
   
-  }
+  },
+	// Last Bastion Units,
+		{
+		"name": "Divine Punishment" ,
+		"replaces":"Divine Spear"
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 1,
+		"rangedStrength": 1,
+		"range": 1,
+		"cost": 1,
+		"obsoleteTech": "The Wheel",
+		"uniques": [
+		"Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"
+		],
+		"attackSound": "nuke"
+	},
+{
+		
+		"replaces": "Tactical Nuke",
+		"name":"The Groundbreaker"
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 12,
+		"cost": 450,
+		"requiredTech": "Gyroscopes",
+		"uniques": [
+			"Nuclear weapon of Strength [1]",
+			"Blast radius [0]",
+			"[+100]% maintenance costs",
+			"Only available <if [Withering Rose Project] is constructed>",
+			"Consumes [1] [Aluminum]",
+			"Limited to [3] per Civilization"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+{
+		"name": "Righteous Hand of God",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 200,
+		"rangedStrength": 200,
+		"range": 22,
+		"cost": 750,
+		"requiredTech": "Rocketry",
+		"uniques": [
+			"Nuclear weapon of Strength [2]",
+			"Blast radius [0]",
+			"[+200]% maintenance costs",
+			"Only available <if [Withering Rose Project] is constructed>",
+			"Consumes [1] [Aluminum]",
+			"Limited to [3] per Civilization",
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nuke"
+	},
+
 ]
