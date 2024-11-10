@@ -103,17 +103,17 @@
      "May buy [Fusion Reactor] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
      "May buy [Arcology Project] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
      
-     "May buy [Homeland Defense Initiative] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-     "May buy [Wasteland Surveillance Initiative] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-     "May buy [Raider Suppression Initiative] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-     "May buy [Oceanological Center] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-     "May buy [National Reservoir System] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-     "May buy [Naval War College] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-     "May buy [Microwave Power Satellite] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-     "May buy [Ally with Isolationists] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-     "May buy [Nuclear Waste Museum] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-     "May buy [Restart Oil Lake Industry] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-     "May buy [Renovate Metal Pyramid] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+     "May buy [Homeland Defense Initiative] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
+     "May buy [Wasteland Surveillance Initiative] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
+     "May buy [Raider Suppression Initiative] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
+     "May buy [Oceanological Center] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
+     "May buy [National Reservoir System] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
+     "May buy [Naval War College] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
+     "May buy [Microwave Power Satellite] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
+     "May buy [Ally with Isolationists] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
+     "May buy [Nuclear Waste Museum] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
+     "May buy [Restart Oil Lake Industry] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
+     "May buy [Renovate Metal Pyramid] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled>",
 "Comment [Every religious building gains extra culture and faith]",
 "Comment [Cannot build Prison Camps]",
 "Cannot build [Enslaved] units"]
@@ -146,7 +146,8 @@
      "[-50]% [Food] [in puppeted cities]",
      "[+50]% [Science] [in puppeted cities]",
      "[+50]% [Production] [in puppeted cities]", 
-"[{Military} {Land}] units gain the [Utilization] promotion"
+"[{Military} {Land}] units gain the [Utilization] promotion",
+   "Double quantity of [Slaves] produced"
    ]
    
   "cities": [ 
