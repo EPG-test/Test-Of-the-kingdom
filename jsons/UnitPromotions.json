@@ -5,6 +5,20 @@
 		"name": "Worlds Fervor",
 		"uniques": ["[+5]% Strength"],
 	},
+{
+		"name": "Utilization",
+		"uniques": [
+			"Earn [25]% of killed [Military] unit's [Strength] as [Culture]",
+			"Earn [33]% of killed [Military] unit's [Strength] as [Science]",
+			"Earn [40]% of killed [Military] unit's [Strength] as [Gold]",
+			"Heals [25] damage if it kills a unit",
+			"[-5] HP when healing",
+			"Uncapturable"
+			]
+},
+
+
+//Forgotten Kingdom Promotions for Dark Soldiers
 //1 Column,
 {
 		"name": "Bloodthirst",
