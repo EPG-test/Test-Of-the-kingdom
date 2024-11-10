@@ -122,5 +122,36 @@
     ]
     "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   }
+{
+    "name":"Vulutres",
+    "leaderName":"Great Condor",
+    "adjective": ["Cannibals"],
+    "preferredVictoryType": "Diplomatic", 
+    "favoredReligion": "Humanism",
+   
+    "startIntroPart1":"eat" ,
+    "startIntroPart2": "consume",
+    "declaringWar": ".",
+    "attacked": "fuck. ",
+    "defeated": "W",
+    "introduction":" Wel.",
+    "neutralHello": "What",
+    "hateHello": "You",
+    "tradeRequest": "Wo",
+    "outerColor": [138, 3, 3],
+    "innerColor":  [242, 235, 227],
+    "uniqueName":"sss",
+   "uniques":[
+     "May not annex cities",
+     "[-50]% [Food] [in puppeted cities]",
+     "[+50]% [Science] [in puppeted cities]",
+     "[+50]% [Production] [in puppeted cities]", 
+ ]
+   
+  "cities": [ 
+    "Nesting grounds"
+    ]
+    "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
+  }
 ]
 
