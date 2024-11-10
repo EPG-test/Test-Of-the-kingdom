@@ -146,7 +146,8 @@
      "[-50]% [Food] [in puppeted cities]",
      "[+50]% [Science] [in puppeted cities]",
      "[+50]% [Production] [in puppeted cities]", 
- ]
+"[{Military} {Land}] units gain the [Utilization] promotion"
+   ]
    
   "cities": [ 
     "Nesting grounds"
