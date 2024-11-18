@@ -25,7 +25,7 @@
 		"name":"Dark Fervor",
 		"uniques": [
 "[This Unit] gains the [Great Conqueror] promotion <upon conquering a city> <for units without [Great Conqueror]>",
-"[This Unit] gains the [Bloodthirst] promotion <upon defeating a [Military] unit> <with [100]% chance> <for units without [Hardening]>",
+"[This Unit] gains the [Bloodthirst] promotion <upon defeating a [Military] unit> <with [20]% chance> <for units without [Hardening]>",
 "[This Unit] gains the [Hardening] promotion <upon defeating a [Military] unit> <with [20]% chance> <for units without [Bloodthirst]>",
 "[This Unit] gains the [The Fallen] promotion <upon defeating a [Military] unit> <with [1]% chance>"
 ],
@@ -48,6 +48,15 @@
 					],
 		"column": 1,
         "row": 27,
+},
+{
+		"name":"Great Conqueror",
+		"uniques": [
+			"[+25]% Strength <vs cities> <when attacking>",
+			"[-10]% Strength for enemy [All] units in adjacent [All] tiles",
+		],
+		"column": 1,
+        "row": 28,
 },
 
 
