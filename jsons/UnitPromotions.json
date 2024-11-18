@@ -49,6 +49,7 @@
 
 		"uniques": [
 			"[+1] Sight",
+			"Can see over obstacles"
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 2,
