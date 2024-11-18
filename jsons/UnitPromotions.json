@@ -62,6 +62,7 @@
 },
 {
 		"name":"The Fallen",
+		"prerequisites": ["Dark Fervor"],
 		"uniques": [
 			"[This Unit] upgrades for free including special upgrades",
 			"[50]% XP gained from combat",
