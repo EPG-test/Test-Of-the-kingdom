@@ -41,6 +41,14 @@
 		"column": 1,
         "row": 26,
 },
+{
+		"name":"Hardening",
+		"uniques": [
+			"[+20]% Strength <when defending>",
+					],
+		"column": 1,
+        "row": 27,
+},
 
 
 	
