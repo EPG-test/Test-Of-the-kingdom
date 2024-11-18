@@ -30,8 +30,17 @@
 "[This Unit] gains the [The Fallen] promotion <upon defeating a [Military] unit> <with [1]% chance>"
 ],
 		"column": 2,
-        "row": 20
+        "row": 25
 },
+	{
+		"name": "Bloodthirst",
+		"uniques": [
+			"[+20]% Strength <vs [Wounded] units> <when attacking>",
+			],
+		"column": 1,
+        "row": 26,
+},
+
 
 	
 
