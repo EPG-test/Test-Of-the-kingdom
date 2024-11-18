@@ -20,56 +20,7 @@
 
 //Forgotten Kingdom Promotions for Dark Soldiers
 //1 Column,
-		{
-		"name": "Bloodthirst",
-		"uniques": [
-			"[+20]% Strength <vs [Wounded] units> <when attacking>",
-			],
-		"column": 1,
-        "row": 21,
-},
 
-		{
-		"name":"Hardening",
-		"uniques": [
-			"[+20]% Strength <when defending>",
-					],
-		"column": 1,
-        "row": 22,
-},
-		{
-		"name":"Great Conqueror",
-		"uniques": [
-			"[+25]% Strength <vs cities> <when attacking>",
-			"[-10]% Strength for enemy [All] units in adjacent [All] tiles",
-		],
-		"column": 1,
-        "row": 23,
-},
-		{
-		"name":"The Fallen",
-		"uniques": [
-			"[This Unit] upgrades for free including special upgrades",
-			"[50]% XP gained from combat",
-
-		],
-		"unitTypes": ["Dark Soldier"],
-		"column": 1,
-        "row": 24,
-},
-	// 2 Column,
-{
-		"name":"Dark Fervor",
-
-		"uniques": [
-"[This Unit] gains the [Great Conqueror] promotion <upon conquering a city> <for units without [Great Conqueror]>",
-"[This Unit] gains the [Booldthirst] promotion <upon defeating a [Military] unit> <with [20]% chance> <for units without [Hardening]>",
-"[This Unit] gains the [Hardening] promotion <upon defeating a [Military] unit> <with [20]% chance> <for units without [Booldthirst]>",
-"[This Unit] gains the [The Fallen] promotion <upon defeating a [Military] unit> <with [1]% chance>"
-],
-		"column": 2,
-        "row": 20
-},
 
 	
 
