@@ -25,9 +25,8 @@
 		"uniques": [
 			"[+20]% Strength <vs [Wounded] units> <when attacking>",
 			],
-		"unitTypes": ["Dark Soldier"],
 		"column": 1,
-        "row": 20
+        "row": 21,
 },
 
 		{
@@ -35,9 +34,8 @@
 		"uniques": [
 			"[+20]% Strength <when defending>",
 					],
-		"unitTypes": ["Dark Soldier"],
-		"column": 2,
-        "row": 21,
+		"column": 1,
+        "row": 22,
 },
 		{
 		"name":"Great Conqueror",
@@ -45,9 +43,8 @@
 			"[+25]% Strength <vs cities> <when attacking>",
 			"[-10]% Strength for enemy [All] units in adjacent [All] tiles",
 		],
-		"unitTypes": ["Dark Soldier"],
-		"column": 2,
-        "row": 22,
+		"column": 1,
+        "row": 23,
 },
 		{
 		"name":"The Fallen",
@@ -57,8 +54,8 @@
 
 		],
 		"unitTypes": ["Dark Soldier"],
-		"column": 2,
-        "row": 22,
+		"column": 1,
+        "row": 24,
 },
 	// 2 Column,
 {
