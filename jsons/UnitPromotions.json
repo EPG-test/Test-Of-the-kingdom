@@ -20,53 +20,61 @@
 
 //Forgotten Kingdom Promotions for Dark Soldiers
 //1 Column,
-{
+		{
 		"name": "Bloodthirst",
 		"uniques": [
-			"[+15]% Strength <vs [Wounded] units> <when attacking>",
+			"[+20]% Strength <vs [Wounded] units> <when attacking>",
 			],
 		"unitTypes": ["Dark Soldier"],
 		"column": 1,
         "row": 20
 },
 
-{
+		{
 		"name":"Hardening",
 		"uniques": [
-			"[+15]% Strength <when defending>",
+			"[+20]% Strength <when defending>",
 					],
 		"unitTypes": ["Dark Soldier"],
 		"column": 2,
         "row": 21,
 },
-// 2 Column,
+		{
+		"name":"Great Conqueror",
+		"uniques": [
+			"[+25]% Strength <vs cities> <when attacking>",
+			"[-10]% Strength for enemy [All] units in adjacent [All] tiles",
+		],
+		"unitTypes": ["Dark Soldier"],
+		"column": 2,
+        "row": 22,
+},
+		{
+		"name":"The Fallen",
+		"uniques": [
+			"[This Unit] upgrades for free including special upgrades",
+			"[50]% XP gained from combat",
+
+		],
+		"unitTypes": ["Dark Soldier"],
+		"column": 2,
+        "row": 22,
+},
+	// 2 Column,
 {
-		"name":"Hawk Eye Group",
-		"prerequisites": [
-			"Hardening",
-			"Bloodthirst"
-				],
+		"name":"Dark Fervor",
 
 		"uniques": [
-			"[+1] Sight",
-			"Can see over obstacles"
-			],
-		"unitTypes": ["Dark Soldier"],
+"[This Unit] gains the [Great Conqueror] promotion <upon conquering a city> <for units without [Great Conqueror]>",
+"[This Unit] gains the [Booldthirst] promotion <upon defeating a [Military] unit> <with [20]% chance> <for units without [Hardening]>",
+"[This Unit] gains the [Hardening] promotion <upon defeating a [Military] unit> <with [20]% chance> <for units without [Booldthirst]>",
+"[This Unit] gains the [The Fallen] promotion <upon defeating a [Military] unit> <with [1]% chance>"
+],
 		"column": 2,
         "row": 20
 },
-// 3 Column,
-{
-		"name":"Motorised movement",
-		"prerequisites": ["Hawk Eye Group",],
-		"uniques": [
-		"[+1] Movement",
-		"Ignores terrain cost",
-			],
-		"unitTypes": ["Dark Soldier"],
-		"column": 3,
-        "row": 21
-},
+
+	
 
 
 
