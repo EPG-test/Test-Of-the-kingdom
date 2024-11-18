@@ -34,6 +34,7 @@
 },
 	{
 		"name": "Bloodthirst",
+		"prerequisites": ["Dark Fervor"],
 		"uniques": [
 			"[+20]% Strength <vs [Wounded] units> <when attacking>",
 			],
