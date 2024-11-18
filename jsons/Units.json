@@ -40,7 +40,7 @@
             }
         ]
 },
-Dark Fervor
+
 {
 	"name": "Dark Knight", 
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -58,8 +58,8 @@ Dark Fervor
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Blast Furnace] is constructed>"
 		],
-		"promotions": ["Dark Fervor"]	
-		"attackSound": "metalhit"
+		"promotions": ["Dark Fervor"],
+		"attackSound": "metalhit",
 },
 	{
 	"name": "Dark Slayer",
@@ -78,8 +78,8 @@ Dark Fervor
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Great Metals Foundry] is constructed>"
 		],
-		"promotions": ["Dark Fervor"]	
-		"attackSound": "metalhit"
+		"promotions": ["Dark Fervor"],	
+		"attackSound": "metalhit",
 },
 {
 	"name": "Dark Corruptor",
@@ -96,8 +96,8 @@ Dark Fervor
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Automated Factory] is constructed>"
 		],
-			"promotions": ["Dark Fervor"]	
-			"attackSound": "metalhit"
+			"promotions": ["Dark Fervor"],
+			"attackSound": "metalhit",
 },
 {
     "name":"Great Representative",
