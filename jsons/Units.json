@@ -40,13 +40,13 @@
             }
         ]
 },
-
+Dark Fervor
 {
 	"name": "Dark Knight", 
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
 	"movement": 2,
-	"strength": 40,
+	"strength": 42,
 	"cost": 100
 	"requiredTech": "Steel",
 	"obsoleteTech": "Replaceable Parts",
@@ -58,6 +58,7 @@
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Blast Furnace] is constructed>"
 		],
+		"promotions": ["Dark Fervor"]	
 		"attackSound": "metalhit"
 },
 	{
@@ -77,6 +78,7 @@
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Great Metals Foundry] is constructed>"
 		],
+		"promotions": ["Dark Fervor"]	
 		"attackSound": "metalhit"
 },
 {
@@ -84,7 +86,7 @@
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
 	"movement": 3,
-	"strength": 90,
+	"strength": 95,
 	"cost": 350
 	"requiredTech": "Energy Weapons",
 	"uniques": [
@@ -94,7 +96,8 @@
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Automated Factory] is constructed>"
 		],
-		"attackSound": "metalhit"
+			"promotions": ["Dark Fervor"]	
+			"attackSound": "metalhit"
 },
 {
     "name":"Great Representative",
