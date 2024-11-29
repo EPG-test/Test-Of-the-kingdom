@@ -114,7 +114,10 @@
      "May buy [Nuclear Waste Museum] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
      "May buy [Restart Oil Lake Industry] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
      "May buy [Renovate Metal Pyramid] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-"Comment [Every religious building gains extra culture and faith]",
+
+
+"[+1 Culture, +2 Production, +2 Gold, +2 Faith] from every [National Wonder] <during a Golden Age><hidden from users>",
+"Comment [Every religious building and national gains extra production, gold, culture and faith during a golden age]",
 "Comment [Cannot build Prison Camps]",
 "Cannot build [Enslaved] units"]
     "cities": [ 
