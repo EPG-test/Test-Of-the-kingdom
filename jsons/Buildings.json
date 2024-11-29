@@ -78,6 +78,7 @@
 		"name": "King's Residence",
 		"replaces": "Town Hall",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"cost":160,
 		"maintenance": 1,
 		"specialistSlots": {"Administrator": 1},
 		"uniques": [
@@ -99,6 +100,7 @@
 		"replaces": "Forge",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"production": 2,
+		"cost": 75
 		"hurryCostModifier": 25,
 		"specialistSlots": { "Engineer": 1 },
 		"requiredTech": "Iron Working",
@@ -254,6 +256,7 @@
 		"happiness": 1,
 		"food":2,
 		"culture":1,
+		"cost": 60
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
@@ -361,7 +364,8 @@
 "faith": 2
 "culture": 1
 "happiness":1
-	"requiredBuilding": "Shrine",
+"cost":0
+"requiredBuilding": "Shrine",
 	"uniques":[ "Only available <when religion is enabled>",
 ]
 	"requiredTech": "Education"
@@ -409,6 +413,7 @@
 		"name": "Withering Rose Project",
 		"replaces": "Manhattan Project",
 		"uniqueTo": "Last Bastion",
+		"cost":1250,
 		"isNationalWonder": true,
 		"requiredTech": "Rocketry",
 		"uniques": [
@@ -468,6 +473,7 @@
 		"replaces": "Barracks",
 		"uniqueTo": "Vulutres",
 		"hurryCostModifier": 25,
+		"cost":60
 		"production": 1,
 		"requiredTech": "Construction",
 		"maintenance": 1,
