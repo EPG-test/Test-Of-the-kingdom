@@ -62,6 +62,7 @@
     "leaderName":"The something",
     "adjective": ["Sinner"],
     "preferredVictoryType": "Diplomatic", 
+    "personality": "Priest",
     "favoredReligion": "Humanism",
    
     "startIntroPart1":" sss" ,
@@ -130,6 +131,7 @@
     "leaderName":"Great Condor",
     "adjective": ["Cannibals"],
     "preferredVictoryType": "Diplomatic", 
+    "personality": "Homo Superior",
     "favoredReligion": "Humanism",
    
     "startIntroPart1":"eat" ,
