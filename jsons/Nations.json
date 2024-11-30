@@ -152,7 +152,7 @@
      "[+50]% [Science] [in puppeted cities]",
      "[+50]% [Production] [in puppeted cities]", 
 "[{Military} {Land}] units gain the [Utilization] promotion",
-   "Double quantity of [Slaves] produced"
+   "Double quantity of [Slaves] produced",
    "Comment [Capital gains +1 Gold/Production/Food for every Luxury/Strategic/Bonus resource you own]",
 	
 	"[+1 Gold] [in capital] <with [Books]> <hidden from users>",
