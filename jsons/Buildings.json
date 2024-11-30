@@ -465,8 +465,8 @@
 	"name": "Resource Berau" 
 	"uniqueTo": "Vulutres",
 	"cost":0,
-	"Production": 1,
-	"Gold": 1,
+	"production": 1,
+	"gold": 1,
 	"isWonder": true,
 	"uniques":[
 	
