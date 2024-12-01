@@ -19,7 +19,7 @@ ALL-IN-ONE Company:
 One of the Corporations who saved itself from The Nuclear devastation. Thier motto is "Everything you want will be fullfilled by us" and they actually do that but for a price of our freedom... But Surprise! Everthing you need is fullfilled by them, not what you want (But they say otherwise). Morally grey, cares about its **customers** but treats its people only as **customers** so maybe if someone could be lucky promotion to a **worker** is possible. Nobody's choice is important than thiers soo be at thier blessing. Maybe living in a comfortable **dictatorship** won't be so bad after all right?
 
 Vultures:
-Strange being that came into life after the Cataclysm. A Corporation? Nope. A gang? Nah. Maybe fallen nation that has risen from the flames? **Buzzer** Wrong.
+Strange being that came into life after the Cataclysm. A Corporation? Nope. A gang? Nah. Maybe fallen nation that has risen from the flames? ***Buzzer*** Wrong.
 In reality it's a **organization** of unspecified role. Really disorganized outside thier borders but great at bureaucracy inside. Why? Thier people.
 There are 2 classes of poeple in this faction the **"outsiders"**- nearly brainless slaves, workers and military men are composed of them, under the rule of the
 "**Insiders**"- Mostly educated people capable of reasoning.  
