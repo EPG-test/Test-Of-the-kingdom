@@ -15,6 +15,7 @@ Post doomsday cult faction main objective is to **REPENT**. **REPENT** for the s
 **REPENT** in front of The God.
 Highly religious and friendly (only to people who don't believe in things that are taboo to thier bieliefs).
 Thier work should be full of **virtues** right?
+
 (They have PTSD from the Cataclysm But they call it "The Armageddon" like the biblical one from book of revealtions)
 
 ALL-IN-ONE Company:
