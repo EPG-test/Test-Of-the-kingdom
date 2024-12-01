@@ -94,7 +94,7 @@
 			{
 				"text": "Building where King can rest from his political efforts."
 			}]
-			}
+			},
 		{
 		"name": "Tinkerer's Workshop",
 		"replaces": "Forge",
@@ -429,7 +429,7 @@
 },
 
 	{
-		"name": "XXX",
+		"name": "Belivers Court",
 		"uniqueTo": "Last Bastion",
 		"replaces": "Congress",
 		"cost": 100,
@@ -461,26 +461,23 @@
 	},
 	// Extractors UB
 	
-	{ 
-	"name": "Resource Berau" 
+{ 
+	"name": "Vulture Berau" 
 	"uniqueTo": "Vulutres",
 	"cost":0,
 	"production": 1,
 	"gold": 1,
 	"isWonder": true,
 	"uniques":[
-	
+	"Provides [2] [Weapons]",
+	"Gain a free [Resource Office] [in this city]",
 	"Can only be built <in [Capital] cities>",
 	"Automatically built in all cities where it is buildable",
 ]
 	"quote": "S"
 },
 	
-	
-	
-	
 	{
-		
 		"name": "Collection Point",
 		"replaces": "Market",
 		"uniqueTo": "Vulutres",
@@ -508,8 +505,117 @@
 		
 		]
 	},
-
 	
+	// IT DOESN'T MEAN THIS FACTION IS FROM NETHERLANDS I JUST THINK THIS NAME FITS THE FACTION.
+	{
+		"name": "Educatorium",
+		"replaces": "Library",
+		"uniqueTo": "Vulutres",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Science, +1 Happiness] per [3] population [in this city]",
+			"[+2 Science, +1 Culture] from [Books] tiles [in this city]"
+		],
+		"requiredTech": "Writing",
+		"civilopediaText": [
+			{
+				"text": "This building enables the construction of factories and power plants.","link":"Building/Factory"
+			}
+		]
+	},
+
+{
+	"name": "Resource Office",
+	"replaces": "Town Hall",
+	"uniqueTo": "Vulutres",
+	"cost":160,
+	"maintenance": 1,
+	"specialistSlots": {"Administrator": 1},
+	"uniques": [
+	"[-25]% Culture cost of natural border growth [in this city]",
+	"[-25]% Gold cost of acquiring tiles [in this city]",
+	"[+2 Production, +1 Culture] [in this city] <when above [0] [Power]>",
+	"Comment [Enables higher resource extraction Buildings]",
+	]
+
+	"requiredTech": "Civil Service",
+	},
+
+{
+	"name": "Coal Extraction Mission"
+	"uniqueTo": "Vulutres",
+	"cost":200,
+	"maintenance": 1,
+	"requiredNearbyImprovedResources": ["Coal"],
+	"uniques": [
+	"Provides [2] [Coal]",
+	"[+2 Production] from [Coal] tiles [in this city]",
+	"Only available <in cities with a [Resource Office]>"]
+	},
+{
+	"name": "Oil Extraction Mission"
+	"uniqueTo": "Vulutres",
+	"cost":200,
+	"maintenance": 1,
+	"requiredNearbyImprovedResources": ["Oil"],
+	"uniques": [
+	"Provides [2] [Oil]",
+	"[+2 Production] from [Oil] tiles [in this city]",
+	"Only available <in cities with a [Resource Office]>"]
+	},
+{
+	"name": "Aluminum Extraction Mission"
+	"uniqueTo": "Vulutres",
+	"cost":200,
+	"maintenance": 1,
+	"requiredNearbyImprovedResources": ["Aluminum"],
+	"uniques": [
+	"Provides [2] [Aluminum]",
+	"[+2 Production] from [Aluminum] tiles [in this city]",
+	"Only available <in cities with a [Resource Office]>"]
+	},
+{
+	"name": "Weapons Salvage Mission"
+	"uniqueTo": "Vulutres",
+	"cost":200,
+	"maintenance": 1,
+	"requiredNearbyImprovedResources": ["Weapons"],
+	"uniques": [
+	"Provides [2] [Weapons]",
+	"[+2 Production] from [Weapons] tiles [in this city]",
+	"Only available <in cities with a [Resource Office]>"]
+	},
+
+{
+	"name": "Uranium Extraction Mission"
+	"uniqueTo": "Vulutres",
+	"cost":200,
+	"maintenance": 1,
+	"requiredNearbyImprovedResources": ["Uranium"],
+	"uniques": [
+	"Provides [2] [Uranium]",
+	"[+2 Production] from [Uranium] tiles [in this city]",
+	"Only available <in cities with a [Resource Office]>"]
+	},
+	
+	
+{
+	"name": "Utilization Camp",
+	"replaces": "Prison Camp",
+	"uniqueTo": "Vulutres",
+	"percentStatBonus": { "production": 25 , "food": -25 },
+	"cost": 20,
+	"uniques": [
+		"Remove extra unhappiness from annexed cities",
+		"Can only be built <in [Annexed] cities>",
+		"Provides [3] [Slaves]",
+		"Only available <in cities without a [Listening Post]>",
+		"Destroyed when the city is captured"
+		],
+	"requiredTech": "Construction"
+
+	}
 	
 	
 	
