@@ -463,7 +463,7 @@
 	
 { 
 	"name": "Vulture Berau" 
-	"uniqueTo": "Vulutres",
+	"uniqueTo": "Vultures",
 	"cost":0,
 	"production": 1,
 	"gold": 1,
@@ -480,7 +480,7 @@
 	{
 		"name": "Collection Point",
 		"replaces": "Market",
-		"uniqueTo": "Vulutres",
+		"uniqueTo": "Vultures",
 		"specialistSlots": { "Merchant": 2 },
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
@@ -492,7 +492,7 @@
 	{
 		"name": "Outsider-Quarters",
 		"replaces": "Barracks",
-		"uniqueTo": "Vulutres",
+		"uniqueTo": "Vultures",
 		"hurryCostModifier": 25,
 		"cost":60
 		"production": 1,
@@ -510,7 +510,7 @@
 	{
 		"name": "Educatorium",
 		"replaces": "Library",
-		"uniqueTo": "Vulutres",
+		"uniqueTo": "Vultures",
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Science] [in this city] <when above [0] [Power]>",
@@ -528,7 +528,7 @@
 {
 	"name": "Resource Office",
 	"replaces": "Town Hall",
-	"uniqueTo": "Vulutres",
+	"uniqueTo": "Vultures",
 	"cost":160,
 	"maintenance": 1,
 	"specialistSlots": {"Administrator": 1},
@@ -544,7 +544,7 @@
 
 {
 	"name": "Coal Extraction Mission"
-	"uniqueTo": "Vulutres",
+	"uniqueTo": "Vultures",
 	"cost":200,
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Coal"],
@@ -555,7 +555,7 @@
 	},
 {
 	"name": "Oil Extraction Mission"
-	"uniqueTo": "Vulutres",
+	"uniqueTo": "Vultures",
 	"cost":200,
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Oil"],
@@ -566,7 +566,7 @@
 	},
 {
 	"name": "Aluminum Extraction Mission"
-	"uniqueTo": "Vulutres",
+	"uniqueTo": "Vultures",
 	"cost":200,
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Aluminum"],
@@ -577,7 +577,7 @@
 	},
 {
 	"name": "Weapons Salvage Mission"
-	"uniqueTo": "Vulutres",
+	"uniqueTo": "Vultures",
 	"cost":200,
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Weapons"],
@@ -589,7 +589,7 @@
 
 {
 	"name": "Uranium Extraction Mission"
-	"uniqueTo": "Vulutres",
+	"uniqueTo": "Vultures",
 	"cost":200,
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Uranium"],
@@ -603,7 +603,7 @@
 {
 	"name": "Utilization Camp",
 	"replaces": "Prison Camp",
-	"uniqueTo": "Vulutres",
+	"uniqueTo": "Vultures",
 	"percentStatBonus": { "production": 25 , "food": -25 },
 	"cost": 20,
 	"uniques": [
