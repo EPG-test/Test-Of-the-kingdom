@@ -9,7 +9,7 @@ Of course inexperience with outside world and fear of the unknown were huge prob
 Resource Scarcity, Bandits, Unforgettable (Unforgivable) terrain and climate. 
 But don't worry everything will be just **fine**, right?
 
-Last Bastion"
+Last Bastion:
 
 Post doomsday cult faction main objective is to **REPENT**. **REPENT** for the sins of Humanity. **REPENT** in front of the new garden of Eden.
 **REPENT** in front of The God.
