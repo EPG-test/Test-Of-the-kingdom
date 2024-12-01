@@ -127,8 +127,8 @@
     "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   }
 {
-    "name":"Vulutres",
-    "leaderName":"Great Condor",
+    "name":"Vultures",
+    "leaderName":"Andrey Cannbs",
     "adjective": ["Cannibals"],
     "preferredVictoryType": "Diplomatic", 
     "personality": "Homo Superior",
@@ -147,11 +147,7 @@
     "innerColor":  [242, 235, 227],
     "uniqueName":"sss",
    "uniques":[
-     "May not annex cities",
-     "[-50]% [Food] [in puppeted cities]",
-     "[+50]% [Science] [in puppeted cities]",
-     "[+50]% [Production] [in puppeted cities]", 
-"[{Military} {Land}] units gain the [Utilization] promotion",
+	"[{Military} {Land}] units gain the [Utilization] promotion",
    "Double quantity of [Slaves] produced",
    "Comment [Capital gains +1 Gold/Production/Food for every Luxury/Strategic/Bonus resource you own]",
 	
