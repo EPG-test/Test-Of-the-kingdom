@@ -469,7 +469,8 @@
 	"gold": 1,
 	"isWonder": true,
 	"uniques":[
-	"Provides [2] [Weapons]",
+	"Provides [1] [Weapons]",
+	"Provides [1] [Slaves]",
 	"Gain a free [Resource Office] [in this city]",
 	"Can only be built <in [Capital] cities>",
 	"Automatically built in all cities where it is buildable",
@@ -513,7 +514,7 @@
 		"uniqueTo": "Vultures",
 		"hurryCostModifier": 25,
 		"uniques": [
-			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"[+2 Science] [in this city] <when above [0] [Power]>",
 			"[+1 Science, +1 Happiness] per [3] population [in this city]",
 			"[+2 Science, +1 Culture] from [Books] tiles [in this city]"
 		],
@@ -548,6 +549,7 @@
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Coal"],
 	"uniques": [
+	"Consumes [1] [Slaves]",
 	"Provides [2] [Coal]",
 	"[+2 Production] from [Coal] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
@@ -559,6 +561,7 @@
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Oil"],
 	"uniques": [
+	"Consumes [1] [Slaves]",
 	"Provides [2] [Oil]",
 	"[+2 Production] from [Oil] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
@@ -570,6 +573,7 @@
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Aluminum"],
 	"uniques": [
+	"Consumes [1] [Slaves]",
 	"Provides [2] [Aluminum]",
 	"[+2 Production] from [Aluminum] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
@@ -581,6 +585,7 @@
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Weapons"],
 	"uniques": [
+	"Consumes [1] [Slaves]",
 	"Provides [2] [Weapons]",
 	"[+2 Production] from [Weapons] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
@@ -593,6 +598,7 @@
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Uranium"],
 	"uniques": [
+	"Consumes [1] [Slaves]",
 	"Provides [2] [Uranium]",
 	"[+2 Production] from [Uranium] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
@@ -638,8 +644,7 @@
 	"[+1 Food] from [Bioculture] tiles [in All cities] <in [Coast] tiles>",
 	"[+1 Food, +1 Science] from [Bioculture] tiles [in All cities] <in [Ocean] tiles>",
 	"[+1 Food] from every [Fish Farm]",
-	"Only available <in cities with a [Fish Farm]>",
-	"Triggers a global alert upon completion"],
+	"Only available <in cities with a [Fish Farm]>"],
 "requiredTech": "Ocean Remediation",
 "quote": "'And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good. And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.'- Priest of the Old World",
 	
@@ -656,14 +661,13 @@
 "uniques":[ 
 	"[+25]% [Culture] [in this city]",
 	"[+1 Culture] per [3] population [in this city]",
-	"[+2 Production] from every [Monument]",
-	"Triggers a global alert upon completion"
+	"[+2 Happiness] from every [Monument]",
 ]
-		"quote": "After the fall comes the rise.",
+		"quote": "After the fall, comes the rise.",
 "requiredTech": "Advanced Materials",
 "civilopediaText": [
 			{
-				"text": "After the fall comes the rise.",
+				"text": "After the fall, comes the rise.",
 		}]
 },
 	
@@ -678,7 +682,7 @@
 "[+2 Production] from [Manufactory] tiles [in this city]",
 "[+30]% [Production] [in this City] <after discovering [Future Materials]>",
 "Consumes [2] [Power]",
-"Triggers a global alert upon completion"
+"Consumes [1] [Aluminum]"
 ]
 	"quote": "An cutting edge of technology has opened its sharp arms to us",
 "requiredTech": "Lasers"
