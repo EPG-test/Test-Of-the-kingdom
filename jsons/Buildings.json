@@ -639,6 +639,7 @@
 	},
 	{
 		"name": "Hunters Camp",
+		"replaces": "Ranch",
 		"uniqueTo": "Vultures",
 		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs", "Deer"],
 		"hurryCostModifier": 25,
@@ -676,7 +677,7 @@
 	// THE AREN"T GERMAN EITHER. THAT NAME FITS THE FACTION.
 	{
 		"name": "Übermensch College",
-		"replaces": "Greenhouse",
+		"replaces": "University",
 		"uniqueTo": "Vultures",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
