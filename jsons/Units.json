@@ -131,7 +131,7 @@
 {
 		
 		"replaces": "Tactical Nuke",
-		"name":"The Groundbreaker",
+		"name":"Ultimatum",
 		"uniqueTo": "Last Bastion",
 		"unitType": "Missile",
 		"movement": 1,
@@ -152,7 +152,7 @@
 		"attackSound": "nuke"
 	},
 {
-		"name": "Righteous Hand of God",
+		"name": "Apogee",
 		"replaces": "Nuclear Missile",
 		"unitType": "Missile",
 		"uniqueTo":"Last Bastion",
@@ -172,6 +172,24 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
+	},
+	{
+		"name": "Controller",
+		"uniqueTo": "Vultures",
+		"replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"All adjacent units heal [+10] HP when healing",
+			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
+			"Can instantly construct a [Prison farm] improvement <by consuming this unit>",
+			"Great Person - [War]",
+			"Can be earned through combat",
+			"Uncapturable",
+			"Unbuildable"
+		],
+		"movement": 2
 	},
 
 ]
