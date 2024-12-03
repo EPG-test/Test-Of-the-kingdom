@@ -360,7 +360,7 @@
 },
 
 	{ 
-	"name": "Zen Garden",
+	"name": "Bliss Garden",
 	"uniqueTo": "Last Bastion",
 	"replaces": "Monastery",
 	"faith": 2
@@ -627,11 +627,13 @@
 		"replaces": "Work Camp",
 		"uniqueTo": "Vultures",
 		"percentStatBonus": { "production": 15 },
+		"production": 2,
+		"Science": 1
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[+2 Happiness] [in this city] <after adopting [Voting Rights]>",
-			"[+2 Production] [in this city] <when above [0] [Slaves]>",
+			"[+1 Production, +1 Science, +1 Culture] [in this city] <when above [2] [Slaves]>",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>"
 		],
