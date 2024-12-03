@@ -620,9 +620,21 @@
 		],
 	"requiredTech": "Construction"
 
-	}
+	},
 	
-	
+	{ 
+	"name": "Main Warehouse",
+	"uniqueTo": "All-in-One Company",
+	"cost":0,
+	"production": 1,
+	"food": 2,
+	"isWonder": true,
+	"uniques":[
+	"Can only be built <in [Capital] cities>",
+	"Automatically built in all cities where it is buildable",
+]
+	"quote": "S"
+},
 	
 	
 	
