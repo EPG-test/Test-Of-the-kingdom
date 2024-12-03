@@ -470,7 +470,7 @@
 	"isWonder": true,
 	"uniques":[
 	"Provides [1] [Weapons]",
-	"Provides [1] [Slaves]",
+	"Provides [2] [Slaves]",
 	"Gain a free [Resource Office] [in this city]",
 	"Can only be built <in [Capital] cities>",
 	"Automatically built in all cities where it is buildable",
@@ -482,12 +482,12 @@
 		"name": "Collection Point",
 		"replaces": "Market",
 		"uniqueTo": "Vultures",
-		"specialistSlots": { "Merchant": 2 },
+		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
 		"uniques": [
 			"[+1 Production] from [Luxury resource] tiles [in this city]",
-			"[+2 Gold] [in this city] <with [Slaves]>"
+			"[+3 Gold] [in this city] <with [Slaves]>"
 		]
 	},
 	{
@@ -621,6 +621,79 @@
 	"requiredTech": "Construction"
 
 	},
+		// YES THEY GAIN HAPPINESS AFTER GETTING VOTING RIGHTS. WHY? THE INSIDERS FEEL BETTER THAN OUTSIDERS.
+	{
+		"name": "Outsiders Office",
+		"replaces": "Work Camp",
+		"uniqueTo": "Vultures",
+		"percentStatBonus": { "production": 15 },
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+2 Happiness] [in this city] <after adopting [Voting Rights]>",
+			"[+2 Production] [in this city] <when above [0] [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Hunters Camp",
+		"uniqueTo": "Vultures",
+		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs", "Deer"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Slaves]",
+			"[+2 Food] [in this city] <when above [0] [Slaves]>",
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Insects] tiles [in this city]",
+			"[+1 Food] from [Goats] tiles [in this city]",
+			"[+1 Food] from [Furs] tiles [in this city]",
+			"[+1 Food] from [Hogs] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]"
+		],
+		"requiredTech": "Redomestication"
+	},
+		{
+		"name": "Greenpicker's Camp",
+		"replaces": "Greenhouse",
+		"uniqueTo": "Vultures",
+		"percentStatBonus": { "food": 5, "production": -5 },
+		"uniques": [
+			"[+2 Food] [in this city] <when above [0] [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
+			"[+1 Food] from [Cactus] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
+			"[+1 Food, +1 Science] [in this city] <with [Exotic Seeds]> <if [Outlaws of the Wastes] is enabled>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Botany"
+	},
+		
+	// THE AREN"T GERMAN EITHER. THAT NAME FITS THE FACTION.
+	{
+		"name": "Übermensch College",
+		"replaces": "Greenhouse",
+		"uniqueTo": "Vultures",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 33 },
+		"specialistSlots": { "Scientist": 1 },
+		"greatPersonPoints": {"Great General": 1},
+		"uniques": [
+			"[+2 Science, +1 Culture] [in this city] <when above [2] [Slaves]>",
+			"[+2 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+
+
+
+// ALL-IN-ONE COMPANY BUILDINGS
 	
 	{ 
 	"name": "Main Warehouse",
