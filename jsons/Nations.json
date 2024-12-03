@@ -225,6 +225,35 @@
     "Nesting grounds"
     ]
     "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
+  },
+{
+    "name":"All-in-One Company",
+    "leaderName":"Alione Cynth",
+    "adjective": ["Workforce"],
+    "preferredVictoryType": "Diplomatic", 
+    "personality": "Workers",
+    "favoredReligion": "Humanism",
+   
+    "startIntroPart1":"sss" ,
+    "startIntroPart2": "consume",
+    "declaringWar": "* ",
+    "attacked": ".",
+    "defeated": "Fust",
+    "introduction":" Wel.",
+    "neutralHello": "What is it?",
+    "hateHello": "You can't stop us NOW!",
+    "tradeRequest": "Let's hope this will help",
+    "outerColor": [16, 37, 76],
+    "innerColor":  [239, 218, 179],
+    "uniqueName":"sss",
+   "uniques":[
+
+   ]
+   
+  "cities": [ 
+    "Storehouse"
+    ]
+    "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   }
 ]
 
