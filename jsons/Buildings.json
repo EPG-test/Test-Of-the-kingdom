@@ -719,7 +719,118 @@
 	"uniques":["[1] free [Civilian Convoy] units appear"]
 		
 	},
-
+{
+		"name": "Food Facility",
+		"replaces":"Food Store",
+		"uniqueTo": "All-in-One Company",
+		"food": 1,
+		"cost": 15,
+		"hurryCostModifier": -25,
+		"uniques": [
+			"[25]% Food is carried over after population increases [in this city]",
+			"[+1 Food] [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[+1 Gold] [in this city] <with [Narcotics]>",
+			"[+1 Gold] [in this city] <with [Refined Narcotics]>"	]
+	},
+	{
+		"name":"Housing facilities",
+		"uniqueTo": "All-in-One Company",
+		"food": 2,
+		"cost": 1,
+		"uniques": ["[+1] population [in this city]",
+		"Unsellable",
+		"Destroyed when the city is captured",
+		]	   
+	},
+{
+		"name":"Upper Management Division",
+		"uniqueTo": "All-in-One Company",
+		"replaces":"Listening Post",
+		"maintenance": 1,
+		"specialistSlots": {"Supervisor": 1},
+		"uniques": [
+		"[-25]% enemy spy effectiveness [in this city]",
+		"Hidden when espionage is disabled",
+		"[-50]% Unhappiness from [Specialists] [in this city] <after discovering [Social Engineering]>",
+		"Destroyed when the city is captured"	]	   
+	"requiredTech": "Radio"
+},
+{
+		"name": "Solution Camp",
+		"replaces": "Prison Camp",
+		"uniqueTo": "All-in-One Company",
+		"cost": 50,
+		"uniques": [
+			"Remove extra unhappiness from annexed cities",
+			"Can only be built <in [Annexed] cities>",
+			"Provides [1] [Slaves]",
+			"[-1] population [in this city]",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Construction"
+	},
+{
+		"name": "Business Markets",
+		"uniqueTo": "All-in-One Company",
+	        "replaces": "Market",
+		"hurryCostModifier": 25,
+		"gold":2
+		"uniques": [
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] from every [Merchant] <in this city>",
+			"[+1 Gold] from every [Supervisor] <in this city> <hidden from users>",
+		]
+"requiredTech": "Trade",
+	},
+	
+	{
+		"name": "Collegium Companium",
+		"maintenance": 1,
+		"uniqueTo": "All-in-One Company",
+		"replaces":"University",
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 33 },
+		"specialistSlots": { "Scientist": 1 },
+		"uniques": [
+			"[+1 Science] from every [Scientist] <in this city>",
+			"[+1 Science] from every [Supervisor] <in this city> <hidden from users>",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+		{
+		"name": "Site Laboratory",
+		"replaces":"Research Lab",
+		"uniqueTo": "All-in-One Company",
+		"percentStatBonus": { "science": 50 },
+		"specialistSlots": { "Scientist": 1 },
+		"maintenance": 2,
+		"uniques": [
+			"[+1 Science] from every [Scientist] <in this city>",
+			"[+1 Science] from every [Supervisor] <in this city> <hidden from users>",
+			"Only available <in cities with a [University]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Laboratory"
+	},
+	{
+		"name": "Information Transfering Sector",
+		"replaces":"Decryption Center",
+		"uniqueTo": "All-in-One Company",
+		"percentStatBonus": {"Science": 20},
+		"uniques": [
+			"Consumes [1] [Encrypted Data]",
+			"[+2 Science] [in this city] <when above [0] [Power]>",
+			"[+1 Science] from every [Scientist] <in this city>",
+			"[+1 Science] from every [Supervisor] <in this city> <hidden from users>",
+			"Only available <in cities with a [Data Center]>"
+		],
+		"percentStatBonus": { "science": 25 },
+		"requiredTech": "Decryption"
+	}
+	
 	
 	{ 
 "name": "Oceanic De-extinction Project",
