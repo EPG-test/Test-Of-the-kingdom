@@ -229,13 +229,13 @@
 {
     "name":"All-in-One Company",
     "leaderName":"Alione Cynth",
-    "adjective": ["Workforce"],
+    "adjective": ["Host"],
     "preferredVictoryType": "Diplomatic", 
-    "personality": "Workers",
+    "personality": "Housemaster",
     "favoredReligion": "Humanism",
    
     "startIntroPart1":"sss" ,
-    "startIntroPart2": "consume",
+    "startIntroPart2": "hey",
     "declaringWar": "* ",
     "attacked": ".",
     "defeated": "Fust",
@@ -246,8 +246,11 @@
     "outerColor": [16, 37, 76],
     "innerColor":  [239, 218, 179],
     "uniqueName":"sss",
-   "uniques":[
-
+   "uniques":[ 
+	   "[+50]% Culture cost of natural border growth [in all cities]",
+	   "[-80]% Great Person generation [in all cities]",
+	   "[+1] Movement <in [Friendly Land] tiles> <for [All] units>",
+	   "[+1] Movement <in [Friendly Land] tiles> <for [Civilian] units>",
    ]
    
   "cities": [ 
