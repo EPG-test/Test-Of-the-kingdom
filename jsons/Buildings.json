@@ -711,16 +711,16 @@
 ]
 	"quote": "S"
 },
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+{ 	"name": "Systemic Rejuvination",
+	"isNationalWonder": true,
+	"cost":40,
+	"replaces":"Search for Survivors",
+	"uniqueTo": "All-in-One Company",
+	"specialistSlots": {"Administrator": 1, "Engineer": 1, "Merchant": 1, "Scientist": 1, "Supervisor": 1},
+	"uniques":["[1] free [Civilian Convoy] units appear"]
+		
+	},
+
 	
 	{ 
 "name": "Oceanic De-extinction Project",
