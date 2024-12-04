@@ -360,7 +360,7 @@
 },
 
 	{ 
-	"name": "Bliss Garden",
+	"name": "Garden of Bliss",
 	"uniqueTo": "Last Bastion",
 	"replaces": "Monastery",
 	"faith": 2
@@ -368,8 +368,7 @@
 	"happiness":1
 	"cost":0
 	"requiredBuilding": "Shrine",
-	"uniques":[ "Only available <when religion is enabled>",
-]
+	"uniques":[ "Only available <when religion is enabled>",]
 	"requiredTech": "Education"
 },
 
@@ -401,7 +400,7 @@
 		"faith": 6,
 		"cost": 175,
 		"requiredTech": "Civil Service",
-		"uniques": ["Only available <if [Zen Garden] is constructed in all [non-[Puppeted]] cities>",
+		"uniques": ["Only available <if [Garden of Bliss] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
