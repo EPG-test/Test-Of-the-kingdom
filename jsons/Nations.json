@@ -76,7 +76,7 @@
     "tradeRequest": "Wo",
     "outerColor": [157, 154, 158],
     "innerColor":  [12, 17, 15],
-    "uniqueName":"God Please...",
+    "uniqueName":"Unrelenting Salvation",
    "uniques":["Comment [May buy National Wonders with Faith 2 times thier normal production cost, except Win-condition Wonders]",
      "May buy [Transmissions Center] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
      "May buy [Search for Survivors] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
@@ -145,7 +145,7 @@
     "tradeRequest": "Let's hope this will help",
     "outerColor": [138, 3, 3],
     "innerColor":  [242, 235, 227],
-    "uniqueName":"sss",
+    "uniqueName":"Nothing Left To Restore",
    "uniques":[
 	"[{Military} {Land}] units gain the [Utilization] promotion",
    "Double quantity of [Slaves] produced",
@@ -245,7 +245,7 @@
     "tradeRequest": "Let's hope this will help",
     "outerColor": [16, 37, 76],
     "innerColor":  [239, 218, 179],
-    "uniqueName":"sss",
+    "uniqueName":"Everthing You Want",
    "uniques":[ 
 	   "[+50]% Culture cost of natural border growth [in all cities]",
 	   "[-80]% Great Person generation [in all cities]",
