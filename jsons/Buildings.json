@@ -363,7 +363,7 @@
 	"happiness":1
 	"cost":0
 	"requiredBuilding": "Shrine",
-	"uniques":[ "Only available <when religion is enabled>",]
+	"uniques":[ "Only available <when religion is enabled>"]
 	"requiredTech": "Education"
 },
 
