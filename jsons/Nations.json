@@ -259,5 +259,33 @@
     ]
     "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   }
+{
+    "name":"The Mass",
+    "leaderName":"Null",
+    "adjective": ["Abomination"],
+    "preferredVictoryType": "Domination", 
+    "favoredReligion": "Humanism",
+   
+    "startIntroPart1":"y g " ,
+    "startIntroPart2": "I to the world."
+    "declaringWar": "I reerish."
+    "attacked": "Whe of. "
+    "defeated": "W.e?!",
+    "introduction":" We",
+    "hateHello": "Yo alone!"
+    "tradeRequest": "W"
+    "outerColor": [78, 53, 12]
+    "innerColor":  [134, 68, 23],
+    "uniqueName":"Not From This World"
+   "uniques":[
+
+"Cannot build [Civilian] units",
+"Cannot build [Scrapper] units"]
+    "cities": [ 
+    "Mass",
+
+    ]
+        "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
+  }
 ]
 
