@@ -119,7 +119,19 @@
      "May buy [Renovate Metal Pyramid] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 
 
-"[+1 Culture, +2 Production, +2 Gold, +2 Faith] from every [National Wonder] <during a Golden Age> <hidden from users>",
+"[+2 Culture, +2 Production, +2 Gold, +2 Faith] from every [National Wonder] <during a Golden Age> <hidden from users>",
+
+"[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Divinity School] <during a Golden Age> <hidden from users>",
+"[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Dojo] <during a Golden Age> <hidden from users>",
+"[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Garden] <during a Golden Age> <hidden from users>",
+"[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Holy Fortress] <during a Golden Age> <hidden from users>",
+"[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Pyramids] <during a Golden Age> <hidden from users>",
+
+"[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Cathedral] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+"[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Communion] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+"[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Meeting House] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+"[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Mission Site] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+
 "Comment [Every religious building and national gains extra production, gold, culture and faith during a golden age]",
 "Comment [Cannot build Prison Camps]",
 "Cannot build [Enslaved] units"]
