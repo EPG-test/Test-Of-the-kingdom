@@ -173,6 +173,94 @@
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
 	},
+{ 
+    	"name":"Stabilizer",
+    	"replaces": "Militia",
+    	"uniqueTo": "Vultures",
+    	"unitType": "Scrapper",
+    	"movement": 2,
+  	"strength": 30,
+    	"cost": 50,
+	"requiredTech": "The Wheel",
+	"obsoleteTech": "Replaceable Parts",
+	"upgradesTo": "Soldier",
+    	"uniques": ["Personnel", "Consumes [1] [Weapons]", "Enslaved",
+		"[-25]% construction time for [All] improvements",
+		"Can build [All Road] improvements on tiles",
+		"Can build [Fort] improvements on tiles",
+		"Can build [Trench] improvements on tiles"],
+    
+   "attackSound": "machinegun"
+  },
+	{
+		"name": "Rough Gunner",
+		"replaces": "Gunman",
+    		"uniqueTo": "Vultures",
+		"unitType": "Shooter",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 24,
+		"interceptRange": 1,
+		"cost": 60,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Rifleman",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
+		"promotions": ["Reconnaissance I", "Sentry"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Over-Shooter",
+		"replaces": "Crossbowman",
+    		"uniqueTo": "Vultures",
+		"unitType": "Shooter",
+		"range": 2,
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 20,
+		"cost": 35,
+		"hurryCostModifier": 20,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Gunman",
+		"uniques": [
+			"Low Tech",
+			"[+50]% Strength <vs [Low Tech] units>",
+			"Ranged attacks may be performed over obstacles"
+
+		],
+		"attackSound": "arrow"
+	},
+
+	{
+		"name": "Waste Runner",
+		"replaces": "Hussar",
+    		"uniqueTo": "Vultures",
+		"unitType": "Scrapper",
+		"movement": 4,
+		"strength": 30,
+		"interceptRange": 1,
+		"cost": 60,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Cavalry",
+		"uniques": [
+			"Personnel", "Consumes [1] [Weapons]",
+			"[+1] Movement <in [Open terrain] tiles>",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can only be built <in cities with a [Stable]>",
+		
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+
+	
 	{
 		"name": "Controller",
 		"uniqueTo": "Vultures",
