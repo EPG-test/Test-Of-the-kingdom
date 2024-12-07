@@ -79,7 +79,6 @@
     "innerColor":  [12, 17, 15],
     "uniqueName":"Unrelenting Salvation",
    "uniques":["Comment [May buy National Wonders with Faith 2 times thier normal production cost, except Win-condition Wonders]",
-     "Starts with [Theocracy] adopted",
      "May buy [Transmissions Center] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
      "May buy [Search for Survivors] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
      "May buy [Heavy Equipment] buildings with [Faith] for [2] times their normal Production cost <hidden from users>",
@@ -131,6 +130,10 @@
 "[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Communion] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 "[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Meeting House] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 "[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Mission Site] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+
+"Starts with [Theocracy] adopted",
+
+"Gain a free [Follower] belief <upon adopting [Theocracy Complete]>",
 
 "Comment [Every religious building and national gains extra production, gold, culture and faith during a golden age]",
 "Comment [Cannot build Prison Camps]",
