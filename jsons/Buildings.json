@@ -520,6 +520,51 @@
 		]
 	},
 {
+		"name": "Übermensch College",
+		"replaces": "University",
+		"uniqueTo": "Vultures",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": { "science": 33 },
+		"specialistSlots": { "Scientist": 1 },
+		"greatPersonPoints": {"Great General": 1},
+		"uniques": [
+			"[+2 Science, +1 Culture] [in this city] <when above [2] [Slaves]>",
+			"[+2 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
+			"Only available <in cities with a [Library]>"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Ideals Radio",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "Vultures",
+		"culture": 1,
+		"science": 2,
+		"maintenance": 3
+		"percentStatBonus": { "culture": 5, "science": 10 },
+		"specialistSlots": { "Administrator": 1 },
+		"uniques": [
+			"Consumes [1] [Power]",
+			"Only available <in cities with a [Übermensch College]>"
+		],
+		"requiredTech": "Education"
+	},
+		{
+		"name": "Human Progression Lab",
+		"replaces":"Research Lab",
+		"uniqueTo": "Vultures",
+		"percentStatBonus": { "science": 50 },
+		"specialistSlots": { "Scientist": 1 },
+		"maintenance": 4,
+		"uniques": [
+			"[+1 Science] <for every [3] [Slaves]>",
+			"Only available <in cities with a [Übermensch College]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Laboratory"
+	},
+{
 	"name": "Resource Office",
 	"replaces": "Town Hall",
 	"uniqueTo": "Vultures",
@@ -538,8 +583,109 @@
 	{
 		"text": "This building enables the construction of resource extraction missions."
 	}]
-},
+},	
+	{
+		"name": "Outsider-Quarters",
+		"replaces": "Barracks",
+		"uniqueTo": "Vultures",
+		"hurryCostModifier": 25,
+		"cost":60
+		"production": 1,
+		"requiredTech": "Construction",
+		"maintenance": 1,
+		"uniques": [
+			"Provides [1] [Slaves]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		
+		]
+	},
+{
+		"name": "Reservists Quarters",
+		"replaces": "Armory",
+		"uniqueTo": "Vultures",
+		"hurryCostModifier": 25,
+		"cost": 220
+		"requiredTech": "Hoplology",
+		"production": 1,
+		"uniques": [
+			"Provides [1] [Slaves]",
+			"New [Military] units start with [15] Experience [in this city]",
+			"Destroyed when the city is captured"
+		]
+	},
+{
+	"name": "Utilization Camp",
+	"replaces": "Prison Camp",
+	"uniqueTo": "Vultures",
+	"percentStatBonus": { "production": 25 , "food": -20 },
+	"cost": 20,
+	"uniques": [
+		"Remove extra unhappiness from annexed cities",
+		"Can only be built <in [Annexed] cities>",
+		"Provides [3] [Slaves]",
+		"Only available <in cities without a [Listening Post]>",
+		"Destroyed when the city is captured"
+		],
+	"requiredTech": "Construction"
 
+	},
+		// YES THEY GAIN HAPPINESS AFTER GETTING VOTING RIGHTS. WHY? THE INSIDERS FEEL BETTER THAN OUTSIDERS.
+		// THE VULTURES IN REALITY SHOULDN"T TAKE CONSTITUTION OVER SUPERMACY BUT I DON' REALLY CARE.
+	{
+		"name": "Outsiders Office",
+		"replaces": "Work Camp",
+		"uniqueTo": "Vultures",
+		"percentStatBonus": { "production": 15 },
+		"production": 2,
+		"science": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Production, +1 Science, +1 Culture] [in this city] <when above [2] [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>"
+		],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Hunters Camp",
+		"replaces": "Ranch",
+		"uniqueTo": "Vultures",
+		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs", "Deer"],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"Consumes [1] [Slaves]",
+			"[+2 Food] [in this city] <when above [0] [Slaves]>",
+			"[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Insects] tiles [in this city]",
+			"[+1 Food] from [Goats] tiles [in this city]",
+			"[+1 Food] from [Furs] tiles [in this city]",
+			"[+1 Food] from [Hogs] tiles [in this city]",
+			"[+1 Food] from [Deer] tiles [in this city]"
+		],
+		"requiredTech": "Redomestication"
+	},
+		{
+		"name": "Greenpicker's Camp",
+		"replaces": "Greenhouse",
+		"uniqueTo": "Vultures",
+		"percentStatBonus": { "food": 5, "production": -5 },
+		"uniques": [
+			"[+2 Food] [in this city] <when above [0] [Slaves]>",
+			"Consumes [1] [Slaves]",
+			"[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+1 Food] from [Maize] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
+			"[+1 Food] from [Cactus] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
+			"[+1 Food, +1 Science] [in this city] <with [Exotic Seeds]> <if [Outlaws of the Wastes] is enabled>"
+		],
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Botany"
+	},
+		
+	// THE AREN"T GERMAN EITHER. THAT NAME FITS THE FACTION.
 {
 	"name": "Coal Extraction Mission"
 	"uniqueTo": "Vultures",
@@ -601,98 +747,6 @@
 	"[+2 Production] from [Uranium] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
 	},
-	
-	
-{
-	"name": "Utilization Camp",
-	"replaces": "Prison Camp",
-	"uniqueTo": "Vultures",
-	"percentStatBonus": { "production": 25 , "food": -25 },
-	"cost": 20,
-	"uniques": [
-		"Remove extra unhappiness from annexed cities",
-		"Can only be built <in [Annexed] cities>",
-		"Provides [3] [Slaves]",
-		"Only available <in cities without a [Listening Post]>",
-		"Destroyed when the city is captured"
-		],
-	"requiredTech": "Construction"
-
-	},
-		// YES THEY GAIN HAPPINESS AFTER GETTING VOTING RIGHTS. WHY? THE INSIDERS FEEL BETTER THAN OUTSIDERS.
-		// THE VULTURES IN REALITY SHOULDN"T TAKE CONSTITUTION OVER SUPERMACY 
-	{
-		"name": "Outsiders Office",
-		"replaces": "Work Camp",
-		"uniqueTo": "Vultures",
-		"percentStatBonus": { "production": 15 },
-		"production": 2,
-		"science": 1,
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": [
-			"[+2 Happiness] [in this city] <after adopting [Voting Rights]>",
-			"[+1 Production, +1 Science, +1 Culture] [in this city] <when above [2] [Slaves]>",
-			"Consumes [1] [Slaves]",
-			"Only available <with [Slaves]>"
-		],
-		"requiredTech": "Construction"
-	},
-	{
-		"name": "Hunters Camp",
-		"replaces": "Ranch",
-		"uniqueTo": "Vultures",
-		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs", "Deer"],
-		"hurryCostModifier": 25,
-		"uniques": [
-			"Consumes [1] [Slaves]",
-			"[+2 Food] [in this city] <when above [0] [Slaves]>",
-			"[+1 Food] from [Cattle] tiles [in this city]",
-			"[+1 Food] from [Insects] tiles [in this city]",
-			"[+1 Food] from [Goats] tiles [in this city]",
-			"[+1 Food] from [Furs] tiles [in this city]",
-			"[+1 Food] from [Hogs] tiles [in this city]",
-			"[+1 Food] from [Deer] tiles [in this city]"
-		],
-		"requiredTech": "Redomestication"
-	},
-		{
-		"name": "Greenpicker's Camp",
-		"replaces": "Greenhouse",
-		"uniqueTo": "Vultures",
-		"percentStatBonus": { "food": 5, "production": -5 },
-		"uniques": [
-			"[+2 Food] [in this city] <when above [0] [Slaves]>",
-			"Consumes [1] [Slaves]",
-			"[+1 Food] from [Tubers] tiles [in this city]",
-			"[+1 Food] from [Grain] tiles [in this city]",
-			"[+1 Food] from [Maize] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
-			"[+1 Food] from [Cactus] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
-			"[+1 Food, +1 Science] [in this city] <with [Exotic Seeds]> <if [Outlaws of the Wastes] is enabled>"
-		],
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredTech": "Botany"
-	},
-		
-	// THE AREN"T GERMAN EITHER. THAT NAME FITS THE FACTION.
-	{
-		"name": "Übermensch College",
-		"replaces": "University",
-		"uniqueTo": "Vultures",
-		"maintenance": 1,
-		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 33 },
-		"specialistSlots": { "Scientist": 1 },
-		"greatPersonPoints": {"Great General": 1},
-		"uniques": [
-			"[+2 Science, +1 Culture] [in this city] <when above [2] [Slaves]>",
-			"[+2 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
-			"Only available <in cities with a [Library]>"
-		],
-		"requiredTech": "Education"
-	},
-
 
 
 // ALL-IN-ONE COMPANY BUILDINGS
