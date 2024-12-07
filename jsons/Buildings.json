@@ -548,7 +548,7 @@
 			"Consumes [1] [Power]",
 			"Only available <in cities with a [Übermensch College]>"
 		],
-		"requiredTech": "Education"
+		"requiredTech": "Radio"
 	},
 		{
 		"name": "Human Progression Lab",
