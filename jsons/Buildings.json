@@ -152,8 +152,8 @@
 		"Destroyed when the city is captured"]
 		
 	},
-	King's Residence
-	{"name":"Cultural Advisor"
+	{	
+		"name":"Cultural Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
