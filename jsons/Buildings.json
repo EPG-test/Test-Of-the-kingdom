@@ -544,7 +544,7 @@
 		"culture": 1,
 		"science": 2,
 		"maintenance": 3
-		"percentStatBonus": { "culture": 5, "science": 10 },
+		"percentStatBonus": { "culture": 15, "science": 10 },
 		"specialistSlots": { "Administrator": 1 },
 		"uniques": [
 			"Consumes [1] [Power]",
