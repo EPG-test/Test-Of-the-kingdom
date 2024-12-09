@@ -82,8 +82,8 @@
 		"[-25]% Culture cost of natural border growth [in this city]",
 		"[-25]% Gold cost of acquiring tiles [in this city]",
 		"[+1 Gold] from [Natural Wonder] tiles [in this city]",
-		"[+1 Happiness, +2 Culture] [in this city] <when above [0] [Power]>",
-		"[+1 Happiness, +1 Culture] [in this city] <after discovering [Flight]>"],
+		"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Power]>",
+		"[+1 Happiness, +1 Culture, +1 Gold] [in this city] <after discovering [Flight]>"],
 
 		"requiredTech": "Civil Service",
 	
