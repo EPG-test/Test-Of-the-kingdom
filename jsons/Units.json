@@ -289,9 +289,14 @@
     	"unitType": "Armor",
     	"movement": 3,
   	"strength": 35,
-    	"uniques": ["Personnel", "Consumes [1] [Slaves]", "Consumes [1] [Oil]",
+    	"uniques": ["Consumes [1] [Slaves]", "Consumes [1] [Oil]",
+	"Can move after attacking",
+	"No defensive terrain bonus",
+	"[-33]% Strength <vs cities>",
 	"Can upgrade to [Tank]",
 	"Can upgrade to [Helicopter]",
+	"Uncapturable",
+	"Unbuildable"
 	],
   	"promotions": ["Slave Runner Ability"],
 	"attackSound": "machinegun"
