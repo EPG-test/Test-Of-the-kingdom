@@ -422,6 +422,7 @@
 			"Triggers a global alert upon completion"
 		
 		]
+		"quote": "God, Please... One more chance"
 },
 
 	{
@@ -632,8 +633,6 @@
 	"requiredTech": "Construction"
 
 	},
-		// YES THEY GAIN HAPPINESS AFTER GETTING VOTING RIGHTS. WHY? THE INSIDERS FEEL BETTER THAN OUTSIDERS.
-		// THE VULTURES IN REALITY SHOULDN"T TAKE CONSTITUTION OVER SUPERMACY BUT I DON' REALLY CARE.
 	{
 		"name": "Outsiders Office",
 		"replaces": "Work Camp",
