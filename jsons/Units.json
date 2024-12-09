@@ -226,7 +226,7 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Gunman",
 		"uniques": [
-			"Low Tech",
+			"Low Tech", "Enslaved",
 			"[+50]% Strength <vs [Low Tech] units>",
 			"Ranged attacks may be performed over obstacles"
 
@@ -262,17 +262,14 @@
     	"name":"Slave Runner",
     	"uniqueTo": "Vultures",
     	"unitType": "Armor",
-    	"movement": 2,
-  	"strength": 30,
-	"requiredTech": "The Wheel",
-	"obsoleteTech": "Replaceable Parts",
-	"upgradesTo": "Soldier",
+    	"movement": 3,
+  	"strength": 35,
     	"uniques": ["Personnel", "Consumes [1] [Slaves]", "Consumes [1] [Oil]",
 	"Can upgrade to [Tank]",
 	"Can upgrade to [Helicopter]",
-
 	],
-   "attackSound": "machinegun"
+  	"promotions": ["Slave Runner Ability"],
+	"attackSound": "machinegun"
   },
 
 	{
