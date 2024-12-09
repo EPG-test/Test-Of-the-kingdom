@@ -236,7 +236,6 @@
 
 	{
 		"name": "Waste Runner",
-		"replaces": "Hussar",
     		"uniqueTo": "Vultures",
 		"unitType": "Scrapper",
 		"movement": 4,
@@ -247,7 +246,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Cavalry",
 		"uniques": [
-			"Personnel", "Consumes [1] [Weapons]",
+			"Personnel", "Consumes [1] [Slaves]", "Enslaved",
 			"[+1] Movement <in [Open terrain] tiles>",
 			"Mounted",
 			"No defensive terrain bonus",
@@ -259,8 +258,23 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
+{ 
+    	"name":"Slave Runner",
+    	"uniqueTo": "Vultures",
+    	"unitType": "Armor",
+    	"movement": 2,
+  	"strength": 30,
+	"requiredTech": "The Wheel",
+	"obsoleteTech": "Replaceable Parts",
+	"upgradesTo": "Soldier",
+    	"uniques": ["Personnel", "Consumes [1] [Slaves]", "Consumes [1] [Oil]",
+	"Can upgrade to [Tank]",
+	"Can upgrade to [Helicopter]",
 
-	
+	],
+   "attackSound": "machinegun"
+  },
+
 	{
 		"name": "Controller",
 		"uniqueTo": "Vultures",
@@ -270,6 +284,7 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"All adjacent units heal [+15] HP when healing",
+			"Can transform to [Slave Runner]",
 			"Can instantly construct a [Outpost] improvement <by consuming this unit>",,
 			"Can instantly construct a [Prison farm] improvement <once> <for [2] movement>",
 			"Great Person - [War]",
