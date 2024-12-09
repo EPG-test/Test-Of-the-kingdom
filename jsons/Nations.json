@@ -145,18 +145,18 @@
   }
 {
     "name":"Vultures",
-    "leaderName":"Andrey Cannbs",
-    "adjective": ["Cannibals"],
+    "leaderName":"Andrey Canbs",
+    "adjective": ["False Saviours"],
     "preferredVictoryType": "Diplomatic", 
     "personality": "Homo Superior",
     "favoredReligion": "Humanism",
    
     "startIntroPart1":"sss" ,
     "startIntroPart2": "consume",
-    "declaringWar": "*Radio Static* This is pre-recorded message from Us so please do not respond. 'Consider yourserlf under new management. *Radio Static* ",
+    "declaringWar": "*Radio Static* This is pre-recorded message from your saviours so please do not respond. 'Consider yourserlf under new management. *Radio Static* ",
     "attacked": "R-really? You maim the last place of human progress? How wasteful.",
     "defeated": "Now everthing we did is going to waste. Farewell Sub-human. Do your worst.",
-    "introduction":"Oh hello. I'm Andrey Cannbs, so what is your purpose here in this barren wasteland?",
+    "introduction":"Oh hello. I'm Andrey Canbs, Leader of new world saviours. So what is your purpose here in this barren wasteland?",
     "neutralHello": "What is it?",
     "hateHello": "You can't stop us NOW!",
     "tradeRequest": "Let's hope this will help",
@@ -198,6 +198,7 @@
 	
 	"[+1 Gold] [in capital] <with [Gems]> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Silver]> <hidden from users>",
+	
 	"[+1 Gold] [in capital] <with [C1F3]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
 	"[+1 Gold] [in capital] <with [C2N14]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
 	"[+1 Gold] [in capital] <with [C8H17]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
