@@ -18,7 +18,7 @@ But don't worry everything will be just **fine**, right?
 
 Last Bastion:
 
-Post doomsday cult faction main objective is to **REPENT**. **REPENT** for the sins of Humanity. **REPENT** in front of the new garden of Eden.
+This post doomsday cult faction main objective is to **REPENT**. **REPENT** for the sins of Humanity. **REPENT** in front of the new garden of Eden.
 **REPENT** in front of The God.
 Highly religious and friendly (only to people who don't believe in things that are taboo to thier bieliefs).
 Thier work should be full of **virtues** right?
