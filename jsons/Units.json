@@ -251,14 +251,51 @@
 			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[-33]% Strength <vs cities> <when attacking>",
+			"[-20]% Strength <vs cities> <when attacking>",
 			"Can only be built <in cities with a [Stable]>",
-		
+			"Only available <with [Slaves]>",
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
+		{
+		"name": "Frontal Assault Corps",
+		"unitType": "Scrapper",
+		"uniqueTo": "Vultures",
+		"replaces": "NBC Conscript",
+		"movement": 2,
+		"strength": 45,
+		"interceptRange": 1,
+		"cost": 125,
+		"requiredTech": "Combined Arms",
+		"hurryCostModifier": 20,
+		"upgradesTo": "Exo-Trooper",
+		"uniques": [
+			"Personnel", "Enslaved", "Consumes [1] [Slaves]",
+			"Only available <if [Factory] is constructed>",
+			"[-25]% construction time for [All] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+			"Only available <with [Slaves]>",
+		],
+		"promotions": ["Gas Mask", "Entrench", "Tool"],
+		"attackSound": "machinegun"
+	},
 
+{ 
+    	"name":"Slave Runner",
+    	"uniqueTo": "Vultures",
+    	"unitType": "Armor",
+    	"movement": 3,
+  	"strength": 35,
+    	"uniques": ["Personnel", "Consumes [1] [Slaves]", "Consumes [1] [Oil]",
+	"Can upgrade to [Tank]",
+	"Can upgrade to [Helicopter]",
+	],
+  	"promotions": ["Slave Runner Ability"],
+	"attackSound": "machinegun"
+  },
 
 	{
 		"name": "Controller",
@@ -267,8 +304,9 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+15]% Strength bonus for [Military] units within [3] tiles",
 			"All adjacent units heal [+15] HP when healing",
+			"Can transform to [Slave Runner]",
 			"Can instantly construct a [Outpost] improvement <by consuming this unit>",
 			"Can instantly construct a [Prison farm] improvement <once> <for [2] movement>",
 			"Great Person - [War]",
