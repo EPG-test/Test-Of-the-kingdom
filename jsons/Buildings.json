@@ -103,11 +103,12 @@
 		"requiredTech": "Iron Working",
 		"uniques": [
 			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+15]% Production when constructing [Dark Soldier] units [in this city]",
+			"[+10]% Production when constructing [Dark Soldier] units [in this city]",
 			"[+1 Production] [in this city] <when above [0] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
 	},
+
 	{
 		"name": "Great Metals Foundry",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -118,11 +119,10 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Only available <in cities with a [Library]>",
-			"[+2 Production] [in this city] <when above [0] [Power]>",
-			"[+2 Production] [in this city] <when above [2] [Coal]>",
+			"[+10]% Production when constructing [Dark Soldier] units [in this city] <when at war>",
+			"[+2 Production, +2 Culture] [in this city] <when above [0] [Power]>",
+			"[+3 Production] [in this city] <when above [2] [Coal]>",
 			
-			"[+1 Production] from [Metal] tiles [in this city]",
-			"[+1 Production] from [Aluminum] tiles [in this city]",
 			"Consumes [1] [Coal]",
 		],
 		"requiredTech": "Manufacturing",
@@ -152,17 +152,19 @@
 		"Destroyed when the city is captured"]
 		
 	},
-	
+	King's Residence
 	{"name":"Cultural Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
 		"[+1 Culture] from every [Walls]",
 		"[+1 Culture] from every [Defensive Emplacements]",
-		"[+1 Culture] from every [Hardened Defenses]",
-		"[+2 Culture] from every [Bunker]",
-		"[+2 Culture] from every [Battery]",
-		"[+4 Culture] from every [Active Denial System]",
+		"[+2 Culture] from every [Castle]",
+		"[+2 Culture] from every [Golden Castle] <hidden from users>",
+		"[+2 Culture] from every [Bastions]",
+		"[+2 Culture] from every [King's Residence]",
+		"[+3 Culture] from every [Relocation Office]",
+
 		"[+5]% [Culture] from every [Castle]",
 		"[+5]% [Culture] from every [Golden Castle] <hidden from users>",
 		"[+5]% [Culture] from every [Bastions]",
@@ -172,7 +174,7 @@
 		"[-40]% Strength for cities <with a garrison> <when attacking> <after adopting [Castle Doctrine]>",
 		"[-20]% Strength for cities <when attacking>",
 		"[-25]% Strength <vs [Barbarian] units>",
-
+		"[-15]% [Gold] [in all cities] <hidden from users>",
 		
 		"Only available <in cities without a [Military Advisor]> <hidden from users>",
 		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
