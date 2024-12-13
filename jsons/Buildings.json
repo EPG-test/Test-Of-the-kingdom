@@ -515,7 +515,7 @@
 		"greatPersonPoints": {"Great General": 1},
 		"uniques": [
 			"[+2 Science, +1 Culture] [in this city] <when above [2] [Slaves]>",
-			"[+2 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
+			"[+1 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
 			"Only available <in cities with a [Library]>"
 		],
 		"requiredTech": "Education"
@@ -526,7 +526,7 @@
 		"uniqueTo": "Vultures",
 		"culture": 1,
 		"science": 2,
-		"maintenance": 3
+		"maintenance": 2
 		"percentStatBonus": { "culture": 10, "science": 15 },
 		"specialistSlots": { "Administrator": 1 },
 		"uniques": [
@@ -543,7 +543,7 @@
 		"specialistSlots": { "Scientist": 1 },
 		"maintenance": 4,
 		"uniques": [
-			"[+1 Science] <for every [3] [Slaves]>",
+			"[+1 Science] <for every [2] [Slaves]>",
 			"Only available <in cities with a [Übermensch College]>",
 			"Consumes [1] [Power]"
 		],
@@ -668,8 +668,56 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Botany"
 	},
+		{
+		"name": "Exort Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Vultures",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1] population [in this city]",
+			"Free [Civilian Convoy] appears",
+			"Provides [2] [Slaves]",
 		
-	// THE AREN"T GERMAN EITHER. THAT NAME FITS THE FACTION.
+		]
+	},
+
+	{
+		"name": "Domestic Council",
+		"replaces": "Congress",
+		"uniqueTo": "Vultures",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Science] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[+1 Science] from each Trade Route",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Exploitation Council]>",
+			"Destroyed when the city is captured"
+		   
+		]
+	},
+			{
+		"name": "Exploitation Council",
+		"cost": 50,
+		"replaces": "Council",
+		"uniqueTo": "New Star",
+		"requiredTech": "Civil Service",
+		"uniques": [
+		    	"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"[+20]% Production when constructing [Enslaved] units [in all cities]",
+			"[+1 Production] from [Strategic resource] tiles [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Domestic Council]>",
+			"Destroyed when the city is captured"
+			
+		]
+	},
+
 {
 	"name": "Coal Extraction Mission"
 	"uniqueTo": "Vultures",
