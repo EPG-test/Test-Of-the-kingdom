@@ -192,25 +192,7 @@
     "promotions": ["Sentry"],
    "attackSound": "machinegun"
   },
-	{
-		"name": "Rough Gunner",
-		"replaces": "Gunman",
-    		"uniqueTo": "Vultures",
-		"unitType": "Shooter",
-		"range": 1,
-		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 24,
-		"interceptRange": 1,
-		"cost": 60,
-		"requiredTech": "The Wheel",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Rifleman",
-		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]"],
-		"promotions": ["Reconnaissance I", "Sentry"],
-		"attackSound": "shot"
-	},
+	
 	{
 		"name": "Over-Shooter",
 		"replaces": "Crossbowman",
@@ -282,7 +264,37 @@
 		"promotions": ["Gas Mask", "Entrench", "Tool"],
 		"attackSound": "machinegun"
 	},
-
+	{
+		"name": "Vulture Task Force",
+		"uniqueTo": "Vultures",
+		"replaces": "Exo-Trooper",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 60,
+		"interceptRange": 1,
+		"cost": 250,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel", "Enslaved", 
+			"[-25]% construction time for [All] improvements",
+			"Can build [All Road] improvements on tiles",
+			"Can build [Fort] improvements on tiles",
+			"Can build [Trench] improvements on tiles",
+	
+			"Only available <if [Automated Factory] is constructed>",
+			"Consumes [1] [Weapons]",
+			"Consumes [1] [Slaves]",
+			"Only available <with [Slaves]>",
+		],
+		"promotions": [
+			"Powered Armor",
+			"Gas Mask",
+			"Urban Warfare I",
+			"Guerilla Warfare I"
+		],
+		"attackSound": "phasers"
+	},
 { 
     	"name":"Slave Runner",
     	"uniqueTo": "Vultures",
