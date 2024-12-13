@@ -196,7 +196,7 @@
 		"[+2 Gold] from every [Greywater Treatment Plant]",
 		"[+3 Gold] from every [Desalination Plant]",
 		"[+5 Gold] from every [Rainwater Purifier]",
-		"Comment [+15%/+10%/+15% Gold in all cities during Neofeudal/Rebuilding/Industrual Era]",
+		"Comment [+5%/+10%/+15% Gold in all cities during Neofeudal/Rebuilding/Industrual Era]",
 		"[+5]% [Gold] [in all cities] <during the [Neofeudal era]> <hidden from users>",
 		"[+10]% [Gold] [in all cities] <during the [Rebuilding era]> <hidden from users>",
 		"[+15]% [Gold] [in all cities] <starting from the [Industrial era]> <hidden from users>",
@@ -481,7 +481,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
 		"uniques": [
-			"[+1 Production] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold, +1 Production] from [Luxury resource] tiles [in this city]",
 			"[+3 Gold] [in this city] <with [Slaves]>"
 		]
 	},
