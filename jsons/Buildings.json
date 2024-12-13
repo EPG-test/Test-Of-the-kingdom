@@ -461,11 +461,10 @@
 	"name": "Vulture Berau" 
 	"uniqueTo": "Vultures",
 	"cost":0,
-	"production": 1,
+	"science": 1,
 	"gold": 1,
 	"isWonder": true,
 	"uniques":[
-	"Provides [1] [Weapons]",
 	"Provides [2] [Slaves]",
 	"Gain a free [Resource Office] [in this city]",
 	"Can only be built <in [Capital] cities>",
