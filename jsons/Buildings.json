@@ -394,7 +394,7 @@
 		"uniqueTo": "Last Bastion",
 		"isNationalWonder": true,
 		"culture": 1,
-		"faith": 6,
+		"faith": 8,
 		"cost": 175,
 		"requiredTech": "Civil Service",
 		"uniques": ["Only available <if [Garden of Bliss] is constructed in all [non-[Puppeted]] cities>",
@@ -482,7 +482,7 @@
 		"requiredTech": "Trade",
 		"uniques": [
 			"[+1 Gold, +1 Production] from [Luxury resource] tiles [in this city]",
-			"[+3 Gold] [in this city] <with [Slaves]>"
+			"[+2 Gold] [in this city] <with [Slaves]>"
 		]
 	},
 	
@@ -691,7 +691,7 @@
 		"uniques": [
 			"[+1 Culture, +1 Science] per [4] population [in all cities]",
 			"[-10]% Unhappiness from [Population] [in all cities]",
-			"[+1 Science] from each Trade Route",
+			"[+1 Science, +1 Food, +1 Gold] from each Trade Route",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Exploitation Council]>",
