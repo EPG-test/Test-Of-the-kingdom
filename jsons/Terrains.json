@@ -56,7 +56,6 @@
 		"uniques": [
 		"Must be adjacent to [0] [Coast] tiles",
 		"Must be adjacent to [1] to [1] [Mountain] tiles",
-		"Must be adjacent to [1] to [2] [Hill] tiles",
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
