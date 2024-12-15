@@ -318,7 +318,7 @@
 	}
 //Last Bastion"Last Bastion",
 { 
-"name": "Rose Petals Sanctuary" 
+"name": "Rose Petals Sanctum" 
 "uniqueTo": "Last Bastion",
 "cost":0,
 "Faith":1,
@@ -992,6 +992,37 @@
 			"[-1 Culture, +1 Science, +3 Production, +1 Food] from [Death Grove] tiles [in all cities]",
 			"Provides [2] [Death Wood]",
 		]
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+		{
+		"name": "Crystal Mountain Resort",
+		"isWonder": true,
+		"requiredTech": "Mountain Exploration",
+		"happinness": 2,
+		"cost": 200,
+		"uniques": ["Must have an owned [Crystal Waterfall] within [3] tiles",
+			"[+3 Culture, +2 Gold] from [Crystal Waterfall] tiles [in all cities]",
+			"[+1 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city]",
+			"[+1 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city] <after discovering [Ecotheory]>"
+]
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+	{
+		"name": "Crystal Water Sanctuary",
+		"isWonder": true,
+		"requiredTech": "Decontamination",
+		"happinness": 2,
+		"cost": 200,
+		"uniques": ["Must have an owned [Crystal Waterfall] within [3] tiles",
+			"[+2 Food, +3 Gold] from [Crystal Waterfall] tiles [in all cities]",]
 		"civilopediaText": [
 			{
 				"text": "."
