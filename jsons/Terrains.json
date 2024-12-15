@@ -52,10 +52,10 @@
 		"type": "NaturalWonder",
 		"food": 1,
 		"gold": 4,
-		"occursOn": ["Lakes"],
+		"occursOn": ["Mountain"],
 		"uniques": [
 		"Must be adjacent to [0] [Coast] tiles",
-		"Must be adjacent to [1] to [1] [Mountain] tiles",
+		"Must be adjacent to [1] to [1] [Lakes] tiles",
 		],
 		"turnsInto": "Mountain",
 		"impassable": true,
