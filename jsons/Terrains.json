@@ -52,7 +52,7 @@
 		"type": "NaturalWonder",
 		"food": 1,
 		"gold": 4,
-		"occursOn": ["Lake"],
+		"occursOn": ["Lakes"],
 		"uniques": [
 		"Must be adjacent to [0] [Coast] tiles",
 		"Must be adjacent to [1] to [1] [Mountain] tiles",
