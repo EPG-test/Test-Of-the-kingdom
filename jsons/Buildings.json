@@ -917,7 +917,54 @@
 		"requiredTech": "Decryption"
 	}
 	
-	
+	{
+		"name": "Grove Expedition",
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"cost": 150,
+		"uniques": [
+			"Must have an owned [Death Grove] within [3] tiles",
+			"[+1 Science] from [Death Grove] tiles [in all cities]",
+]
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+		{
+		"name": "Death Grove National Park",
+		"isWonder": true,
+		"requiredTech": "Ecology",
+		"cost": 300,
+		"uniques": [
+			"Must have an owned [Death Grove] within [3] tiles",
+			"[+2 Science, +3 Culture] from [Death Grove] tiles [in all cities]",
+			"[+2 happiness, +2 Food] from [Death Grove] tiles [in all cities] <after adopting [Naturalism]>",
+
+		]
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
+			{
+		"name": "'Death Wood Lumbery'",
+		"isWonder": true,
+		"requiredTech": "Replaceable Parts",
+		"cost": 200,
+		"uniques": [
+			"Must have an owned [Death Grove] within [3] tiles",
+			"[-1 Culture, +1 Science, +3 Production, +1 Food] from [Death Grove] tiles [in all cities]",
+			"Provides [2] [Death Wood]",
+		]
+		"civilopediaText": [
+			{
+				"text": "."
+			}
+		]
+	},
 	{ 
 "name": "Oceanic De-extinction Project",
 "cost":1250,
