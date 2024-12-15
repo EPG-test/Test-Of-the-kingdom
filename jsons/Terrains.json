@@ -31,7 +31,7 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-		{
+{
 		"name": "Crystal Cave",
 		"type": "NaturalWonder",
 		"faith": 1,
@@ -47,5 +47,20 @@
 		"unbuildable": true,
 		"weight": 10
 	}
-
+{
+		"name": "Crystal Waterfall",
+		"type": "NaturalWonder",
+		"food": 1,
+		"gold": 4,
+		"occursOn": ["Lake"],
+		"uniques": [
+		"Must be adjacent to [0] [Coast] tiles",
+		"Must be adjacent to [1] to [1] [Mountain] tiles",
+		"Must be adjacent to [1] to [2] [Hill] tiles",
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	}
 ]
