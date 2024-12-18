@@ -481,8 +481,8 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
 		"uniques": [
-			"[+1 Gold, +1 Production] from [Luxury resource] tiles [in this city]",
-			"[+2 Gold] [in this city] <with [Slaves]>"
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+2 Production] [in this city] <with [Slaves]>"
 		]
 	},
 	
@@ -657,7 +657,6 @@
 		"name": "Greenpicker's Camp",
 		"replaces": "Greenhouse",
 		"uniqueTo": "Vultures",
-		"percentStatBonus": { "food": 5, "production": -5 },
 		"uniques": [
 			"[+2 Food] [in this city] <when above [0] [Slaves]>",
 			"Consumes [1] [Slaves]",
@@ -710,9 +709,10 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 		    	"[+10]% growth [in all cities]",
-			"[+5]% Production when constructing [All] buildings [in this city]",
 			"[+20]% Production when constructing [Enslaved] units [in all cities]",
 			"[+1 Production] from [Strategic resource] tiles [in all cities]",
+			"[+1 Production] from [Luxury resource] tiles [in all cities]",
+			"[+1 Production] from [Bonus resource] tiles [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Domestic Council]>",
@@ -919,40 +919,7 @@
 		"percentStatBonus": { "science": 25 },
 		"requiredTech": "Decryption"
 	}
-		{
-		"name": "Etabilish Crystal Quarry",
-		"isWonder": true,
-		"requiredTech": "Engineering",
-		"cost": 200,
-		"uniques": ["Must have an owned [Crystal Cave] within [3] tiles",
-			"[+2 Science, +3 Production] from [Crystal Cave] tiles [in all cities]",
-			"[+1 Gold] from every [Scientist]",
-			"[+1 Science] from every [Engineer]",
-			"[+1 Production] from every [Merchant]"
-]
-		"civilopediaText": [
-			{
-				"text": "."
-			}
-		]
-	},
-
-
-{
-		"name": "Temple Restoration",
-		"isWonder": true,
-		"requiredTech": "Education",
-		"cost": 200,
-		"uniques": ["Must have an owned [Crumbling Temple] within [3] tiles",
-			"[+3 Faith, +2 Culture] from [Crumbling Temple] tiles [in all cities]",
-		"[Faith] cost of purchasing [All] units [-15]%",
-]
-		"civilopediaText": [
-			{
-				"text": "."
-			}
-		]
-	},
+		
 	{
 		"name": "Grove Expedition",
 		"isWonder": true,
@@ -1025,7 +992,8 @@
 		"happinness": 2,
 		"cost": 200,
 		"uniques": ["Must have an owned [Crystal Waterfall] within [3] tiles",
-			"[+2 Food, +3 Gold] from [Crystal Waterfall] tiles [in all cities]",]
+			"[+2 Food, +3 Gold] from [Crystal Waterfall] tiles [in all cities]",
+			"[+2 Food, +2 Gold] [in all cities connected to capital]"]
 		"civilopediaText": [
 			{
 				"text": "."
@@ -1041,7 +1009,6 @@
 "uniques":[ "Must be next to [Coast]",
 	"[+1 Food] from [Bioculture] tiles [in All cities] <in [Coast] tiles>",
 	"[+1 Food, +1 Science] from [Bioculture] tiles [in All cities] <in [Ocean] tiles>",
-	"[+1 Food] from every [Fish Farm]",
 	"Only available <in cities with a [Fish Farm]>"],
 "requiredTech": "Ocean Remediation",
 "quote": "'And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good. And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.'- Priest of the Old World",
@@ -1059,7 +1026,7 @@
 "uniques":[ 
 	"[+25]% [Culture] [in this city]",
 	"[+1 Culture] per [3] population [in this city]",
-	"[+2 Happiness] from every [Monument]",
+	
 ]
 		"quote": "After the fall, comes the rise.",
 "requiredTech": "Advanced Materials",
@@ -1077,7 +1044,6 @@
 "percentStatBonus": { "production": 30 },
 "isWonder": true,
 "uniques":[ 
-"[+2 Production] from [Manufactory] tiles [in this city]",
 "[+30]% [Production] [in this City] <after discovering [Future Materials]>",
 "Consumes [2] [Power]",
 "Consumes [1] [Aluminum]"
