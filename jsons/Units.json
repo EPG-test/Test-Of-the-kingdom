@@ -179,7 +179,7 @@
     	"uniqueTo": "Vultures",
     	"unitType": "Scrapper",
     	"movement": 2,
-  	"strength": 30,
+  	"strength": 32,
     	"cost": 50,
 	"requiredTech": "The Wheel",
 	"obsoleteTech": "Replaceable Parts",
@@ -215,10 +215,34 @@
 		],
 		"attackSound": "arrow"
 	},
-
-	{
-		"name": "Waste Runner",
+{
+		"name": "Wasteland Horseman",
     		"uniqueTo": "Vultures",
+		"replaces": "Horseman",
+		"unitType": "Scrapper",
+		"movement": 3,
+		"strength": 20,
+		"cost": 50,
+		"requiredTech": "Redomestication",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Hussar",
+		"uniques": [
+		"Low Tech", "Personnel", "Consumes [1] [Slaves]", "Enslaved",
+		"Mounted",
+		"[+50]% Strength <vs [Low Tech] units>",
+		"[+1] Movement <in [Open terrain] tiles>",
+		"No defensive terrain bonus",
+		"Can move after attacking",
+		"[-33]% Strength <vs cities> <when attacking>",
+		"Can only be built <in cities with a [Stable]>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Wasteland Hussar",
+    		"uniqueTo": "Vultures",
+		"replaces": "Hussar",
 		"unitType": "Scrapper",
 		"movement": 4,
 		"strength": 36,
@@ -228,19 +252,43 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Cavalry",
 		"uniques": [
-			"Personnel", "Consumes [1] [Slaves]", "Enslaved",
+			"Personnel", "Consumes [1] [Slaves]", "Consumes [1] [Weapons]", "Enslaved",
 			"[+1] Movement <in [Open terrain] tiles>",
 			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[-20]% Strength <vs cities> <when attacking>",
+			"[-33]% Strength <vs cities>",
 			"Can only be built <in cities with a [Stable]>",
 			"Only available <with [Slaves]>",
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
 	},
-		{
+			{
+		"name": "Vulture Cavalry",
+    		"uniqueTo": "Vultures",
+		"replaces": "Cavalry",
+		"unitType": "Scrapper",
+		"movement": 4,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 100,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Tank",
+		"uniques": [
+			"Personnel", "Consumes [1] [Slaves]", "Enslaved",
+			"[+1] Movement <in [Open terrain] tiles>",
+			"Mounted",
+			"No defensive terrain bonus",
+			"Can move after attacking",
+			"[-33]% Strength <vs cities>",
+			"Can only be built <in cities with a [Stable]>",
+			"Only available <with [Slaves]>",
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+	{
 		"name": "Frontal Assault Corps",
 		"unitType": "Scrapper",
 		"uniqueTo": "Vultures",
@@ -303,7 +351,8 @@
   	"strength": 30,
     	"rangedStrength": 35,
 	"upgradesTo": "Helicopter",
-	"uniques": ["Consumes [1] [Oil]",
+	"uniques": [
+	"Consumes [1] [Oil]",
 	"Can move after attacking",
 	"No defensive terrain bonus",
 	"[-33]% Strength <vs cities>",
