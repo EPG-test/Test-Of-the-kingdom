@@ -484,7 +484,7 @@
 		"requiredTech": "Trade",
 		"uniques": [
 			"[+1 Gold, +1 Production] from [Luxury resource] tiles [in this city]",
-			"[+2 Production] [in this city] <with [Slaves]>"
+//			"[+2 Production] [in this city] <with [Slaves]>"
 		]
 	},
 	
