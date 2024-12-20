@@ -33,8 +33,8 @@
 		"name": "Tool",
 		"uniques": [
 		"[+20]% Strength <vs cities> <when attacking>",
-		"[-20]% Strength <vs cities> <when defending>"
-			]
+		"[-20]% Strength <vs cities> <when defending>",
+		"No damage penalty for wounded units"]
 },
 //Forgotten Kingdom Promotions for Dark Soldiers
 //1 Column,
