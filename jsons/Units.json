@@ -294,27 +294,28 @@
 		],
 		"attackSound": "phasers"
 	},
-{ 
+
+	{ 
     	"name":"Slave Runner",
     	"uniqueTo": "Vultures",
-    	"unitType": "Armor",
+    	"unitType": "Helicopter",
     	"movement": 3,
-  	"strength": 35,
-    	"uniques": ["Consumes [1] [Slaves]", "Consumes [1] [Oil]",
+  	"strength": 30,
+    	"rangedStrength": 35,
+	"upgradesTo": "Helicopter",
+	"uniques": ["Consumes [1] [Oil]",
 	"Can move after attacking",
 	"No defensive terrain bonus",
 	"[-33]% Strength <vs cities>",
-	"Can upgrade to [Tank]",
-	"Can upgrade to [Helicopter]",
 	"Uncapturable",
 	"Unbuildable"
 	],
   	"promotions": ["Slave Runner Ability"],
-	"attackSound": "machinegun"
+	"attackSound": "shot"
   },
 
 	{
-		"name": "Controller",
+		"name": "Outlands Controller",
 		"uniqueTo": "Vultures",
 		"replaces": "Great General",
 		"unitType": "Civilian",
