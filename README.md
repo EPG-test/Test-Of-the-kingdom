@@ -4,7 +4,8 @@ Mod for deciv where I can test my own ideas.
 THe Main faction of this mod is "The Forgotten Kingdom of Wasteland". (This is the main branch that only adds this faction
 Second Branch is a small expansion of this mod with 3 extra factions, 3 extra wonders and 1 Extra city state. (In future I could add possible buildings for all factions)
 Cuz I'm new to Unciv modding scene please take the balancing and my lore-writing with some grain of salt. (I accept any criticism BUT it needs to have arms and legs)
-This mod **Should** be compatibatile with other mods and especially with the "Outlaws of The Wastes" mod by The-S-is-silent.
+
+This mod Should be compatibatile with other mods and especially with the "Outlaws of The Wastes" mod by The-S-is-silent.
 
 Here's some lore I threw here of my factions
 
