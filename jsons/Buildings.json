@@ -556,7 +556,23 @@
 		],
 		"requiredTech": "Laboratory"
 	},
-{
+    // <if [Outlaws of the Wastes] is not enabled>
+// <if [Outlaws of the Wastes] is enabled>
+	{
+		"name": "Social Network",
+		"replaces": "Transport Network",
+		"uniqueTo": "Vultures",
+		"maintenance": 3,
+	    	"uniques": [
+			"[+1 Food, +1 Production] from [Forest] tiles [in this city] <if [Outlaws of the Wastes] is not enabled>",
+			"[+1 Food, +1 Production] from [Jungle] tiles [in this city] <if [Outlaws of the Wastes] is not enabled>",
+			"[+2 Food, +2 Production] from [Borough] tiles [in this city] <if [Outlaws of the Wastes] is not enabled>",
+			"[+1 Production] from [Borough] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
+			"[+1 Science, +1 Food,] from each Trade Route",
+			"Consumes [1] [Power]"
+		] "requiredTech": "Incentivization",
+	},
+	{
 	"name": "Resource Office",
 	"replaces": "Town Hall",
 	"uniqueTo": "Vultures",
