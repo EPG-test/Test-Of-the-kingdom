@@ -556,8 +556,8 @@
 		],
 		"requiredTech": "Laboratory"
 	},
-    // <if [Outlaws of the Wastes] is not enabled>
-// <if [Outlaws of the Wastes] is enabled>
+    // <if Outlaws of the Wastes is not enabled>
+// <if Outlaws of the Wastes is enabled>
 	{
 		"name": "Social Network",
 		"replaces": "Transport Network",
