@@ -25,37 +25,65 @@ BuildingIcons/Golden Castle
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/The Blue Wall
+BuildingIcons/Humanity's Revival Memorial
   rotate: false
   xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Forgotten Kingdom of Wasteland
+BuildingIcons/Laser Cutting Facility
   rotate: false
   xy: 976, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Oceanic De-extinction Project
+  rotate: false
+  xy: 1084, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Blue Wall
+  rotate: false
+  xy: 1192, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Forgotten Kingdom of Wasteland
+  rotate: false
+  xy: 1300, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Crystal Waterfall
+  rotate: false
+  xy: 1408, 68
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Representative Manor
   rotate: false
-  xy: 1124, 72
+  xy: 1448, 36
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Guardsman
   rotate: false
-  xy: 1084, 76
+  xy: 1408, 32
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hawk Eye
   rotate: false
-  xy: 1084, 40
+  xy: 1448, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
