@@ -13,7 +13,7 @@ The Forgotten Kingdom:
 
 This **Kingdom's** name is a real secret. Why? Nobody just bothered to ask so... everyone started naming it **"The Forgotten Kindom Of Wasteland"** but in real the name is just "Merra".
 This beloved by many faction started as a small **city state** like being. But everything changed when the (fir-) Verdict of expansion had been accepted by the **King**.
-Of course inexperience with outside world and fear of the unknown were huge problems not not only to the new explorers but also **Merra** residents too. 
+Of course inexperience with outside world and fear of the unknown were huge problems not only to the new explorers but also **Merra** residents too. 
 Resource Scarcity, Bandits, Unforgettable (Unforgivable) terrain and climate. 
 But don't worry everything will be just **fine**, right?
 
