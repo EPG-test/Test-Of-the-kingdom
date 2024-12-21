@@ -909,8 +909,7 @@
 		],
 		"requiredTech": "Laboratory"
 	},
-	{
-		"name": "Information Transfering Sector",
+	{	"name": "Information Transfering Sector",
 		"replaces":"Decryption Center",
 		"uniqueTo": "All-in-One Company",
 		"percentStatBonus": {"Science": 20},
@@ -919,14 +918,12 @@
 			"[+2 Science] [in this city] <when above [0] [Power]>",
 			"[+1 Science] from every [Scientist] <in this city>",
 			"[+1 Science] from every [Supervisor] <in this city> <hidden from users>",
-			"Only available <in cities with a [Data Center]>"
-		],
+			"Only available <in cities with a [Data Center]>"],
 		"percentStatBonus": { "science": 25 },
 		"requiredTech": "Decryption"
 	}
 		
-	{
-		"name": "Grove Expedition",
+{		"name": "Grove Expedition",
 		"isWonder": true,
 		"requiredTech": "Writing",
 		"cost": 150,
@@ -934,11 +931,7 @@
 			"Must have an owned [Death Grove] within [3] tiles",
 			"[+1 Science] from [Death Grove] tiles [in all cities]",
 ]
-		"civilopediaText": [
-			{
-				"text": "."
-			}
-		]
+"civilopediaText": [{"text": "."}]
 	},
 		{
 		"name": "Death Grove National Park",
@@ -948,16 +941,10 @@
 		"uniques": [
 			"Must have an owned [Death Grove] within [3] tiles",
 			"[+2 Science, +3 Culture] from [Death Grove] tiles [in all cities]",
-			"[+2 Happiness, +2 Food] from [Death Grove] tiles [in all cities] <after adopting [Naturalism]>",
-
-		]
-		"civilopediaText": [
-			{
-				"text": "."
-			}
-		]
+			"[+2 Happiness, +2 Food] from [Death Grove] tiles [in all cities] <after adopting [Naturalism]>"]
+	"civilopediaText": [{"text": "."}]
 	},
-			{
+	{
 		"name": "'Death Wood Lumbery'",
 		"isWonder": true,
 		"requiredTech": "Replaceable Parts",
@@ -965,13 +952,8 @@
 		"uniques": [
 			"Must have an owned [Death Grove] within [3] tiles",
 			"[-1 Culture, +1 Science, +3 Production, +1 Food] from [Death Grove] tiles [in all cities]",
-			"Provides [2] [Death Wood]",
-		]
-		"civilopediaText": [
-			{
-				"text": "."
-			}
-		]
+			"Provides [2] [Death Wood]"]
+		"civilopediaText": [{"text": "."}]
 	},
 		{
 		"name": "Crystal Mountain Resort",
@@ -982,14 +964,9 @@
 		"uniques": ["Must have an owned [Crystal Waterfall] within [3] tiles",
 			"[+3 Culture, +2 Gold] from [Crystal Waterfall] tiles [in all cities]",
 			"[+1 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city]",
-			"[+1 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city] <after discovering [Ecotheory]>"
-]
-		"civilopediaText": [
-			{
-				"text": "."
-			}
-		]
-	},
+			"[+1 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city] <after discovering [Ecotheory]>"]
+"civilopediaText": [{"text": "."}]
+		},
 	{
 		"name": "Crystal Water Sanctuary",
 		"isWonder": true,
@@ -999,11 +976,7 @@
 		"uniques": ["Must have an owned [Crystal Waterfall] within [3] tiles",
 			"[+2 Food, +3 Gold] from [Crystal Waterfall] tiles [in all cities]",
 			"[+2 Food, +2 Gold] from each Trade Route"]
-		"civilopediaText": [
-			{
-				"text": "."
-			}
-		]
+		"civilopediaText": [{"text": "."}]
 	},
 	{ 
 "name": "Oceanic De-extinction Project",
