@@ -34,8 +34,10 @@
 		"name": "Abandoned Megalopolis",
 		"type": "NaturalWonder",
 		"science": 3,
-		"Production": 2,
+		"production": 2,
 		"turnsInto": "Mountain",
+		"occursOn": ["Wasteland", "Badlands"],
+		"uniques": ["Must be adjacent to [1] to [6] [Jungle] tiles"],
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
