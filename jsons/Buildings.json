@@ -978,6 +978,16 @@
 			"[+2 Food, +2 Gold] from each Trade Route"]
 		"civilopediaText": [{"text": "."}]
 	},
+		{"name": "Megalopolis Renewal",
+		"isWonder": true,
+		"requiredTech": "Incentivization"
+		"cost":1500,
+		"percentStatBonus": { "science": 10, "production": 10, "culture": 10 },
+		"uniques": ["Must have an owned [Desolate Megalopolis] within [3] tiles",
+			"[+4 Food, +1 Culture] from [Desolate Megalopolis] tiles [in all cities]",
+			"[+2] population [in this city]",]
+		"civilopediaText": [{"text": "."}]
+	},
 	{ 
 "name": "Oceanic De-extinction Project",
 "cost":1250,
