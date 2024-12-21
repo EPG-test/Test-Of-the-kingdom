@@ -29,5 +29,15 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
+	},
+	{
+		"name": "Abandoned Megalopolis",
+		"type": "NaturalWonder",
+		"science": 3,
+		"Production": 2,
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
 	}
 ]
