@@ -148,8 +148,8 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Only available <in cities with a [Library]>",
-			"[+10]% Production when constructing [Dark Soldier] units [in this city] <when at war>",
-			"[+2 Production] [in this city] <when above [0] [Power]>",
+			"[+10]% Production when constructing [Dark Soldier] units [in this city]",
+			"[+3 Production] [in this city] <when above [0] [Power]>",
 			"[+3 Production] [in this city] <when above [2] [Coal]>",
 			
 			"Consumes [1] [Coal]",
