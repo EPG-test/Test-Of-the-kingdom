@@ -35,8 +35,8 @@
 }
 
 	
-	{ "name": "Decree of Expansion",
-	
+	{ 
+	"name": "Decree of Expansion",
 	"isNationalWonder": true,
 	"cost":40,
 	"replaces":"Search for Survivors",
@@ -83,7 +83,7 @@
 		"[-25]% Gold cost of acquiring tiles [in this city]",
 		"[+1 Gold] from [Natural Wonder] tiles [in this city]",
 		"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Power]>",
-		"[+1 Happiness, +1 Culture, +1 Gold] [in this city] <after discovering [Flight]>"],
+		"[+1 Happiness, +1 Gold] [in this city] <after discovering [Flight]>"],
 
 		"requiredTech": "Civil Service",
 	
@@ -92,7 +92,34 @@
 				"text": "Building where King can rest from his political efforts."
 			}]
 			},
+{
+		"name":"",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"replaces":"Listening Post",
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Culture] from every [Great Improvement] <in this city>",
+			"[-25]% enemy spy effectiveness [in this city]",
+			"Hidden when espionage is disabled",
+			"Destroyed when the city is captured"]	   
+		"requiredTech": "Radio"
+},
 		{
+		"name": "Interpretation Center",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"replaces":"Television Studio",
+		"culture": 1,
+		"happiness": 2,
+		"specialistSlots": { "Administrator": 1 },
+		"maintenance": 1,
+		"uniques": [
+			"Gain [20] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"Only available <in cities with a [Broadcast Tower]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Electronics"},
+
+	{
 		"name": "Tinkerer's Workshop",
 		"replaces": "Forge",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -120,7 +147,7 @@
 		"uniques": [
 			"Only available <in cities with a [Library]>",
 			"[+10]% Production when constructing [Dark Soldier] units [in this city] <when at war>",
-			"[+2 Production, +2 Culture] [in this city] <when above [0] [Power]>",
+			"[+2 Production] [in this city] <when above [0] [Power]>",
 			"[+3 Production] [in this city] <when above [2] [Coal]>",
 			
 			"Consumes [1] [Coal]",
@@ -159,11 +186,11 @@
 		"uniques": [
 		"[+1 Culture] from every [Walls]",
 		"[+1 Culture] from every [Defensive Emplacements]",
-		"[+2 Culture] from every [Castle]",
-		"[+2 Culture] from every [Golden Castle] <hidden from users>",
-		"[+2 Culture] from every [Bastions]",
+		"[+1 Culture] from every [Castle]",
+		"[+1 Culture] from every [Golden Castle] <hidden from users>",
+		"[+1 Culture] from every [Bastions]",
 		"[+2 Culture] from every [King's Residence]",
-		"[+3 Culture] from every [Relocation Office]",
+		"[+2 Culture] from every [Relocation Office]",
 
 		"[+5]% [Culture] from every [Castle]",
 		"[+5]% [Culture] from every [Golden Castle] <hidden from users>",
@@ -252,7 +279,6 @@
 		"replaces":"Work Camp",
 		"happiness": 1,
 		"food":2,
-		"culture":1,
 		"cost": 60
 		"maintenance": 1,
 		"hurryCostModifier": 0,
@@ -274,7 +300,7 @@
 
 // Wish I could make something like: |+1 Gold| Per Civilization known',
 {
-		"name": "Worldwide Embassy",
+		"name": "Ministry of Foreign Affairs",
 		"replaces": "Public Works Administration",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"culture":3,
@@ -559,7 +585,7 @@
     // <if Outlaws of the Wastes is not enabled>
 // <if Outlaws of the Wastes is enabled>
 	{
-		"name": "Social Network",
+		"name": "Inter-city Social Network",
 		"replaces": "Transport Network",
 		"uniqueTo": "Vultures",
 		"maintenance": 3,
