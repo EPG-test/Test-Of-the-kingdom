@@ -76,7 +76,7 @@
 		"replaces": "Town Hall",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"cost":160,
-		"happiness": 1,
+		"culture": 1,
 		"maintenance": 1,
 		"specialistSlots": {"Administrator": 1},
 		"uniques": [
@@ -89,7 +89,7 @@
 	
 		"civilopediaText": [
 			{
-				"text": "Building where King can rest from his political efforts."
+				"text": "His Majesty's residence where He can rest from his political efforts."
 			}]
 			},
 {		
