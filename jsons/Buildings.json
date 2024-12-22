@@ -101,6 +101,7 @@
 		"uniques": [
 			"[+1 Culture] from [Natural Wonder] tiles [in this city]",
 			"[-25]% enemy spy effectiveness [in this city]",
+			"Remove extra unhappiness from annexed cities",
 			"Hidden when espionage is disabled",
 			"Destroyed when the city is captured"]	   
 		"requiredTech": "Radio"
