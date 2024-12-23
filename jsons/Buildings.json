@@ -78,7 +78,6 @@
 		"cost":160,
 		"culture": 2,
 		"maintenance": 1,
-		"specialistSlots": {"Administrator": 1},
 		"uniques": [
 		"[-25]% Culture cost of natural border growth [in this city]",
 		"[-25]% Gold cost of acquiring tiles [in this city]",
@@ -97,6 +96,7 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"replaces":"Listening Post",
 		"maintenance": 1,
+		"specialistSlots": {"Administrator": 1},
 		"uniques": [
 			"[+1 Gold, +1 Science] from [Natural Wonder] tiles [in this city]",
 			"[+1 Happiness, +1 Gold] [in this city] <after discovering [Flight]>",
