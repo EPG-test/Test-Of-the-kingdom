@@ -15,6 +15,23 @@
     
    "attackSound": "nonmetalhit"
   },
+{ "name":"Vanguard",
+"replaces": "Machete",
+"uniqueTo": "The Forgotten Kingdom of Wasteland",
+"unitType": "Scrapper",
+"movement": 2,
+"strength": 26,
+"cost": 50,
+"obsoleteTech": "Rifling",
+"upgradesTo": "Militia",
+"uniques": [
+"Low Tech", 
+"[+25]% Strength <vs [Barbarian] units>",
+"[+25]% Strength <vs [Low Tech] units>",
+"[+1] Movement <in [Foreign Land] tiles>"],
+    
+   "attackSound": "nonmetalhit"
+  },
 
 {
 "name": "Hawk Eye",
