@@ -13,7 +13,7 @@
 "cost": 1,
 "cityStrength": 7,
 "cityHealth": 70,
- "uniques": ["Indicates the capital city", "Doubles Gold given to enemy if city is captured"]
+ "uniques": ["Indicates the capital city", "Doubles Gold given to enemy if city is captured", "Gain a free [King's Residence] [in this city]",]
   },
 
 { "name": "The Blue Wall" 
