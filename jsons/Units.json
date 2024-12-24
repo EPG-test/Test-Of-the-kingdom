@@ -27,10 +27,8 @@
 "uniques": [
 "Low Tech", 
 "[+25]% Strength <vs [Barbarian] units>",
-"[+25]% Strength <vs [Low Tech] units>",
-"[+1] Movement <in [Foreign Land] tiles>"],
-    
-   "attackSound": "nonmetalhit"
+"[+50]% Strength <vs [Low Tech] units>"],
+    "attackSound": "nonmetalhit"
   },
 
 {
