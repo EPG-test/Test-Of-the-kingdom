@@ -167,7 +167,7 @@
    "uniques":[
 "[{Military} {Land}] units gain the [Utilization] promotion",
 "Double quantity of [Slaves] produced",
-"Comment [Capital gains +1 Gold/Production/Food for every Luxury/Strategic/Bonus resource you own]",
+"Comment [Capital gains +1 Gold/Production for every Luxury/Strategic resource you own]",
 "Starts with [Supremacy] adopted",
 	"[+1 Gold] [in capital] <with [Books]> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Data]> <hidden from users>",
@@ -194,9 +194,8 @@
 	"[+1 Gold] [in capital] <with [Salt]> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Artifacts]> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Jellyfish]> <hidden from users>",
-	
-	"[+1 Gold] [in capital] <with [Plankton]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
-	
+	"[+1 Gold] [in capital] <with [Cactus]> <hidden from users>",
+	"[+1 Gold] [in capital] <with [Cobalt]> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Gems]> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Silver]> <hidden from users>",
 	
@@ -207,7 +206,6 @@
 	"[+1 Gold] [in capital] <with [VX]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
 
 	"[+1 Gold] [in capital] <with [Mercury]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-	"[+1 Gold] [in capital] <with [Cactus]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Mutant Eel]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Advanced Fabrics]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Newspaper]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
@@ -216,17 +214,6 @@
 	"[+1 Gold] [in capital] <with [Refined Experimental Chemicals]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 
 	"[+1 Gold] [in capital] <with [Flowers]> <hidden from users>",
-		
-	"[+1 Food] [in capital] <with [Grain]> <hidden from users>",
-	"[+1 Food] [in capital] <with [Tubers]> <hidden from users>",
-	"[+1 Food] [in capital] <with [Insects]> <hidden from users>",
-	"[+1 Food] [in capital] <with [Algae]> <hidden from users>",
-	"[+1 Food] [in capital] <with [Horses]> <hidden from users>",
-	"[+1 Food] [in capital] <with [Groundwater]> <hidden from users>",
-	
-	"[+1 Food] [in capital] <with [Plankton]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-	"[+1 Food] [in capital] <with [Maize]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-	"[+1 Food] [in capital] <with [Deep-sea Fish]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 	
 	"[+1 Production] [in capital] <with [Power]> <hidden from users>",
 	"[+1 Production] [in capital] <with [Coal]> <hidden from users>",
