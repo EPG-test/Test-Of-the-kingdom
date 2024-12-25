@@ -33,7 +33,7 @@
 		}
 	},
 
-	{
+{
 		"name": "Blessed",
 		"food": 7,
 		"production": 5,
@@ -53,7 +53,7 @@
 			
       
       			"Adaptation": 30,
-			"Expansionism": 10,
+			"Expansionism": 0,
 			"Sovereignty": 0,
 			"Theocracy": 50,
 			"Rationalism": 0,
