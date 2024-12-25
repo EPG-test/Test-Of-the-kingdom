@@ -226,7 +226,7 @@
 	
 	"[+1 Food] [in capital] <with [Plankton]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 	"[+1 Food] [in capital] <with [Maize]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-	"[+1 Food] [in capital] <with [Deepwater Fish]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+	"[+1 Food] [in capital] <with [Deep-sea Fish]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 	
 	"[+1 Production] [in capital] <with [Power]> <hidden from users>",
 	"[+1 Production] [in capital] <with [Coal]> <hidden from users>",
