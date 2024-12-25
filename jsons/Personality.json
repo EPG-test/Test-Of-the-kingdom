@@ -81,9 +81,9 @@
 		"expansion": 4,
 		"priorities": {
 			"Adaptation": 30,
-			"Expansionism": 0,
+			"Expansionism": 40
 			"Sovereignty": 30,
-			"Theocracy": 0,
+			"Theocracy": 50,
 			"Rationalism": 40,
 			"Constitution": 0,
 			"Supremacy": 40,
