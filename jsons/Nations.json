@@ -147,10 +147,10 @@
 {
     "name":"Vultures",
     "leaderName":"Andrey Canbs",
-    "adjective": ["False Saviours"],
-    "preferredVictoryType": "Diplomatic", 
-    "personality": "Superior",
-    "favoredReligion": "Humanism",
+    "adjective":["False Saviours"],
+    "preferredVictoryType":"Diplomatic", 
+    "personality":"Superior",
+    "favoredReligion":"Humanism",
    
     "startIntroPart1":"sss" ,
     "startIntroPart2": "consume",
