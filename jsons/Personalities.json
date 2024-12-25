@@ -32,40 +32,40 @@
 			"Bionics": 30
 		}
 	},
-
 {
-		"name": "Blessed",
-		"food": 7,
-		"production": 5,
-		"gold": 5,
+		"name": "Housemaster",
+		"food": 6,
+		"production": 6,
+		"gold": 8,
 		"science": 6,
-		"culture": 6,
-		"faith": 8,
-		"happiness": 6,
-		"military": 6,
-		"aggressive": 3,
+		"culture": 5,
+		"faith": 4,
+		"happiness": 5,
+		"military": 5,
+		"aggressive": 4,
 		"declareWar": 5,
 		"commerce": 5,
-		"diplomacy": 5,
+		"diplomacy": 6,
 		"loyal": 5,
-		"expansion": 6,
+		"expansion": 5,
 		"priorities": {
 			
       
       			"Adaptation": 30,
-			"Expansionism": 0,
+			"Expansionism": 20,
 			"Sovereignty": 0,
-			"Theocracy": 50,
-			"Rationalism": 0,
-			"Constitution": 20,
+			"Theocracy": 0,
+			"Rationalism": 30,
+			"Constitution": 40,
 			"Supremacy": 0,
-			"Monopoly": 20,
-			"Collectivism": 20,
-			"Naturalism": 40,
+			"Monopoly": 40,
+			"Collectivism": 0,
+			"Naturalism": 0,
 			"Mechanization": 0,
-			"Bionics": 0
+			"Bionics": 30
 		}
 	},
+
 {
 		"name": "Cannibal",
 		"food": 6,
