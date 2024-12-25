@@ -63,8 +63,8 @@
     "name":"Last Bastion",
     "leaderName":"The something",
     "adjective": ["Sinner"],
-    "preferredVictoryType": "Diplomatic", 
-    "personality": "Priest"
+    "preferredVictoryType": "Religious", 
+    "personality": "Blessed",
     "favoredReligion": "Humanism",
    
     "startIntroPart1":" sss" ,
