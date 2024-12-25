@@ -241,8 +241,15 @@
    ]
    
   "cities": [ 
-    "Nesting grounds"
-    ]
+    "Nesting grounds",
+"Fox's Den",
+"Beaver Dam",
+"Rabbit Burrow",
+"Hen's Coop",  
+"Goat's Pen",
+"Horse's Stable",
+"Spider's Web",
+"Bee's Nest" ]
     "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   },
 {
