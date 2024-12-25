@@ -49,9 +49,7 @@
 		"loyal": 4,
 		"expansion": 5,
 		"priorities": {
-			
-      
-      			"Adaptation": 30,
+			"Adaptation": 30,
 			"Expansionism": 20,
 			"Sovereignty": 0,
 			"Theocracy": 40,
@@ -82,9 +80,7 @@
 		"loyal": 4,
 		"expansion": 4,
 		"priorities": {
-			
-      
-      			"Adaptation": 30,
+			"Adaptation": 30,
 			"Expansionism": 0,
 			"Sovereignty": 30,
 			"Theocracy": 0,
