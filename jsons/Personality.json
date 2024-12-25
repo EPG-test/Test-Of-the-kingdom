@@ -21,7 +21,7 @@
       			"Adaptation": 30,
 			"Expansionism": 40,
 			"Sovereignty": 20,
-			"Theocracy": 10,
+			"Theocracy": 0,
 			"Rationalism": 20,
 			"Constitution": 40,
 			"Supremacy": 0,
@@ -64,7 +64,7 @@
 		}
 	}
 {
-		"name": "Superior",
+		"name": "Cannibal",
 		"food": 6,
 		"production": 7,
 		"gold": 5,
@@ -80,10 +80,12 @@
 		"loyal": 4,
 		"expansion": 4,
 		"priorities": {
+			
+			
 			"Adaptation": 30,
-			"Expansionism": 40
+			"Expansionism": 0
 			"Sovereignty": 30,
-			"Theocracy": 50,
+			"Theocracy": 0,
 			"Rationalism": 40,
 			"Constitution": 0,
 			"Supremacy": 40,
