@@ -33,6 +33,39 @@
 		}
 	},
 {
+		"name": "Blessed",
+		"food": 7,
+		"production": 5,
+		"gold": 5,
+		"science": 6,
+		"culture": 6,
+		"faith": 8,
+		"happiness": 6,
+		"military": 6,
+		"aggressive": 3,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 6,
+		"priorities": {
+
+
+      			"Adaptation": 30,
+			"Expansionism": 0,
+			"Sovereignty": 0,
+			"Theocracy": 50,
+			"Rationalism": 0,
+			"Constitution": 20,
+			"Supremacy": 0,
+			"Monopoly": 20,
+			"Collectivism": 20,
+			"Naturalism": 40,
+			"Mechanization": 0,
+			"Bionics": 0
+		}
+	},
+{
 		"name": "Housemaster",
 		"food": 6,
 		"production": 6,
@@ -52,7 +85,7 @@
 			
       
       			"Adaptation": 30,
-			"Expansionism": 20,
+			"Expansionism": 0,
 			"Sovereignty": 0,
 			"Theocracy": 0,
 			"Rationalism": 30,
