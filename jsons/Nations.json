@@ -36,7 +36,7 @@
 "[+100]% Yield from every [Natural Wonder]",
 "Starts with [Construction]",
 "Starts with [Iron Working]",
-"Starts with [Expansionism] adopted",
+"[-10]% Unhappiness from [Population] [in all cities]",
 "Comment [Congress and Council buildings are replaced with Royal Advisors]",
 "Comment [Cannot build Prison Camps]",
 "Cannot build [Enslaved] units"]
@@ -258,7 +258,6 @@
     "tradeRequest": "Satisfied?",
     "outerColor": [16, 37, 76],
     "innerColor":  [239, 218, 179],
-    // For real the UN should be '9 to 5'
     "uniqueName":"Everthing You Want",
     "uniques":[ 
 	   "[+50]% Culture cost of natural border growth [in all cities]",
