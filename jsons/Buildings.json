@@ -38,7 +38,8 @@
 	{ 
 	"name": "Decree of Expansion",
 	"isNationalWonder": true,
-	"cost":40,
+	"happiness":2,
+	"cost":30,
 	"replaces":"Search for Survivors",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"uniques":["Free [Great Representative] appears", 
