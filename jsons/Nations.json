@@ -20,8 +20,6 @@
     "innerColor":  [132, 6, 19],
     "uniqueName":"Golden Dynasty"
    "uniques":[
-//"Reveal up to [25] Coastal within a [10] tile radius",
-"Reveal up to [25] [Natural Wonder] within a [50] tile radius",
 "Comment [+20% [Production] when constructing National Wonders and buildings required for National Wonders]",
 "[+20]% Production when constructing [National] wonders [in all cities] <hidden from users>",
 "[+20]% Production when constructing [Library] buildings [in all cities] <hidden from users>",
