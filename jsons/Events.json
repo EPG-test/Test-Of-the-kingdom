@@ -4,7 +4,7 @@
 		"choices": [
 			{
 				"text": ".",
-				"uniques": ["Reveal up to [2] [Natural Wonder] within a [10] tile radius"]
+				"uniques": ["Reveal up to [25] [Natural Wonder] within a [50] tile radius",]
 			}
 		]
 	}
