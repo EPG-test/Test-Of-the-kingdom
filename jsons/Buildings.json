@@ -283,20 +283,19 @@
 		"name": "Ministry of Foreign Affairs",
 		"replaces": "Public Works Administration",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"culture":3,
-		"cost": 300,
+		"culture":1,
+		"cost": 200,
 		"greatPersonPoints": { "Great Administrator": 3 },
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <after adopting [Constitution]>",
-			"[+2 Production] [in all cities connected to capital]",
+			"[+1 Production] [in all cities connected to capital]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+1 Gold, +1 Culture] from every [Representation Center]",
 			"Gain [50] [Culture] <upon declaring friendship>",
 			"Gain [50] [Culture] <upon declaring a defensive pact>",
 			"[+50]% Golden Age length <if [Outlaws of the Wastes] is enabled>",
 			"Only available <if [King's Residence] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Civil Service"
 	
