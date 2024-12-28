@@ -300,18 +300,18 @@
     ]
         "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   }
-{
-		"name": "The Sounds",
-		"adjective": ["Vocaloid"],
-		"cityStateType": "Culture",
-		"style": "",
-		"uniques": ["Starts with [Secrets of the Past]","Starts with [Radio]"],
-		"declaringWar": "Let the music flow freely.",
-		"attacked": "Sounds of your despair will be heard for long time.",
-		"defeated": "Please... Spare our voices",
-		"outerColor": [0, 0, 0],
-		"innerColor": [33, 43, 240],
-		"cities": ["Color of Noise"]
-}	
+//{
+//		"name": "The Sounds",
+//		"adjective": ["Vocaloid"],
+//		"cityStateType": "Culture",
+//		"style": "",
+//		"uniques": ["Starts with [Secrets of the Past]","Starts with [Radio]"],
+//		"declaringWar": "Let the music flow freely.",
+//		"attacked": "Sounds of your despair will be heard for long time.",
+//		"defeated": "Please... Spare our voices",
+//		"outerColor": [0, 0, 0],
+//		"innerColor": [33, 43, 240],
+//		"cities": ["Color of Noise"]
+//}	
 ]
 
