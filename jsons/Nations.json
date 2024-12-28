@@ -303,7 +303,7 @@
 {
 		"name": "The Sounds",
 		"adjective": ["Vocaloid"],
-		"cityStateType": "Sound-like",
+		"cityStateType": "Culture",
 		"style": "",
 		"uniques": ["Starts with [Secrets of the Past]","Starts with [Radio]"],
 		"declaringWar": "Let the music flow freely.",
