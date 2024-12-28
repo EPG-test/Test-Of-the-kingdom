@@ -151,7 +151,7 @@
 			"Only available <in cities with a [Library]>",
 			"[+10]% Production when constructing [Dark Soldier] units [in this city]",
 			"[+3 Production] [in this city] <when above [0] [Power]>",
-			"[+3 Production] [in this city] <when above [2] [Coal]>",
+			"[+3 Production] [in this city] <when above [0] [Coal]>",
 			
 			"Consumes [1] [Coal]",
 		],
@@ -163,25 +163,6 @@
 		]
 	},
 	//Advisors 
-	{
-		"name":"The Conqueror"
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"requiredTech": "Civil Service",
-		"uniques": [
-		"[+10]% Strength <for [Land] units> <when fighting in [Foreign Land] tiles>",
-		"[+10]% Strength <for [Personnel] units> <when fighting in [Enemy Land] tiles>",
-		"[-20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
-		"[-25]% maintenance costs <for [Military] units>",
-		
-		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
-		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
-		"Only available <in cities without a [Research Advisor]> <hidden from users>",
-		
-		"Only available <if [Search for Survivors] is constructed>",
-		"Can only be built <in [Capital] cities>",
-		"Destroyed when the city is captured"]
-		
-	},
 	{	
 		"name":"Cultural Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -206,7 +187,6 @@
 		"[-25]% Strength <vs [Barbarian] units>",
 		"[-15]% [Gold] [in all cities] <hidden from users>",
 		
-		"Only available <in cities without a [Military Advisor]> <hidden from users>",
 		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
 		"Only available <in cities without a [Research Advisor]> <hidden from users>",
 		
@@ -235,7 +215,6 @@
 		"[-15]% Production when constructing [All] units [in all cities]",
 	
 		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
-		"Only available <in cities without a [Military Advisor]> <hidden from users>",
 		"Only available <in cities without a [Research Advisor]> <hidden from users>",
 		
 		"Only available <if [Search for Survivors] is constructed>",
@@ -257,7 +236,6 @@
 		"[+3 Science] from every [Data Center]",
 		"Comment [+10%/+7%/+5% Science in all cities during Neofeudal/Rebuilding/Industrual Era]",
 		"Comment [-5% Gold and -10%/-7%/-5% Culture in all cities during Neofeudal/Rebuilding/Industrual Era]",
-		"Comment [Enables Advanced Long-range Missle Weapons Production]",
 		"[+10]% [Science] [in all cities] <during the [Neofeudal era]><hidden from users>",
 		"[+7]% [Science] [in all cities] <during the [Rebuilding era]> <hidden from users>",
 		"[+5]% [Science] [in all cities] <starting from the [Industrial era]> <hidden from users>",
@@ -269,7 +247,6 @@
 		"[-5]% [Culture] [in all cities] <starting from the [Industrial era]> <hidden from users>",
 		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
 		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
-		"Only available <in cities without a [Military Advisor]> <hidden from users>",
 		
 		"Only available <if [Search for Survivors] is constructed>",
 		"Can only be built <in [Capital] cities>",
@@ -313,7 +290,8 @@
 		"uniques": [
 			"Only available <after adopting [Constitution]>",
 			"[+2 Production] [in all cities connected to capital]",
-			"[+1 Gold, +1 Culture] from every [Representation Center] <after discovering [Flight]>",
+			"[-5]% Unhappiness from [Population] [in all cities]",
+			"[+1 Gold, +1 Culture] from every [Representation Center]",
 			"Gain [50] [Culture] <upon declaring friendship>",
 			"Gain [50] [Culture] <upon declaring a defensive pact>",
 			"[+50]% Golden Age length <if [Outlaws of the Wastes] is enabled>",
