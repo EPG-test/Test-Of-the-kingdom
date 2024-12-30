@@ -18,72 +18,107 @@ BuildingIcons/Decree of Expansion
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Golden Castle
+BuildingIcons/Foreigners Agency
   rotate: false
   xy: 436, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Humanity's Revival Memorial
+BuildingIcons/Golden Castle
   rotate: false
-  xy: 868, 4
+  xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Laser Cutting Facility
+BuildingIcons/Great Metals Foundry
+  rotate: false
+  xy: 1840, 29
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+BuildingIcons/Humanity's Revival Memorial
   rotate: false
   xy: 976, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Oceanic De-extinction Project
+BuildingIcons/Interpretation Center
   rotate: false
   xy: 1084, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/The Blue Wall
+BuildingIcons/King's Residence
   rotate: false
   xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/The Forgotten Kingdom of Wasteland
+BuildingIcons/Laser Cutting Facility
   rotate: false
   xy: 1300, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Oceanic De-extinction Project
+  rotate: false
+  xy: 1408, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Blue Wall
+  rotate: false
+  xy: 1516, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tinkerer's Workshop
+  rotate: false
+  xy: 1732, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Forgotten Kingdom of Wasteland
+  rotate: false
+  xy: 1624, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Crystal Waterfall
   rotate: false
-  xy: 1408, 68
+  xy: 1923, 68
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Representative Manor
   rotate: false
-  xy: 1448, 36
+  xy: 1963, 36
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Guardsman
   rotate: false
-  xy: 1408, 32
+  xy: 1923, 32
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hawk Eye
   rotate: false
-  xy: 1448, 76
+  xy: 1963, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -104,21 +139,21 @@ UnitIcons/Dark Slayer
   index: -1
 UnitIcons/Great Representative
   rotate: false
-  xy: 544, 4
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Guardsman
   rotate: false
-  xy: 652, 4
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hawk Eye
   rotate: false
-  xy: 760, 4
+  xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
