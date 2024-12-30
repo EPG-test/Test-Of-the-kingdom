@@ -15,5 +15,20 @@
 	"Removes removable features when built",
 	"Pillaging this improvement yields approximately [+20 Gold, +30 Culture]"]
   }
+	{
+		"name": "Artificial Bay",
+		"techRequired": "Optics",
+		"terrainsCanBeBuiltOn": ["Sunken Ruins"],
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 6,
+		"uniques": [
+			"Food source",
+			"[+1 Food] <after discovering [Oceanography]>",
+			"[+1 Production] for each adjacent [Fishing Boats]",
+			"Can only be built on [Water] tiles",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
 ]
 
