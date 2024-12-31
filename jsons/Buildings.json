@@ -13,7 +13,7 @@
 "cost": 1,
 "cityStrength": 7,
 "cityHealth": 70,
- "uniques": ["Indicates the capital city", "Doubles Gold given to enemy if city is captured", "Gain a free [King's Residence] [in this city]",]
+ "uniques": ["Indicates the capital city", "Doubles Gold given to enemy if city is captured", "Gain a free [King's Residence] [in this city]"]
   },
 
 { "name": "The Blue Wall" 
@@ -970,18 +970,20 @@
 		"uniques": ["Must have an owned [Crystal Waterfall] within [3] tiles",
 			"[+3 Culture, +2 Gold] from [Crystal Waterfall] tiles [in all cities]",
 			"[+1 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city]",
-			"[+1 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city] <after discovering [Ecotheory]>"]
+			"[+1 Culture] from [{non-[Natural Wonder]} {Mountain}] tiles [in this city] <after discovering [Ecotheory]>",
+			"Unbuildable <if [Crystal Glacier Sanctuary] is constructed>"]
 "civilopediaText": [{"text": "."}]
 		},
 	{
-		"name": "Crystal Water Sanctuary",
+		"name": "Crystal Glacier Sanctuary",
 		"isWonder": true,
 		"requiredTech": "Decontamination",
-		"happinness": 2,
-		"cost": 200,
+		"cost": 300,
 		"uniques": ["Must have an owned [Crystal Waterfall] within [3] tiles",
 			"[+2 Food, +3 Gold] from [Crystal Waterfall] tiles [in all cities]",
-			"[+2 Food, +2 Gold] from each Trade Route"]
+			"[+2 Food, +1 Gold] from each Trade Route",
+			"[+1 Food, +1 Gold] from [Artificial glacier] tiles [in all cities]",
+			"Unbuildable <if [Crystal Mountain Resort] is constructed>"]
 		"civilopediaText": [{"text": "."}]
 	},
 		{"name": "Megalopolis Renewal",
