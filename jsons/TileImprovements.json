@@ -25,7 +25,10 @@
 		"uniques": [
 			"Food source",
 			"[+1 Food] <after discovering [Oceanography]>",
+			"[+1 Food] <after discovering [Ocean Remediation]>",
 			"[+1 Production] for each adjacent [Fishing Boats]",
+			"[+1 Production] for each adjacent [Bioculture]",
+			"[+1 Production] for each adjacent [Artificial Bay]",
 			"Can only be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
