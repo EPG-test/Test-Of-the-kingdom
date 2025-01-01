@@ -53,7 +53,6 @@
 		"cityStrength": 2,
 		"cost": 120,
 		"cityHealth": 40,
-		"maintenance": 1,
 		"uniques": [
 		"Only available <in cities with a [Defensive Emplacements]>",
 		"Only available <in cities without a [Bomb Shelter]> <hidden from users>",
@@ -65,8 +64,7 @@
 		"requiredTech": "Engineering",
 		"cityStrength": 4,
 		"cityHealth": 50,
-		"maintenance": 1,
-		"cost": 150,
+		"cost": 100,
 		"uniques": [
 		"Only available <in cities with a [Defensive Emplacements]>",
 		"Destroyed when the city is captured"]
