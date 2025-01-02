@@ -660,7 +660,6 @@
 		"uniqueTo": "Vultures",
 		"percentStatBonus": { "production": 15 },
 		"production": 2,
-		"science": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
