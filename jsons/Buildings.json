@@ -109,7 +109,7 @@
 		"name": "Interpretation Center",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"replaces":"Television Studio",
-		"culture": 1,
+		"culture": 2,
 		"happiness": 2,
 		"specialistSlots": { "Administrator": 1 },
 		"maintenance": 1,
@@ -232,7 +232,7 @@
 		"[+2 Science] from every [Public School]",
 		"[+3 Science] from every [Research Lab]",
 		"[+4 Science] from every [Data Center]",
-		"Comment [+10%/+7%/+5% Science in all cities during Neofeudal/Rebuilding/Industrual Era]",
+		"Comment [+15%/+10%/+5% Science in all cities during Neofeudal/Rebuilding/Industrual Era]",
 		"Comment [-5% Gold and -10%/-7%/-5% Culture in all cities during Neofeudal/Rebuilding/Industrual Era]",
 		"[15]% [Science] [in all cities] <during the [Neofeudal era]><hidden from users>",
 		"[+10]% [Science] [in all cities] <during the [Rebuilding era]> <hidden from users>",
@@ -290,6 +290,8 @@
 			"[+1 Production] [in all cities connected to capital]",
 			"Gain [50] [Culture] <upon declaring friendship>",
 			"Gain [50] [Culture] <upon declaring a defensive pact>",
+
+			"Comment [Every Congress/Council related Policy affects this building]",
 			
 			"[+5 Happiness] [in this city] <after adopting [Representation]> <hidden from users>",
 
@@ -531,7 +533,7 @@
 		"greatPersonPoints": {"Great General": 1},
 		"uniques": [
 			"[+1 Science, +1 Culture] [in this city] <when above [2] [Slaves]>",
-			"[+1 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
+			"[+1 Science] [in this city] <when above [0] [Power]>",
 			"[+1 Science] from [Jungle] tiles [in this city]",
 			"[+1 Science] from [Forest] tiles [in this city]",
 			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
@@ -544,7 +546,7 @@
 		"replaces": "Broadcast Tower",
 		"uniqueTo": "Vultures",
 		"culture": 1,
-		"science": 2,
+		"science": 1,
 		"maintenance": 2
 		"percentStatBonus": { "culture": 10, "science": 15 },
 		"specialistSlots": { "Administrator": 1 },
@@ -662,7 +664,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
-			"[+2 Production] [in this city] <when above [2] [Slaves]>",
+			"[+2 Production] [in this city] <when above [0] [Slaves]>",
 			"Consumes [1] [Slaves]",
 			"Only available <with [Slaves]>"
 		],
