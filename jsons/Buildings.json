@@ -25,8 +25,8 @@
 "uniques":[
 "[1] free [Guardsman] units appear",
 "[1] free [Vanguard] units appear",
-"[+2] Unit Supply",
-"[2] units cost no maintenance",
+"[+4] Unit Supply",
+"[4] units cost no maintenance",
 "Gain a free [Walls] [in this city]",
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
@@ -75,13 +75,13 @@
 		"replaces": "Town Hall",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"cost":160,
-		"culture": 2,
+		"culture": 1,
 		"maintenance": 1,
 		"uniques": [
 		"[-25]% Culture cost of natural border growth [in this city]",
 		"[-25]% Gold cost of acquiring tiles [in this city]",
 		"[+1 Culture] from [Natural Wonder] tiles [in this city]",
-		"[+1 Happiness, +1 Gold] [in this city] <when above [0] [Power]>"],
+		"[+1 Happiness, +1 Culture] [in this city] <when above [0] [Power]>"],
 
 		"requiredTech": "Civil Service",
 	
@@ -114,7 +114,7 @@
 		"specialistSlots": { "Administrator": 1 },
 		"maintenance": 1,
 		"uniques": [
-			"Gain [20] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"Gain [25] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"Only available <in cities with a [Broadcast Tower]>",
 			"Consumes [1] [Power]"
 		],
@@ -192,7 +192,7 @@
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 	},
-// I wish Gold slider could be removed. Use it without abusing gold slider. Because of the 'Proklyatyye' (Damned) Gold slider i want to give it a production minus,
+// actually good when at war ???
 	{
 		"name":"Economic Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -209,7 +209,7 @@
 		"[+10]% [Gold] [in all cities] <during the [Rebuilding era]> <hidden from users>",
 		"[+15]% [Gold] [in all cities] <starting from the [Industrial era]> <hidden from users>",
 		
-		"[-20]% Production when constructing [All] buildings [in all cities]",
+		"[-15]% Production when constructing [All] buildings [in all cities]",
 		"[-15]% Production when constructing [All] units [in all cities]",
 	
 		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
@@ -221,7 +221,7 @@
 		
 	},
 	
-	// Fekin gold slider balance nightmare. Can't make it better bc of it
+	//GOLD SLIDER HAS BEEN REMOVED SO IT GETS A BUFF
 	{
 		"name":"Research Advisor"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -231,11 +231,11 @@
 		"[+1 Science] from every [University]",
 		"[+2 Science] from every [Public School]",
 		"[+3 Science] from every [Research Lab]",
-		"[+3 Science] from every [Data Center]",
+		"[+4 Science] from every [Data Center]",
 		"Comment [+10%/+7%/+5% Science in all cities during Neofeudal/Rebuilding/Industrual Era]",
 		"Comment [-5% Gold and -10%/-7%/-5% Culture in all cities during Neofeudal/Rebuilding/Industrual Era]",
-		"[+10]% [Science] [in all cities] <during the [Neofeudal era]><hidden from users>",
-		"[+7]% [Science] [in all cities] <during the [Rebuilding era]> <hidden from users>",
+		"[15]% [Science] [in all cities] <during the [Neofeudal era]><hidden from users>",
+		"[+10]% [Science] [in all cities] <during the [Rebuilding era]> <hidden from users>",
 		"[+5]% [Science] [in all cities] <starting from the [Industrial era]> <hidden from users>",
 		"[-5]% [Gold] [in all cities] <during the [Neofeudal era]> <hidden from users>",
 		"[-5]% [Gold] [in all cities] <during the [Rebuilding era]> <hidden from users>",
@@ -282,17 +282,25 @@
 		"replaces": "Public Works Administration",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"culture":1,
-		"cost": 200,
+		"cost": 300,
 		"greatPersonPoints": { "Great Administrator": 3 },
 		"isNationalWonder": true,
 		"uniques": [
 			"Only available <after adopting [Constitution]>",
 			"[+1 Production] [in all cities connected to capital]",
-			"[-5]% Unhappiness from [Population] [in all cities]",
-			"[+1 Gold, +1 Culture] from every [Representation Center]",
 			"Gain [50] [Culture] <upon declaring friendship>",
 			"Gain [50] [Culture] <upon declaring a defensive pact>",
-			"[+50]% Golden Age length <if [Outlaws of the Wastes] is enabled>",
+			
+			"[+5 Happiness] [in this city] <after adopting [Representation]> <hidden from users>",
+
+			"[+33]% [Production] [in this city] <after adopting [Planned Economy]> <hidden from users>",
+			"[+25]% [Science] [in this city] <after adopting [Technocracy]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
+			"[+25]% [Culture] [in this city] <after adopting [Legislative Process]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
+			"[+10]% [Production] [in this city] <after adopting [Shared Vision]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
+			"[+33]% [Gold] [in this city] <after adopting [Monopoly]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
+			
+			"[+33]% [Culture] [in this city] <after adopting [Legislative Process]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+			"[+15]% [Production] [in this city] <after adopting [Shared Vision]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 			"Only available <if [King's Residence] is constructed in all [non-[Puppeted]] cities>",
 		],
 		"requiredTech": "Civil Service"
