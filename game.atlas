@@ -95,30 +95,37 @@ NationIcons/The Forgotten Kingdom of Wasteland
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Artificial Bay
+  rotate: false
+  xy: 1923, 75
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Crystal Waterfall
   rotate: false
-  xy: 1923, 68
+  xy: 1923, 31
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Representative Manor
+TileSets/FantasyHex/Tiles/Representation Center
   rotate: false
-  xy: 1963, 36
-  size: 32, 32
-  orig: 32, 32
+  xy: 2003, 69
+  size: 32, 35
+  orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Guardsman
   rotate: false
-  xy: 1923, 32
+  xy: 1963, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hawk Eye
   rotate: false
-  xy: 1963, 76
+  xy: 1963, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
