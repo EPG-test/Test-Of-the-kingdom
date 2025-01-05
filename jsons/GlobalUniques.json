@@ -1,6 +1,6 @@
 {
 	"name": "Global uniques",
 	"uniques": [
-		"Triggers a [Divide and Explore] event <for [The Forgotten Kingdom of Wasteland] Civilizations> <upon constructing [Decree of Expansion] [in capital]>"
+		"Triggers a [Exploration Missions] event <for [The Forgotten Kingdom of Wasteland] Civilizations> <upon turn end> <after turn number [29]> <with [2]% chance> <before the [Neofeudal era]>",
 	]
 }
