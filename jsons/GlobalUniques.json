@@ -1,6 +1,6 @@
 {
 	"name": "Global uniques",
 	"uniques": [
-		"Triggers a [Exploration Missions] event <for [The Forgotten Kingdom of Wasteland] Civilizations> <upon turn end> <after turn number [29]> <with [2]% chance> <before the [Neofeudal era]>",
+		"Triggers a [Exploration Missions] event <for [The Forgotten Kingdom of Wasteland] Civilizations> <upon turn end> <after turn number [3]> <with [99]% chance> <before the [Neofeudal era]>",
 	]
 }
