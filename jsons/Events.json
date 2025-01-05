@@ -1,11 +1,18 @@
 [
+[
 	{
-		"name": "Divide and Explore",
+		"name": "Exploration Missions",
+		"text": "Oh Dear Majesty, our Hawkeyed ones had found something in this other-world and we please to you. What should we make of our findings?",
 		"choices": [
-			{
-				"text": ".",
-				"uniques": []
-			}
+			{	"text": "Use it to arm up!",
+				"uniques": [ "Free [Vanguard] appears"]	}
+			{	"text": "Give it to our brains. I'm sure they will hapy with that",
+				"uniques": [ "Gain [25]-[30] [Science],"]	}
+			{	"text": "Hmm shiny~ Golden Palace will take good care of that",
+				"uniques": [ "Gain [40]-[60] [Culture]",
+					    "Gain [50]-[100] [Gold]"]	}
+	
 		]
-	}
+	},
+
 ]
