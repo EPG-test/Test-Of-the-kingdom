@@ -4,7 +4,7 @@
 	"replaces": "Civilian Convoy",
     	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Civilian",
-	"movement": 4,
+	"movement": 3,
 	"cost": 106,
 	"uniques": [
 		"Founds a new city <by consuming this unit>",
@@ -208,6 +208,27 @@
 		"hurryCostModifier": 20,
 		"attackSound": "nuke"
 	},
+
+				"Founds a new city <by consuming this unit> <when below [1] [Dome City Count]>",
+
+	{
+	"name": "Vulture Settler",
+	"replaces": "Civilian Convoy",
+    	"uniqueTo": "Vultures",
+	"unitType": "Civilian",
+	"movement": 3,
+	"cost": 106,
+	"uniques": [
+		"Founds a new city <by consuming this unit>",
+		"[+15] HP when healing",
+		"All adjacent units heal [+15] HP when healing",
+		"Founds a new city <by consuming this unit> <when above [0] [City Limit]>",
+		"Excess Food converted to Production when under construction",
+		"Only available <if [Decree of Expansion] is constructed>",
+		"Requires at least [3] population"],
+	"hurryCostModifier": 20
+	},
+	
 { 
     	"name":"Stabilizer",
     	"replaces": "Militia",
