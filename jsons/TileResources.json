@@ -10,15 +10,4 @@
 		"name": "Death Wood",
 		"resourceType": "Luxury"
 	},
-	{
-		"name": "City Limit",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Stockpiled",
-			"Cannot be traded",
-			"Not shown on world screen",
-			"Will not be displayed in Civilopedia",
-			"Excluded from map editor"
-		]
-	}
 ]
