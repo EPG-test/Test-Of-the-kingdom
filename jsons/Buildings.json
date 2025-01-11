@@ -113,6 +113,7 @@
 		"specialistSlots": { "Administrator": 1 },
 		"maintenance": 1,
 		"uniques": [
+			"[+2]% [Culture] [in this city] <for every [Remaining [Major] Civilizations]>",
 			"Only available <in cities with a [Broadcast Tower]>",
 			"Consumes [1] [Power]"
 		],
@@ -344,7 +345,7 @@
 	"quote": "S"
 },
 { 
-	"name": "Monument of old revelations" ,
+	"name": "Monument of old World" ,
 	"uniqueTo": "Last Bastion",
 	"replaces": "Monument",
 	"cost":40,
@@ -416,7 +417,7 @@
 			"Only available <when religion is enabled>",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
-			"[+1 Gold, +1 Science, +1 Culture, +1 Production, +1 Faith] from every [Monument of old revelations]",
+			"[+1 Gold, +1 Science, +1 Culture, +1 Production, +1 Faith] from every [Monument of old World]",
 			"[+2 Faith, +1 Culture] from every [National Wonder]"
 		]
 },
@@ -644,7 +645,7 @@
 	"cost": 20,
 	"uniques": [
 		"Remove extra unhappiness from annexed cities",
-		"Can only be built <in [Annexed] cities>",
+		"Can only be built <in [Puppeted] cities>",
 		"Provides [3] [Slaves]",
 		"Only available <in cities without a [Listening Post]>",
 		"Destroyed when the city is captured"
