@@ -100,7 +100,7 @@
 			"[+1 Gold, +1 Science] from [Natural Wonder] tiles [in this city]",
 			"[-30]% enemy spy effectiveness [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"Hidden when espionage is disabled",
+			"Only available <when espionage is enabled>",
 			"Destroyed when the city is captured"]	   
 		"requiredTech": "Radio"
 },
@@ -178,10 +178,9 @@
 		"[+5]% [Culture] from every [Bastions]",
 		
 		
-		"[-30]% City Strength from defensive buildings",
+		"[-33]% City Strength from defensive buildings",
 		"[-40]% Strength for cities <with a garrison> <when attacking> <after adopting [Castle Doctrine]>",
-		"[-20]% Strength for cities <when attacking>",
-		"[-25]% Strength <vs [Barbarian] units>",
+		"[-25]% Strength for cities <when attacking>",
 		"[-15]% [Gold] [in all cities] <hidden from users>",
 		
 		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
@@ -233,7 +232,7 @@
 		"[+4 Science] from every [Data Center]",
 		"Comment [+15%/+10%/+5% Science in all cities during Neofeudal/Rebuilding/Industrual Era]",
 		"Comment [-5% Gold and -10%/-7%/-5% Culture in all cities during Neofeudal/Rebuilding/Industrual Era]",
-		"[15]% [Science] [in all cities] <during the [Neofeudal era]><hidden from users>",
+		"[+15]% [Science] [in all cities] <during the [Neofeudal era]><hidden from users>",
 		"[+10]% [Science] [in all cities] <during the [Rebuilding era]> <hidden from users>",
 		"[+5]% [Science] [in all cities] <starting from the [Industrial era]> <hidden from users>",
 		"[-5]% [Gold] [in all cities] <during the [Neofeudal era]> <hidden from users>",
@@ -287,8 +286,8 @@
 		"uniques": [
 			"Only available <after adopting [Constitution]>",
 			"[+1 Production] [in all cities connected to capital]",
-			"Gain [50] [Culture] <upon declaring friendship>",
-			"Gain [50] [Culture] <upon declaring a defensive pact>",
+			"Gain [75] [Culture] <upon declaring friendship>",
+			"Gain [75] [Culture] <upon declaring a defensive pact>",
 
 			"Comment [Every Congress/Council related Policy affects this building]",
 			
@@ -618,9 +617,7 @@
 		"uniques": [
 			"Provides [1] [Slaves]",
 			"New [Military] units start with [15] Experience [in this city]",
-			"Destroyed when the city is captured"
-		
-		]
+			"Destroyed when the city is captured"]
 	},
 {
 		"name": "Human Reservoir",
@@ -644,10 +641,8 @@
 	"percentStatBonus": { "production": 25 , "food": -20 },
 	"cost": 20,
 	"uniques": [
-		"Remove extra unhappiness from annexed cities",
 		"Can only be built <in [Puppeted] cities>",
 		"Provides [3] [Slaves]",
-		"Only available <in cities without a [Listening Post]>",
 		"Destroyed when the city is captured"
 		],
 	"requiredTech": "Construction"
@@ -727,9 +722,6 @@
 		"uniques": [
 		    	"[+10]% growth [in all cities]",
 			"[+20]% Production when constructing [Enslaved] units [in all cities]",
-			"[+1 Production] from [Strategic resource] tiles [in all cities]",
-			"[+1 Production] from [Luxury resource] tiles [in all cities]",
-			"[+1 Production] from [Bonus resource] tiles [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Domestic Council]>",
@@ -857,7 +849,7 @@
 		"specialistSlots": {"Supervisor": 1},
 		"uniques": [
 		"[-25]% enemy spy effectiveness [in this city]",
-		"Hidden when espionage is disabled",
+		"Only available <when espionage is enabled>",
 		"[-50]% Unhappiness from [Specialists] [in this city] <after discovering [Social Engineering]>",
 		"Destroyed when the city is captured"	]	   
 	"requiredTech": "Radio"
