@@ -98,15 +98,14 @@
 		"specialistSlots": {"Administrator": 1},
 		"uniques": [
 			"[+1 Gold, +1 Science] from [Natural Wonder] tiles [in this city]",
-			"[+1 Happiness, +1 Gold] [in this city] <after discovering [Flight]>",
-			"[-25]% enemy spy effectiveness [in this city]",
+			"[-30]% enemy spy effectiveness [in this city]",
 			"Remove extra unhappiness from annexed cities",
 			"Hidden when espionage is disabled",
 			"Destroyed when the city is captured"]	   
 		"requiredTech": "Radio"
 },
 		{
-		"name": "Interpretation Center",
+		"name": "World's Cable",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"replaces":"Television Studio",
 		"culture": 2,
@@ -114,7 +113,7 @@
 		"specialistSlots": { "Administrator": 1 },
 		"maintenance": 1,
 		"uniques": [
-			"Gain [25] [Culture] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2]% [Culture] [in this city] <for every [Remaining [Major] Civilizations]>",
 			"Only available <in cities with a [Broadcast Tower]>",
 			"Consumes [1] [Power]"
 		],
@@ -498,9 +497,7 @@
 		"requiredTech": "Trade",
 		"uniques": [
 			"[+1 Gold] from [Luxury resource] tiles [in this city]",
-			"[+2 Production] [in this city] <with [Slaves]>",
-			"[+25]% [Food] from Trade Routes",
-			"[+25]% [Science] from Trade Routes",
+			"[+1 Science, +1 Food, +1 Production] from each Trade Route",
 		]
 	},
 	
@@ -564,7 +561,7 @@
 		"specialistSlots": { "Scientist": 1 },
 		"maintenance": 4,
 		"uniques": [
-			"[+1 Science] <for every [5] [Slaves]>",
+			"[+1 Science] <for every [4] [Slaves]>",
 			"Only available <in cities with a [Übermensch College]>",
 			"Consumes [1] [Power]"
 		],
@@ -583,6 +580,8 @@
 			"[+2 Food, +2 Production] from [Borough] tiles [in this city] <if [Outlaws of the Wastes] is not enabled>",
 			"[+1 Production] from [Borough] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
 			"[+1 Science, +1 Food] from each Trade Route",
+			"[+25]% [Food] from Trade Routes",
+			"[+25]% [Science] from Trade Routes",
 			"Consumes [1] [Power]"
 		] 
 		"requiredTech": "Incentivization"
