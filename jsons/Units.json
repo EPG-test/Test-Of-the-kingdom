@@ -209,24 +209,6 @@
 		"attackSound": "nuke"
 	},
 
-				"Founds a new city <by consuming this unit> <when below [1] [Dome City Count]>",
-
-	{
-	"name": "Vulture Settler",
-	"replaces": "Civilian Convoy",
-    	"uniqueTo": "Vultures",
-	"unitType": "Civilian",
-	"movement": 3,
-	"cost": 106,
-	"uniques": [
-		"Founds a new city <by consuming this unit>",
-		"[+15] HP when healing",
-		"All adjacent units heal [+15] HP when healing",
-		"Excess Food converted to Production when under construction",
-		"Only available <if [Decree of Expansion] is constructed>",
-		"Requires at least [3] population"],
-	"hurryCostModifier": 20
-	},
 	
 { 
     	"name":"Stabilizer",
