@@ -119,7 +119,7 @@
      "May buy [Restart Oil Lake Industry] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
      "May buy [Renovate Metal Pyramid] buildings with [Faith] for [2] times their normal Production cost <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 
-
+"[+2 Culture, +2 Production, +2 Gold, +2 Faith] from every [World Wonder] <during a Golden Age> <hidden from users>",
 "[+2 Culture, +2 Production, +2 Gold, +2 Faith] from every [National Wonder] <during a Golden Age> <hidden from users>",
 
 "[+1 Culture, +1 Production, +1 Gold, +1 Faith] from every [Divinity School] <during a Golden Age> <hidden from users>",
@@ -137,7 +137,7 @@
 
 "Gain a free [Follower] belief <upon adopting [Theocracy Complete]>",
 
-"Comment [Every religious building and national gains extra production, gold, culture and faith during a golden age]",
+"Comment [Every religious building, wordl wonder and national gains extra production, gold, culture and faith during a golden age]",
 "Comment [Cannot build Prison Camps]",
 "Cannot build [Enslaved] units"]
     "cities": [ 
@@ -231,7 +231,7 @@
    ]
    
   "cities": [ 
-    "Nesting grounds",
+"Nesting grounds",
 "Fox's Den",
 "Beaver Dam",
 "Rabbit Burrow",
@@ -252,55 +252,27 @@
    
     "startIntroPart1":"sss" ,
     "startIntroPart2": "hey",
-    "declaringWar": "Your sectors are of great quality, but someone else should manage them. Now our interest is to take them.",
-    "attacked": "What's that work ethic? I don't think this will make any profit.",
+    "declaringWar": "Your sectors are of great quality, but they are poorly managed. Now our interest is to take them.",
+    "attacked": "What's that work ethic? I don't think this will make any profit for anyone.",
     "defeated": "Now, you are the new CEO. I'm retiring. Permamently",
-    "introduction":"*Everything you want. Evertyhing you need. We will grant it. Just like we agreed.* Now tell me how do you like our new commercial jingle?.",
+    "introduction":"*Everything you want. Evertyhing you need. We will grant it. Just like we agreed.* Now tell me how do you like our new commercial jingle? Is it catchy and annoying enough?.",
     "neutralHello": "How is it there? ",
     "hateHello": "Get. Out",
     "tradeRequest": "Satisfied?",
-    "outerColor": [16, 37, 76],
-    "innerColor":  [239, 218, 179],
+       "outerColor": [6, 132, 120]
+    "innerColor":  [132, 6, 19],
     "uniqueName":"Everthing You Want",
     "uniques":[ 
 	   "[+50]% Culture cost of natural border growth [in all cities]",
 	   "[-80]% Great Person generation [in all cities]",
 	   "[+1] Movement <in [Friendly Land] tiles> <for [All] units>",
-	   "[+1] Movement <in [Friendly Land] tiles> <for [Civilian] units>",
+	    "[-25]% construction time for [All] improvements",
    ]
    
   "cities": [ 
     "Storehouse"
     ]
     "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
-  }
-{
-    "name":"The Mass",
-    "leaderName":"Null",
-    "adjective": ["Abomination"],
-    "preferredVictoryType": "Domination", 
-    "favoredReligion": "Humanism",
-   
-    "startIntroPart1":"y g " ,
-    "startIntroPart2": "I to the world."
-    "declaringWar": "I reerish."
-    "attacked": "Whe of. "
-    "defeated": "W.e?!",
-    "introduction":" We",
-    "hateHello": "Yo alone!"
-    "tradeRequest": "W"
-    "outerColor": [78, 53, 12]
-    "innerColor":  [134, 68, 23],
-    "uniqueName":"Not From This World"
-   "uniques":[
- "Comment [Cannot build Human Units and Buildings]",
-"Cannot build [Civilian] units",
-"Cannot build [Scrapper] units"]
-    "cities": [ 
-    "Mass",
-
-    ]
-        "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   }
 //{
 //		"name": "The Sounds",
@@ -315,5 +287,7 @@
 //		"innerColor": [33, 43, 240],
 //		"cities": ["Color of Noise"]
 //}	
+// "outerColor": [16, 37, 76],
+  //  "innerColor":  [239, 218, 179],
 ]
 
