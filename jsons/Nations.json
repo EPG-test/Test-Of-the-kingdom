@@ -259,8 +259,8 @@
     "neutralHello": "How is it there? ",
     "hateHello": "Get. Out",
     "tradeRequest": "Satisfied?",
-       "outerColor": [6, 132, 120]
-    "innerColor":  [132, 6, 19],
+    "outerColor": [33, 23, 56]
+    "innerColor":  [142, 112, 19],
     "uniqueName":"Everthing You Want",
     "uniques":[ 
 	   "[+50]% Culture cost of natural border growth [in all cities]",
