@@ -75,7 +75,6 @@
 		"replaces": "Town Hall",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"cost":160,
-		"culture": 1,
 		"maintenance": 1,
 		"uniques": [
 		"[-25]% Culture cost of natural border growth [in this city]",
@@ -98,7 +97,7 @@
 		"specialistSlots": {"Administrator": 1},
 		"uniques": [
 			"[+1 Gold, +1 Science] from [Natural Wonder] tiles [in this city]",
-			"[-30]% enemy spy effectiveness [in this city]",
+			"[-25]% enemy spy effectiveness [in this city]",
 			"Remove extra unhappiness from annexed cities",
 			"Only available <when espionage is enabled>",
 			"Destroyed when the city is captured"]	   
@@ -147,10 +146,11 @@
 		"uniques": [
 			"Only available <in cities with a [Library]>",
 			"[+10]% Production when constructing [Dark Soldier] units [in this city]",
-			"[+3 Production] [in this city] <when above [0] [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+1 Production] [in this city] <when above [0] [Power]>",
 			"[+3 Production] [in this city] <when above [0] [Coal]>",
 			
-			"Consumes [1] [Coal]",
+			"Consumes [1] [Power]",
 		],
 		"requiredTech": "Manufacturing",
 		"civilopediaText": [
@@ -273,8 +273,6 @@
 
 //National Unique Replacements,
 
-
-// Wish I could make something like: |+1 Gold| Per Civilization known',
 {
 		"name": "Ministry of Foreign Affairs",
 		"replaces": "Public Works Administration",
