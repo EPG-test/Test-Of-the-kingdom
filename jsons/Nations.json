@@ -62,8 +62,8 @@
   }
 {
     "name":"Last Bastion",
-    "leaderName":"The something",
-    "adjective": ["Sinner"],
+    "leaderName":"Jeremiah Seed",
+    "adjective": ["Peggie"],
     "preferredVictoryType": "Religious", 
     "personality":"Priest",
     "favoredReligion":"Humanism",
