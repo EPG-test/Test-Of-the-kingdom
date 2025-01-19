@@ -264,7 +264,7 @@
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Hussar",
 		"uniques": [
-		"Low Tech", "Personnel", "Consumes [1] [Slaves]", "Enslaved",
+		"Low Tech", "Personnel", "Enslaved",
 		"Mounted",
 		"[+50]% Strength <vs [Low Tech] units>",
 		"[+1] Movement <in [Open terrain] tiles>",
