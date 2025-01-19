@@ -933,6 +933,28 @@
 		],
 		"requiredTech": "Construction"
 	},
+{
+		"Name": "Industrial Sector",
+		"replaces": "Factory",
+		"uniqueTo": "All-in-One Company",
+		"percentStatBonus": { "production": 20 },
+		"specialistSlots": { "Engineer": 1 },
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <in cities with a [Library]>",
+			"[+2 Production] [in this city] <when above [0] [Power]>",
+			"[+1 Production] from every [Engineer] <in this city>",
+			"[+1 Production] from every [Supervisor] <in this city> <hidden from users>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Manufacturing",
+		"civilopediaText": [
+			{
+				"text": "This building is required for the construction of advanced units."
+			}
+		]
+	},
 
 
 {		"name": "Grove Expedition",
