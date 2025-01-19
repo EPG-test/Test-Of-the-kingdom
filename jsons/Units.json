@@ -81,7 +81,7 @@
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
 	"movement": 2,
-	"strength": 42,
+	"strength": 40,
 	"cost": 100
 	"requiredTech": "Steel",
 	"obsoleteTech": "Replaceable Parts",
@@ -101,7 +101,7 @@
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
 	"movement": 2,
-	"strength": 60,
+	"strength": 55,
 	"cost": 175
 	"requiredTech": "Replaceable Parts",
 	"obsoleteTech": "Energy Weapons",
@@ -237,7 +237,7 @@
 		"unitType": "Shooter",
 		"range": 2,
 		"movement": 2,
-		"strength": 25,
+		"strength": 18,
 		"rangedStrength": 20,
 		"cost": 35,
 		"hurryCostModifier": 20,
@@ -246,7 +246,7 @@
 		"upgradesTo": "Gunman",
 		"uniques": [
 			"Low Tech", "Enslaved",
-			"[+50]% Strength <vs [Low Tech] units>",
+			"[+25]% Strength <vs [Low Tech] units>",
 			"Ranged attacks may be performed over obstacles"
 
 		],
@@ -270,7 +270,7 @@
 		"[+1] Movement <in [Open terrain] tiles>",
 		"No defensive terrain bonus",
 		"Can move after attacking",
-		"[-33]% Strength <vs cities> <when attacking>",
+		"[-25]% Strength <vs cities> <when attacking>",
 		"Can only be built <in cities with a [Stable]>"
 		],
 		"hurryCostModifier": 20,
@@ -289,14 +289,13 @@
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Cavalry",
 		"uniques": [
-			"Personnel", "Consumes [1] [Slaves]", "Consumes [1] [Weapons]", "Enslaved",
+			"Personnel", "Consumes [1] [Weapons]", "Enslaved",
 			"[+1] Movement <in [Open terrain] tiles>",
 			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"Can only be built <in cities with a [Stable]>",
-			"Only available <with [Slaves]>",
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
@@ -313,14 +312,13 @@
 		"requiredTech": "Rifling",
 		"upgradesTo": "Tank",
 		"uniques": [
-			"Personnel", "Consumes [1] [Slaves]", "Enslaved",
+			"Personnel", "Enslaved",
 			"[+1] Movement <in [Open terrain] tiles>",
 			"Mounted",
 			"No defensive terrain bonus",
 			"Can move after attacking",
-			"[-33]% Strength <vs cities>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"Can only be built <in cities with a [Stable]>",
-			"Only available <with [Slaves]>",
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "shot"
