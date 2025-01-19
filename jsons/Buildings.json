@@ -986,7 +986,7 @@
 			"Consumes [1] [Power]",
 			"Provides [1] [Oil]"
 		],
-		"requiredTech": "Plastics Recycling"
+		"requiredTech": "Re-Utilization"
 	},
 {		"name": "Grove Expedition",
 		"isWonder": true,
