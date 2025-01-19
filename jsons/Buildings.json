@@ -934,7 +934,7 @@
 		"requiredTech": "Construction"
 	},
 {
-		"Name": "Industrial Sector",
+		"name": "Industrial Sector",
 		"replaces": "Factory",
 		"uniqueTo": "All-in-One Company",
 		"percentStatBonus": { "production": 20 },
@@ -955,8 +955,6 @@
 			}
 		]
 	},
-
-
 {		"name": "Grove Expedition",
 		"isWonder": true,
 		"requiredTech": "Writing",
