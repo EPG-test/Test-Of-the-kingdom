@@ -919,6 +919,7 @@
 		{
 		"name": "Cost-Free Labor Camp",
 		"replaces": "Work Camp",
+		"uniqueTo": "All-in-One Company",
 		"percentStatBonus": {"production": 15},
 		"happiness": -1,
 		"maintenance": 1,
@@ -935,6 +936,7 @@
 		{
 		"Name": "Industrial Sector",
 		"replaces": "Factory",
+		"uniqueTo": "All-in-One Company",
 		"percentStatBonus": { "production": 20 },
 		"specialistSlots": { "Engineer": 1 },
 		"maintenance": 2,
@@ -957,6 +959,7 @@
 	{
 		"name": "Plastics Production Line"
 		"replaces": "Plastics Factory",
+		"uniqueTo": "All-in-One Company",
 		"food": -1,
 		"production": 2,
 		"specialistSlots": { "Engineer": 1 },
@@ -971,6 +974,7 @@
 	{
 		"name": "Plastics Reuse Facility"
 		"replaces": "Plastics Reprocessor",
+		"uniqueTo": "All-in-One Company",
 		"percentStatBonus": {"production": 15},
 		"specialistSlots": { "Engineer": 1 },
 		"maintenance": 1,
