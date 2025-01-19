@@ -915,7 +915,7 @@
 			"Only available <in cities with a [Data Center]>"],
 		"percentStatBonus": { "science": 25 },
 		"requiredTech": "Decryption"
-	}
+	},
 		{
 		"name": "Cost-Free Labor Camp",
 		"replaces": "Work Camp",
