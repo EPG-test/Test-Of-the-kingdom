@@ -990,6 +990,7 @@
 	},
 {		"name": "Materials Reusement Facility"
 		"replaces": "Materials Recovery Facility",
+		"uniqueTo": "All-in-One Company",
 		"specialistSlots": {"Engineer": 1},
 		"maintenance": 3,
 		"hurryCostModifier": 25,
