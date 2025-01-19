@@ -955,6 +955,39 @@
 			}
 		]
 	},
+	{
+		"name": "Plastics Production Line"
+		"replaces": "Plastics Factory",
+		"uniqueTo": "All-in-One Company",
+		"food": -1,
+		"production": 2,
+		"specialistSlots": { "Engineer": 1 },
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Oil"],
+		"uniques": ["Consumes [1] [Power]",
+			"[+1 Production] from every [Engineer] <in this city>",
+			"[+1 Production] from every [Supervisor] <in this city> <hidden from users>"],
+		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Plastics Reuse Facility"
+		"replaces": "Plastics Reprocessor",
+		"uniqueTo": "All-in-One Company",
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": { "Engineer": 1 },
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"requiredNearbyImprovedResources": ["Plastics"],
+		"uniques": [
+			"[+2 Production] from [Plastics] tiles [in this city]",
+			"[+1 Production] from every [Engineer] <in this city>",
+			"[+1 Production] from every [Supervisor] <in this city> <hidden from users>",
+			"Consumes [1] [Power]",
+			"Provides [1] [Oil]"
+		],
+		"requiredTech": "Plastics Recycling"
+	},
 {		"name": "Grove Expedition",
 		"isWonder": true,
 		"requiredTech": "Writing",
