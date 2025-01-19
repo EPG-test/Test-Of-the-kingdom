@@ -546,7 +546,6 @@
 		"percentStatBonus": { "culture": 10, "science": 15 },
 		"specialistSlots": { "Administrator": 1 },
 		"uniques": [
-			"[-5]% [Culture] from every [Ideals Radio] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 			"Consumes [1] [Power]",
 			"Only available <in cities with a [Übermensch College]>"
 		],
