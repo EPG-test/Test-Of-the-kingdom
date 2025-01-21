@@ -93,7 +93,6 @@
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Blast Furnace] is constructed>"
 		],
-		"promotions": ["Dark Fervor"],
 		"attackSound": "metalhit",
 },
 	{
@@ -113,7 +112,6 @@
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Great Metals Foundry] is constructed>"
 		],
-		"promotions": ["Dark Fervor"],	
 		"attackSound": "metalhit",
 },
 {
@@ -131,7 +129,6 @@
 			"[-33]% Strength <vs [Armor] units>",
 			"Only available <if [Automated Factory] is constructed>"
 		],
-			"promotions": ["Dark Fervor"],
 			"attackSound": "metalhit",
 },
 {
