@@ -361,7 +361,7 @@
 			"Can build [Trench] improvements on tiles",
 			"Only available <with [Slaves]>",
 		],
-		"promotions": ["Gas Mask", "Entrench", "Tool"],
+		"promotions": ["Gas Mask", "Tool"],
 		"attackSound": "machinegun"
 	},
 	{
