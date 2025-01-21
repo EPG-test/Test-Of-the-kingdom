@@ -330,7 +330,7 @@
 //Last Bastion"Last Bastion",
 { 
 "name": "New eden Compound" 
-"uniqueTo": "New Eden Gate",
+"uniqueTo": "New Eden's Gate",
 "cost":0,
 "Faith":1,
 "Culture":1,
@@ -344,7 +344,7 @@
 },
 { 
 	"name": "Old Eden's Shrine" ,
-	"uniqueTo": "Last Bastion",
+	"uniqueTo": "New Eden's Gate",
 	"replaces": "Monument",
 	"cost":40,
 	"culture":2,
@@ -357,7 +357,7 @@
 
 	{ 
 	"name": "Flower Bed",
-	"uniqueTo": "Last Bastion",
+	"uniqueTo": "New Eden's Gate",
 	"replaces": "Shrine",
 	"cost":40,
 	"faith": 1
@@ -370,7 +370,7 @@
 
 	{ 
 	"name": "Eden's Gate",
-	"uniqueTo": "Last Bastion",
+	"uniqueTo": "New Eden's Gate",
 	"replaces": "Monastery",
 	"faith": 2
 	"culture": 1
@@ -385,7 +385,7 @@
 	{
 		"name": "Jeremiah's Word",
 		"replaces": "Grand Monastery",
-		"uniqueTo": "Last Bastion",
+		"uniqueTo": "New Eden's Gate",
 		"isNationalWonder": true,
 		"culture": 1,
 		"faith": 8,
