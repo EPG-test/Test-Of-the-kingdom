@@ -5,6 +5,7 @@
 		"name": "Worlds Fervor",
 		"uniques": ["[+5]% Strength"],
 	},
+//Vulture Promotions
 {
 		"name": "Utilization",
 		"uniques": [
@@ -31,71 +32,9 @@
 {
 		"name": "Tool",
 		"uniques": [
-		"[+20]% Strength <vs cities> <when attacking>",
-		"[-20]% Strength <vs cities> <when defending>",
+		"[+20]% Strength <when attacking>",
+		"[-20]% Strength <when defending>",
 		"No damage penalty for wounded units"]
 },
-//Forgotten Kingdom Promotions for Dark Soldiers
-//1 Column,
 
-{
-		"name":"Dark Fervor",
-		"uniques": [
-"[This Unit] gains the [Great Conqueror] promotion <upon conquering a city> <for units without [Great Conqueror]>",
-"[This Unit] gains the [Bloodthirst] promotion <upon defeating a [Military] unit> <with [20]% chance>",
-"[This Unit] gains the [Hardening] promotion <upon defeating a [Military] unit> <with [20]% chance>",
-"[This Unit] gains the [The Fallen] promotion <upon defeating a [Military] unit> <with [5]% chance>"
-],
-		"column": 2,
-        "row": 25
-},
-	{
-		"name": "Bloodthirst",
-		"prerequisites": ["Dark Fervor"],
-		"uniques": [
-			"[+20]% Strength <vs [Wounded] units> <when attacking>",
-			],
-		"column": 1,
-        "row": 26,
-},
-{
-		"name":"Hardening",
-		"prerequisites": ["Dark Fervor"],
-		"uniques": [
-			"[+20]% Strength <when defending>",
-					],
-		"column": 1,
-        "row": 27,
-},
-{
-		"name":"Great Conqueror",
-		"prerequisites": ["Dark Fervor"],
-		"uniques": [
-			"[+25]% Strength <vs cities> <when attacking>",
-			"[-10]% Strength for enemy [All] units in adjacent [All] tiles",
-		],
-		"column": 1,
-        "row": 28,
-},
-{
-		"name":"The Fallen",
-		"prerequisites": ["Dark Fervor"],
-		"uniques": [
-			"[This Unit] upgrades for free including special upgrades",
-			"[50]% XP gained from combat",
-		],
-		"column": 1,
-        "row": 29,
-},
-
-
-	
-
-
-
-
-
-
-
-  
 ]
