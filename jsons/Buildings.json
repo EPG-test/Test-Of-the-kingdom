@@ -109,6 +109,7 @@
 		"replaces":"Television Studio",
 		"culture": 2,
 		"happiness": 2,
+		"cost": 400
 		"specialistSlots": { "Administrator": 1 },
 		"maintenance": 1,
 		"uniques": [
@@ -328,8 +329,8 @@
 	}
 //Last Bastion"Last Bastion",
 { 
-"name": "Rose Petals Sanctum" 
-"uniqueTo": "Last Bastion",
+"name": "New eden Compound" 
+"uniqueTo": "New Eden Gate",
 "cost":0,
 "Faith":1,
 "Culture":1,
@@ -342,7 +343,7 @@
 	"quote": "S"
 },
 { 
-	"name": "Monument of old World" ,
+	"name": "Old Eden's Shrine" ,
 	"uniqueTo": "Last Bastion",
 	"replaces": "Monument",
 	"cost":40,
@@ -358,16 +359,17 @@
 	"name": "Flower Bed",
 	"uniqueTo": "Last Bastion",
 	"replaces": "Shrine",
-	"cost":30,
+	"cost":40,
 	"faith": 1
 	"uniques":[ "Only available <when religion is enabled>",
-	"[+1 Happiness, +1 Culture, +1 Faith] [in this city] <with [Exotic Seeds]>"
+	"[+1 Faith] from [Farm] tiles [in this city]",
+	"[+1 Faith] from [Grassland] tiles [in this city]",
 ]
 	"requiredTech": "Secrets of the Past"
 },
 
 	{ 
-	"name": "Garden of Bliss",
+	"name": "Eden's Gate",
 	"uniqueTo": "Last Bastion",
 	"replaces": "Monastery",
 	"faith": 2
@@ -379,27 +381,9 @@
 	"requiredTech": "Education"
 },
 
+	// real name 'Joseph Word'
 	{
-		"name": "Green Church",
-		"uniqueTo": "Last Bastion",
-		"food": 2,
-		"replaces": "Greenhouse",
-		"specialistSlots": {"Farmer": 1},
-		"requiredBuilding": "Shrine",
-		"uniques": [
-			"[+1 Food, +1 Culture, +1 Faith] per [4] population [in this city]",
-			"[+1 Food] from [Tubers] tiles [in this city]",
-			"[+1 Food] from [Grain] tiles [in this city]",
-			"[+1 Food] from [Maize] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
-			"[+1 Food] from [Cactus] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
-			"[+1 Food] [in this city] <with [Exotic Seeds]> <if [Outlaws of the Wastes] is enabled>"
-		],
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"requiredTech": "Botany"
-},
-	{
-		"name": "Garden of Wonders",
+		"name": "Jeremiah's Word",
 		"replaces": "Grand Monastery",
 		"uniqueTo": "Last Bastion",
 		"isNationalWonder": true,
@@ -414,57 +398,12 @@
 			"Only available <when religion is enabled>",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
-			"[+1 Gold, +1 Science, +1 Culture, +1 Production, +1 Faith] from every [Monument of old World]",
+			"Provides [1] [Book of Jeremiah's prophesies]",
 			"[+2 Faith, +1 Culture] from every [National Wonder]"
 		]
 },
 
-	{
-		"name": "Withering Rose Project",
-		"replaces": "Manhattan Project",
-		"uniqueTo": "Last Bastion",
-		"cost":1250,
-		"isNationalWonder": true,
-		"requiredTech": "Rocketry",
-		"uniques": [
-			"Enables nuclear weapon <hidden from users>",
-			"Comment [Enables Advanced Long-range Missle Weapons Production]",
-			"Triggers a global alert upon completion"
-		
-		]
-},
 
-	{
-		"name": "Belivers Court",
-		"uniqueTo": "Last Bastion",
-		"replaces": "Congress",
-		"cost": 100,
-		"requiredTech": "Civil Service",
-		"uniques": [
-			"[+1 Culture, +1 Faith] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]",
-			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Council]>",
-			"Destroyed when the city is captured"
-		]
-	},
-	{
-		"name": "Gardeners Gathering",
-		"replaces": "Council",
-		"uniqueTo": "Last Bastion",
-		"cost": 100,
-		"requiredTech": "Civil Service",
-		"uniques": [
-			"[+10]% growth [in all cities]",
-			"Provides [3] [Flowers]",
-			"[+25]% Production when constructing [Faith] buildings [in all cities]",
-			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Congress]>",
-			"Destroyed when the city is captured"
-		]
-	},
 	// Extractors UB
 	
 { 
@@ -1094,4 +1033,3 @@
 				"text": "An cutting edge of technology has opened its sharp arms to us",
 		}]
 }
-]
