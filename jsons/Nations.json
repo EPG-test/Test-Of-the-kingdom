@@ -19,7 +19,8 @@
     "outerColor": [6, 132, 120]
     "innerColor":  [132, 6, 19],
     "uniqueName":"Golden Dynasty"
-   "uniques":[
+  // Possible change: +20% production when constructing World wonders,
+"uniques":[
 "Comment [+20% [Production] when constructing National Wonders and buildings required for National Wonders]",
 "[+20]% Production when constructing [National] wonders [in all cities] <hidden from users>",
 "[+20]% Production when constructing [Library] buildings [in all cities] <hidden from users>",
@@ -61,7 +62,7 @@
     "spyNames": [ "Stormwatch", "Terent", "Klint", "Yenner", "Miller","Wellsman","Voiceover","Oscar", "Melio", "Baron Von Baron"]
   }
 {
-    "name":"Last Bastion",
+    "name":"New Eden's Gate",
     "leaderName":"Jeremiah Seed",
     "adjective": ["Peggie"],
     "preferredVictoryType": "Religious", 
@@ -143,7 +144,7 @@
     "cities": [ 
     "Last Cross"
     ]
-    "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
+    "spyNames": [ "The Cook", "Dimitri", "Sara", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   }
 {
     "name":"Vultures",
