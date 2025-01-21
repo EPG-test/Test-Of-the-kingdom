@@ -209,7 +209,26 @@
 		"attackSound": "nuke"
 	},
 
-	
+{
+	"name": "Land Reacher",
+	"replaces": "Civilian Convoy",
+   	"uniqueTo": "Vultures",
+	"unitType": "Scrapper",
+	"movement": 3,
+	"strength": 30,
+	"cost": 96,
+	"uniques": [
+		"Founds a new city <by consuming this unit>",
+		"[+15] HP when healing",
+		"All adjacent units heal [+15] HP when healing",
+		"Ignores terrain cost",
+		"Excess Food converted to Production when under construction",
+		"Requires at least [2] population",
+		"Limited to [1] per Civilization",
+		"Cost increases by [10] per owned city",],
+	"hurryCostModifier": 20,
+	"promotions": ["Skirmish"]	
+},	
 { 
     	"name":"Stabilizer",
     	"replaces": "Militia",
