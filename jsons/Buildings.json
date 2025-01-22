@@ -93,6 +93,7 @@
 		"name":"Foreigners Agency",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"replaces":"Listening Post",
+		"happiness":1,
 		"maintenance": 1,
 		"specialistSlots": {"Administrator": 1},
 		"uniques": [
@@ -391,7 +392,7 @@
 		"faith": 8,
 		"cost": 175,
 		"requiredTech": "Civil Service",
-		"uniques": ["Only available <if [Garden of Bliss] is constructed in all [non-[Puppeted]] cities>",
+		"uniques": ["Only available <if [Eden's Gate] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
