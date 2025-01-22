@@ -1,166 +1,173 @@
 
 game.png
-size: 2048, 128
+size: 2048, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Bastions
   rotate: false
-  xy: 4, 4
+  xy: 4, 149
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Decree of Expansion
   rotate: false
-  xy: 328, 4
+  xy: 112, 41
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Foreigners Agency
   rotate: false
-  xy: 436, 4
+  xy: 220, 149
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Golden Castle
   rotate: false
-  xy: 544, 4
+  xy: 220, 41
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Great Metals Foundry
   rotate: false
-  xy: 1840, 29
+  xy: 976, 174
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
   index: -1
 BuildingIcons/Humanity's Revival Memorial
   rotate: false
-  xy: 976, 4
+  xy: 436, 41
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Interpretation Center
   rotate: false
-  xy: 1084, 4
+  xy: 544, 149
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/King's Residence
   rotate: false
-  xy: 1192, 4
+  xy: 544, 41
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Laser Cutting Facility
   rotate: false
-  xy: 1300, 4
+  xy: 652, 149
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Oceanic De-extinction Project
   rotate: false
-  xy: 1408, 4
+  xy: 760, 149
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Blue Wall
   rotate: false
-  xy: 1516, 4
+  xy: 760, 41
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Tinkerer's Workshop
   rotate: false
-  xy: 1732, 4
+  xy: 868, 41
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/New Eden's Gate
+  rotate: false
+  xy: 652, 41
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Forgotten Kingdom of Wasteland
   rotate: false
-  xy: 1624, 4
+  xy: 868, 149
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Artificial Bay
   rotate: false
-  xy: 1923, 75
+  xy: 4, 4
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Crystal Waterfall
   rotate: false
-  xy: 1923, 31
+  xy: 976, 130
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Representation Center
   rotate: false
-  xy: 2003, 69
+  xy: 976, 87
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Guardsman
   rotate: false
-  xy: 1963, 76
+  xy: 1059, 221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hawk Eye
   rotate: false
-  xy: 1963, 40
+  xy: 44, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 UnitIcons/Dark Knight
   rotate: false
-  xy: 112, 4
+  xy: 4, 41
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Dark Slayer
   rotate: false
-  xy: 220, 4
+  xy: 112, 149
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Great Representative
   rotate: false
-  xy: 652, 4
+  xy: 328, 149
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Guardsman
   rotate: false
-  xy: 760, 4
+  xy: 328, 41
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hawk Eye
   rotate: false
-  xy: 868, 4
+  xy: 436, 149
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
