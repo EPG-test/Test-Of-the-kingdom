@@ -354,8 +354,13 @@
 	"[+1 Culture] [in this city] <with [Artifacts]>",
 	"[+1 Faith] [in this city] <in cities following our religion>"
 	]
+	"civilopediaText": [
+			{
+				"text": "This shrine holds memories of our endeavour before the Collapse"
+			}
+		]
 },
-
+//Angel's Trumpet? 
 	{ 
 	"name": "Flower Bed",
 	"uniqueTo": "New Eden's Gate",
@@ -366,11 +371,17 @@
 	"[+1 Faith] from [Farm] tiles [in this city]",
 	"[+1 Faith] from [Grassland] tiles [in this city]",
 ]
-	"requiredTech": "Secrets of the Past"
+	"requiredTech": "Secrets of the Past",
+			"civilopediaText": [
+			{
+				"text": "Small field's dedicated to Bliss plants"
+			}
+		]
+
 },
 
 	{ 
-	"name": "Eden's Gate",
+	"name": "New Eden's Gate",
 	"uniqueTo": "New Eden's Gate",
 	"replaces": "Monastery",
 	"faith": 2
@@ -380,6 +391,11 @@
 	"requiredBuilding": "Shrine",
 	"uniques":[ "Only available <when religion is enabled>"]
 	"requiredTech": "Education"
+			"civilopediaText": [
+			{
+				"text": "A stop on our pilgrimage"
+			}
+		]
 },
 
 	// real name 'Joseph Word'
@@ -392,7 +408,7 @@
 		"faith": 8,
 		"cost": 175,
 		"requiredTech": "Civil Service",
-		"uniques": ["Only available <if [Eden's Gate] is constructed in all [non-[Puppeted]] cities>",
+		"uniques": ["Only available <if [New Eden's Gate] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city",
 			"Can only be built <in [Holy] cities>",
 			"Only available <after adopting [Theocracy]>",
