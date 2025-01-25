@@ -216,13 +216,14 @@
 	"cost": 96,
 	"uniques": [
 		"Founds a new city <by consuming this unit>",
+		"[-25]% Strength <when attacking>",
+		"[+25]% Strength <when defending>",
 		"[+15] HP when healing",
 		"Excess Food converted to Production when under construction",
 		"Requires at least [2] population",
 		"Limited to [1] per Civilization",
 		"Cost increases by [10] per owned city",],
 	"hurryCostModifier": 20,
-	"promotions": ["Skirmish"]	
 },	
 { 
     	"name":"Stabilizer",
@@ -430,5 +431,23 @@
 		],
 		"movement": 2
 	},
-
+	
+	// Names taken straight out frome Far cry 5
+	{
+		"name": "Pistolero",
+		"replaces": "Militia",
+		"uniqueTo": "New Eden's Gate",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 32,
+		"interceptRange": 1,
+		"cost": 50,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Soldier",
+		"uniques": ["Personnel", "Consumes [1] [Weapons]",
+		"Earn [100]% of killed [Military] unit's [Strength] as [Faith]"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
 ]
