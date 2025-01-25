@@ -82,7 +82,7 @@
     "innerColor":  [12, 17, 15],
     "uniqueName":"Unrelenting Salvation",
    "uniques":[
-"[+15]% Strength <within [1] tiles of a [City center]> <after enhancing a religion>",
+"[+15]% Strength <within [1] tiles of a [City center]> <when fighting in [Enemy Land] tiles> <after enhancing a religion>",
 	   
 "[+25]% Natural religion spread [in all cities]",
 
