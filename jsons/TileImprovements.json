@@ -15,6 +15,7 @@
 	"Removes removable features when built",
 	"Pillaging this improvement yields approximately [+20 Gold, +30 Culture]"]
   }
+
 	{
 		"name": "Artificial Bay",
 		"techRequired": "Optics",
@@ -32,6 +33,12 @@
 			"Can only be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
+	},
+{
+		"name": "Forgiveness",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+			"Pillaging this improvement yields approximately [+10 Gold]"]
 	},
 ]
 
