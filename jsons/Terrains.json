@@ -41,5 +41,15 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	}
+	},
+	{
+		"name": "Great Monument",
+		"type": "Land",
+		"impassable": false,
+		"movementCost": 1,
+		"uniques": [
+			"Impeded terrain",
+			"Doesn't generate naturally",
+		]
+	},
 ]
