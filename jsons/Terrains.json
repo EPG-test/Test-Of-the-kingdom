@@ -44,7 +44,7 @@
 	},
 	{
 		"name": "Great Monument",
-		"type": "Land",
+		"type": "NaturalWonder",
 		"impassable": false,
 		"movementCost": 1,
 		"uniques": [
