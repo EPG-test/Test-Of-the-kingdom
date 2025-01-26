@@ -148,17 +148,12 @@
 		"name": "Divine Punishment" ,
 		"replaces":"Divine Spear",
 		"uniqueTo": "Last Bastion",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 1,
-		"rangedStrength": 1,
-		"range": 1,
-		"cost": 1,
+		"unitType": "Civilian",
+		"movement": 2,
 		"obsoleteTech": "The Wheel",
-		"uniques": [
+		"uniques": [ "Can instantly construct a [Forgiveness] improvement <by consuming this unit>",
 		"Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"
 		],
-		"attackSound": "nuke"
 	},
 {
 		
