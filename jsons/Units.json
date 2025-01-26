@@ -401,4 +401,21 @@
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
+	{
+		"name": "Angel",
+		"uniqueTo": "New Eden's Gate",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 24,
+		"interceptRange": 1,
+		"cost": 40,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Personnel", "Enslaved",
+		"[+15]% Strength <when adjacent to a [Angel] unit>",
+		"Free [Angel] appears <upon being defeated> <with [33]% chance>",
+		"Can only be built <in cities with a [Bliss Refinery]>"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
 ]
