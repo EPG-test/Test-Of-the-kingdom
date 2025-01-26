@@ -143,7 +143,7 @@
 	    		"Uncapturable", "Unbuildable","Cannot be purchased"],
   
   },
-	// Last Bastion Units,
+	// Last Bastion Units, (Scrapped idea of a faction)
 		{
 		"name": "Divine Punishment" ,
 		"replaces":"Divine Spear",
@@ -152,55 +152,11 @@
 		"movement": 2,
 		"obsoleteTech": "The Wheel",
 		"uniques": [ "Can instantly construct a [Forgiveness] improvement <by consuming this unit>",
-		"Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"
+		"Unbuildable", "Cannot be purchased",
 		],
-	},
-{
-		
-		"replaces": "Tactical Nuke",
-		"name":"Ultimatum",
-		"uniqueTo": "Last Bastion",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 75,
-		"rangedStrength": 75,
-		"range": 12,
-		"cost": 450,
-		"requiredTech": "Gyroscopes",
-		"uniques": [
-			"Nuclear weapon of Strength [1]",
-			"Blast radius [0]",
-			"[+100]% maintenance costs",
-			"Only available <if [Withering Rose Project] is constructed>",
-			"Consumes [1] [Aluminum]",
-			"Limited to [3] per Civilization"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "nuke"
-	},
-{
-		"name": "Apogee",
-		"replaces": "Nuclear Missile",
-		"unitType": "Missile",
-		"uniqueTo":"Last Bastion",
-		"movement": 1,
-		"strength": 200,
-		"rangedStrength": 200,
-		"range": 22,
-		"cost": 750,
-		"requiredTech": "Rocketry",
-		"uniques": [
-			"Nuclear weapon of Strength [2]",
-			"Blast radius [0]",
-			"[+200]% maintenance costs",
-			"Only available <if [Withering Rose Project] is constructed>",
-			"Consumes [1] [Aluminum]",
-			"Limited to [3] per Civilization",
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "nuke"
 	},
 
+// Vultures Units
 {
 	"name": "Land Reacher",
 	"replaces": "Civilian Convoy",
