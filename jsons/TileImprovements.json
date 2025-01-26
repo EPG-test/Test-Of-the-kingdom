@@ -38,6 +38,7 @@
 		"name": "Forgiveness",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
+			"Turn this tile into a [Great Monument] tile",
 			"Pillaging this improvement yields approximately [+10 Gold]"]
 	},
 ]
