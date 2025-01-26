@@ -330,7 +330,7 @@
 	}
 //Last Bastion"Last Bastion",
 { 
-"name": "New eden Compound" 
+"name": "New Eden's Compound" 
 "uniqueTo": "New Eden's Gate",
 "cost":0,
 "Faith":1,
@@ -409,6 +409,14 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Chemistry"
 	},
+	// Should Wolves be a resourece?,
+	{
+		"name": "Wolf Beacon"
+		"uniqueTo": "New Eden's Gate",
+		"maintenance": 1,
+	}
+	
+	
 	// real name 'Joseph Word'
 	{
 		"name": "Jeremiah's Word",
