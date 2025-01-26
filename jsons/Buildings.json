@@ -398,6 +398,17 @@
 		]
 },
 
+	{
+		"name": "Bliss Refinery",
+		"uniqueTo": "New Eden's Gate",
+		"replaces": "Distillery",
+		"Faith": "1"
+		"happiness": 2,
+		"maintenance": 1,
+		"uniques": ["Provides [1] [Bliss Drug]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Chemistry"
+	},
 	// real name 'Joseph Word'
 	{
 		"name": "Jeremiah's Word",
@@ -415,8 +426,8 @@
 			"Only available <when religion is enabled>",
 			"All newly-trained [Philosopher] units [in this city] receive the [Devout] promotion",
 			"All newly-trained [Great Sage] units [in this city] receive the [Devout] promotion",
-			"Provides [1] [Book of Jeremiah's prophesies]",
-			"[+2 Faith, +1 Culture] from every [National Wonder]"
+			"Provides [1] [Joseph's Word]",
+			"[+1 Happiness, +2 Faith] [in all cities connected to capital]",
 		]
 },
 
