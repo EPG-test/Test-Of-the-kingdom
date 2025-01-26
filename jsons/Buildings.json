@@ -939,40 +939,7 @@
 			"[+1 Production] from every [Supervisor] <in this city> <hidden from users>"],
 		"requiredTech": "Plastics"
 	},
-
-{		"name": "Grove Expedition",
-		"isWonder": true,
-		"requiredTech": "Writing",
-		"cost": 150,
-		"uniques": [
-			"Must have an owned [Death Grove] within [3] tiles",
-			"[+1 Science] from [Death Grove] tiles [in all cities]",
-]
-"civilopediaText": [{"text": "."}]
-	},
-		{
-		"name": "Death Grove National Park",
-		"isWonder": true,
-		"requiredTech": "Ecology",
-		"cost": 300,
-		"uniques": [
-			"Must have an owned [Death Grove] within [3] tiles",
-			"[+2 Science, +3 Culture] from [Death Grove] tiles [in all cities]",
-			"[+2 Happiness, +2 Food] from [Death Grove] tiles [in all cities] <after adopting [Naturalism]>"]
-	"civilopediaText": [{"text": "."}]
-	},
 	
-	{
-		"name": "'Death Wood Lumbery'",
-		"isWonder": true,
-		"requiredTech": "Replaceable Parts",
-		"cost": 200,
-		"uniques": [
-			"Must have an owned [Death Grove] within [3] tiles",
-			"[-1 Culture, +1 Science, +3 Production, +1 Food] from [Death Grove] tiles [in all cities]",
-			"Provides [2] [Death Wood]"]
-		"civilopediaText": [{"text": "."}]
-	},
 		{
 		"name": "Crystal Mountain Resort",
 		"isWonder": true,
@@ -1004,7 +971,7 @@
 		"cost":1500,
 		"percentStatBonus": { "science": 10, "production": 10, "culture": 10 },
 		"uniques": ["Must have an owned [Desolate Megalopolis] within [3] tiles",
-			"[+4 Food, +1 Culture] from [Desolate Megalopolis] tiles [in all cities]",
+			"[+5 Food, +1 Culture] from [Desolate Megalopolis] tiles [in all cities]",
 			"[+2] population [in this city]",]
 		"civilopediaText": [{"text": "."}]
 	},
@@ -1023,7 +990,7 @@
 	
 "civilopediaText": [
 			{
-				"text": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good. And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.",
+				"text": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven. And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good. And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.",
 		}]
 	},	
 	{ 
