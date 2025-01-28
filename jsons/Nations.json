@@ -242,7 +242,7 @@
 {
 		"name": "Prosperity Commune",
 		"adjective": ["Hope Count's Survivors"],
-		"cityStateType": "Culture",
+		"cityStateType": "Farming",
 		"style": "",
 		"uniques": ["Starts with [Secrets of the Past]","Starts with [Construction]"],
 		"declaringWar": "L",
