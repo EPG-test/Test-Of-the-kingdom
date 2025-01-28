@@ -36,5 +36,18 @@
 		"[-20]% Strength <when defending>",
 		"No damage penalty for wounded units"]
 },
+Project Eden's Gate promotions
+{
+		"name": "The Father’s Shadow",
+		"uniques": ["Invisible to non-adjacent units",
+			"All healing effects doubled",
+			"[+50]% XP gained from combat",]
+},
+	
+	
+{
+		"name": "Eden's Gift",
+		"uniques": ["[+10]% Strength <when attacking>"]
+},
 
 ]
