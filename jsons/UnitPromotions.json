@@ -36,7 +36,7 @@
 		"[-20]% Strength <when defending>",
 		"No damage penalty for wounded units"]
 },
-Project Eden's Gate promotions
+//Project Eden's Gate promotions
 {
 		"name": "The Father’s Shadow",
 		"uniques": ["Invisible to non-adjacent units",
