@@ -244,7 +244,7 @@
 		"adjective": ["Hope Count's Survivors"],
 		"cityStateType": "Farming",
 		"style": "",
-		"uniques": ["Starts with [Secrets of the Past]","Starts with [Construction]"],
+		"uniques": ["Starts with [Secrets of the Past]", "Starts with [Construction]"],
 		"declaringWar": "L",
 		"attacked": "S",
 		"defeated": "P",
