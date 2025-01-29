@@ -1,20 +1,20 @@
 [
-{
-		"name": "Death Grove",
-		"type": "NaturalWonder",
-		"science": 1,
-		"culture": 1,
-		"occursOn": ["Wasteland"],
-		"uniques": [
-		"Must be adjacent to [0] [Tundra] tiles",
-		"Must be adjacent to [0] [Permafrost] tiles",
-		"Occurs in groups of [4] to [4] tiles",
-		"Must be adjacent to [0] [Coast] tiles"],
-		"turnsInto": "Wasteland",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
+//{
+//		"name": "Death Grove",
+//		"type": "NaturalWonder",
+//		"science": 1,
+//		"culture": 1,
+//		"occursOn": ["Wasteland"],
+//		"uniques": [
+//		"Must be adjacent to [0] [Tundra] tiles",
+//		"Must be adjacent to [0] [Permafrost] tiles",
+//		"Occurs in groups of [4] to [4] tiles",
+//		"Must be adjacent to [0] [Coast] tiles"],
+//		"turnsInto": "Wasteland",
+//		"impassable": true,
+//		"unbuildable": true,
+//		"weight": 10
+//	},
 {
 		"name": "Crystal Waterfall",
 		"type": "NaturalWonder",
