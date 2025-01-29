@@ -387,7 +387,7 @@
 	"faith": 2
 	"culture": 1
 	"happiness":1
-	"cost":0
+	"cost": 120
 	"requiredBuilding": "Shrine",
 	"uniques":[ "Only available <when religion is enabled>"]
 	"requiredTech": "Education"
@@ -411,13 +411,14 @@
 	},
 	// Should Wolves be a resourece?,
 	{
-		"name": "Wolf Beacon"
+		"name": "Wolf Beacon",
+		"cost": 60,
 		"uniqueTo": "New Eden's Gate",
 		"maintenance": 1,
-	}
+	},
 	
 	
-	// real name 'Joseph Word'
+	// real name 'Joseph Word',
 	{
 		"name": "Jeremiah's Word",
 		"replaces": "Grand Monastery",
