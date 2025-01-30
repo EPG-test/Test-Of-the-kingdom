@@ -235,7 +235,8 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [33, 43, 240],
 		"cities": ["Color of Noise"]
-},	
+},
+// Note to CS Rework for Deciv: This city-state would give extra 33% production when building broadcast towers and television studios and both of these buildings would gain +1 culture
 // "outerColor": [16, 37, 76],
   //  "innerColor":  [239, 218, 179],
 {
@@ -251,5 +252,6 @@
 		"innerColor": [33, 43, 240],
 		"cities": ["Prosperity"]
 }	
+// Note to CS Rework for Deciv: this city state suzerain bonus would give +1 food, +1 production, +1 Happiness from each great improvement
 ]
 
