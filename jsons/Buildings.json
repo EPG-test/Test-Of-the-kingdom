@@ -38,7 +38,6 @@
 	{ 
 	"name": "Decree of Expansion",
 	"isNationalWonder": true,
-	"happiness":2,
 	"cost":30,
 	"replaces":"Search for Survivors",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
@@ -460,7 +459,19 @@
 ]
 	"quote": "S"
 },
-	
+			{
+		"name": "Exort Survivors",
+		"replaces": "Search for Survivors",
+		"uniqueTo": "Vultures",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[+1] population [in this city]",
+			"Free [Civilian Convoy] appears",
+			"Provides [2] [Slaves]",
+		
+		]
+	},
 	{
 		"name": "Collection Point",
 		"replaces": "Market",
@@ -638,38 +649,7 @@
 		],
 		"requiredTech": "Construction"
 	},
-	{
-		"name": "Hunters Den",
-		"replaces": "Ranch",
-		"uniqueTo": "Vultures",
-		"requiredNearbyImprovedResources": ["Cattle", "Goats", "Furs", "Hogs", "Deer", "Horses"],
-		"hurryCostModifier": 25,
-		"uniques": [
-			"Consumes [1] [Slaves]",
-			"[+2 Food] [in this city] <when above [0] [Slaves]>",
-			"[+1 Food] from [Horses] tiles [in this city]",
-			"[+1 Food] from [Cattle] tiles [in this city]",
-			"[+1 Food] from [Insects] tiles [in this city]",
-			"[+1 Food] from [Goats] tiles [in this city]",
-			"[+1 Food] from [Furs] tiles [in this city]",
-			"[+1 Food] from [Hogs] tiles [in this city]",
-			"[+1 Food] from [Deer] tiles [in this city]"
-		],
-		"requiredTech": "Redomestication"
-	},
-		{
-		"name": "Exort Survivors",
-		"replaces": "Search for Survivors",
-		"uniqueTo": "Vultures",
-		"cost": 30,
-		"isNationalWonder": true,
-		"uniques": [
-			"[+1] population [in this city]",
-			"Free [Civilian Convoy] appears",
-			"Provides [2] [Slaves]",
-		
-		]
-	},
+
 
 	{
 		"name": "Domestic Council",
