@@ -441,9 +441,9 @@
 //			"[-100]% maintenance costs",
 //			"Never appears as a Barbarian unit"
 //		],
-		"attackSound": "machinegun"
-	}
-	// kinda like hero of the wastes unit - Main protagonist from Far Cry New Dawn (Sequel to Far Cry 5)
+//		"attackSound": "machinegun"
+//	},
+	// kinda like hero of the wastes unit - Main protagonist from Far Cry New Dawn (Sequel to Far Cry 5),
 	{
 		"name": "The Security Captain",
 		"uniqueTo": "Prosperity Commune",
