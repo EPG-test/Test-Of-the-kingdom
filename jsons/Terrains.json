@@ -42,6 +42,37 @@
 		"unbuildable": true,
 		"weight": 10
 	},
+		{
+		"name": "Oil Platform",
+		"type": "NaturalWonder",
+		"science": 1,
+		"production": 1,
+		"culture": 1,
+		"occursOn": ["Ocean"],
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [0] [Ice] tiles",
+			"Neighboring tiles will convert to [Coast]",
+		],
+		"turnsInto": "Coast",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+		{
+		"name": "Bunker Alfa",
+		"type": "NaturalWonder",
+		"production": 2,
+		"culture": 1,
+		"occursOn": ["Wasteland", "Badlands"],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10
+	},
+
 	{
 		"name": "Great Monument",
 		"type": "NaturalWonder",
