@@ -14,7 +14,11 @@
 //		"impassable": true,
 //		"unbuildable": true,
 //		"weight": 10
-//	},
+//		"civilopediaText": [
+//			{
+//				"text": "After the Cataclysm nature had to adapt to new circumstances of nuclear apogee. Today this can be consiedered the most dangerous non-manmade place on whaterver is left of earth."
+//			}
+//},
 {
 		"name": "Crystal Waterfall",
 		"type": "NaturalWonder",
@@ -29,7 +33,11 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	},
+		"civilopediaText": [
+			{
+				"text": "Probably this stream is the most abundant source of non-irradiated water in wasteland."
+			}
+},
 	{
 		"name": "Desolate Megalopolis",
 		"type": "NaturalWonder",
@@ -41,6 +49,10 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
+		"civilopediaText": [
+			{
+				"text": "Gaint, fully illuminated, prosperous and maybe the only place where life wasn't hell before the end. Now that's just a sad corpse of past."
+			}
 	},
 		{
 		"name": "Oil Platform",
@@ -58,7 +70,11 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
-	},
+		"civilopediaText": [
+			{
+				"text": "An old oil platform that is withering away\nGiving seafarers hope in thier voyage\nIt sings the same melody everyday\n It's lullabies fill us with great courage"
+			}
+		},
 		{
 		"name": "Bunker Alfa",
 		"type": "NaturalWonder",
