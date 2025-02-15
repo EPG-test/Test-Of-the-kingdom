@@ -417,32 +417,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
-		// Hero of the wastes Replacement for New Eden's Gate. TODO ask Silent-S to add this to outlaws of the wastes
-	//{
-//		"name": "The Father's Judge",
-//		"uniqueTo": "New Eden's Gate",
-//		"replaces": "Hero of the Wastes",
-//		"unitType": "Shooter",
-//		"movement": 3,
-//		"strength": 30,
-//		"rangedStrength": 24,
-//		"interceptRange": 3,
-//		"cost": 500,
-//		"promotions": ["Great Generals", "The Father’s Shadow"],
-//		"uniques": [
-//			"Personnel",
-//			"Limited to [1] per Civilization",
-//			"Unbuildable", "Cannot be purchased",
-//			"[+25]% Strength <vs [Barbarian] units>",
-//			"[+25]% Strength <starting from the [Rediscovering era]>",
-//			"[+25]% Strength <starting from the [Rebuilding era]>",
-//			"[+25]% Strength <starting from the [Postmodern era]>",
-//			"[+75]% Strength <starting from the [New Future era]>",
-//			"[-100]% maintenance costs",
-//			"Never appears as a Barbarian unit"
-//		],
-//		"attackSound": "machinegun"
-//	},
+
 	// kinda like hero of the wastes unit - Main protagonist from Far Cry New Dawn (Sequel to Far Cry 5),
 	{
 		"name": "The Security Captain",
@@ -468,4 +443,30 @@
 		"promotions": ["Forage","March","Survivalism"],
 		"attackSound": "machinegun"
 	},
+		// Hero of the wastes Replacement for New Eden's Gate. TODO ask Silent-S to add this to outlaws of the wastes
+	//{
+//		"name": "The Father's Judge",
+//		"uniqueTo": "New Eden's Gate",
+//		"replaces": "Hero of the Wastes",
+//		"unitType": "Shooter",
+//		"movement": 3,
+//		"strength": 30,
+//		"rangedStrength": 24,
+//		"interceptRange": 3,
+//		"cost": 500,
+//		"promotions": "Great Generals", "The Father’s Shadow",
+//		"uniques": 
+//			"Personnel",
+//			"Limited to [1] per Civilization",
+//			"Unbuildable", "Cannot be purchased",
+//			"[+25]% Strength <vs [Barbarian] units>",
+//			"[+25]% Strength <starting from the [Rediscovering era]>",
+//			"[+25]% Strength <starting from the [Rebuilding era]>",
+//			"[+25]% Strength <starting from the [Postmodern era]>",
+//			"[+75]% Strength <starting from the [New Future era]>",
+//			"[-100]% maintenance costs",
+//			"Never appears as a Barbarian unit"
+//		,
+//		"attackSound": "machinegun"
+//	},
 ]
