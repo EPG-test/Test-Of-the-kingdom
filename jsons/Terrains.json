@@ -1,4 +1,5 @@
 [
+// TODO - create sprites for both of these AW 
 //{
 //		"name": "Death Grove",
 //		"type": "NaturalWonder",
@@ -19,6 +20,22 @@
 //				"text": "After the Cataclysm nature had to adapt to new circumstances of nuclear devastation. Now this can be consiedered the most dangerous non-manmade place on whatever is left of earth."
 //			}
 //},
+//	{
+//		"name": "Desolate Megalopolis",
+//		"type": "NaturalWonder",
+//		"science": 3,
+//		"production": 2,
+//		"turnsInto": "Mountain",
+//		"occursOn": "Wasteland", "Badlands",
+//		"uniques": "Must be adjacent to [1] to [6] [Jungle] tiles",
+//		"impassable": true,
+//		"unbuildable": true,
+//		"weight": 10
+//		"civilopediaText": 
+//			{
+//				"text": "Gaint, fully illuminated, prosperous and maybe the only place where life wasn't hell before the end. Now that's just a sad corpse of past."
+//			}
+//	},
 {
 		"name": "Crystal Waterfall",
 		"type": "NaturalWonder",
@@ -38,22 +55,7 @@
 				"text": "Probably, this stream is the most abundant source of non-irradiated water in wasteland. This water is worth more than Old World gold!"
 			}],
 },
-	{
-		"name": "Desolate Megalopolis",
-		"type": "NaturalWonder",
-		"science": 3,
-		"production": 2,
-		"turnsInto": "Mountain",
-		"occursOn": ["Wasteland", "Badlands"],
-		"uniques": ["Must be adjacent to [1] to [6] [Jungle] tiles"],
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-		"civilopediaText": [
-			{
-				"text": "Gaint, fully illuminated, prosperous and maybe the only place where life wasn't hell before the end. Now that's just a sad corpse of past."
-			}]
-	},
+
 		{
 		"name": "Oil Platform",
 		"type": "NaturalWonder",
@@ -91,7 +93,7 @@
 			"text": "sss"
 		}]
 	},
-
+// Test wonder
 	{
 		"name": "Great Monument",
 		"type": "NaturalWonder",
