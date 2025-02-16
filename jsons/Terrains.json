@@ -4,17 +4,17 @@
 //		"type": "NaturalWonder",
 //		"science": 1,
 //		"culture": 1,
-//		"occursOn": ["Wasteland",
-//		"uniques": [
-//		"Must be adjacent to [0] [Tundra] tiles",
-//		"Must be adjacent to [0] [Permafrost] tiles",
-//		"Occurs in groups of [4] to [4] tiles",
-//		"Must be adjacent to [0] [Coast] tiles",
+//		"occursOn": "Wasteland",
+//		"uniques": 
+//		"Must be adjacent to 0 Tundra tiles",
+//		"Must be adjacent to 0 Permafrost tiles",
+//		"Occurs in groups of 4 to 4 tiles",
+//		"Must be adjacent to 0 [Coast] tiles",
 //		"turnsInto": "Wasteland",
 //		"impassable": true,
 //		"unbuildable": true,
 //		"weight": 10
-//		"civilopediaText": [
+//		"civilopediaText": 
 //			{
 //				"text": "After the Cataclysm nature had to adapt to new circumstances of nuclear devastation. Now this can be consiedered the most dangerous non-manmade place on whatever is left of earth."
 //			}
