@@ -16,7 +16,7 @@
 //		"weight": 10
 //		"civilopediaText": [
 //			{
-//				"text": "After the Cataclysm nature had to adapt to new circumstances of nuclear apogee. Today this can be consiedered the most dangerous non-manmade place on whaterver is left of earth."
+//				"text": "After the Cataclysm nature had to adapt to new circumstances of nuclear devastation. Now this can be consiedered the most dangerous non-manmade place on whatever is left of earth."
 //			}
 //},
 {
@@ -35,10 +35,10 @@
 		"weight": 10
 		"civilopediaText": [
 			{
-				"text": "Probably this stream is the most abundant source of non-irradiated water in wasteland."
-			}]
+				"text": "Probably, this stream is the most abundant source of non-irradiated water in wasteland. This water is worth more than Old World gold!"
+			}],
 },
-	{
+	
 		"name": "Desolate Megalopolis",
 		"type": "NaturalWonder",
 		"science": 3,
@@ -62,9 +62,8 @@
 		"culture": 1,
 		"occursOn": ["Ocean"],
 		"uniques": [
-			"Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [0] [Ice] tiles",
-			"Neighboring tiles will convert to [Coast]",
+			"Must be adjacent to [1] to [2] [Coast] tiles",
+			"Must be adjacent to [0] [Ice] tiles"
 		],
 		"turnsInto": "Coast",
 		"impassable": true,
@@ -87,6 +86,10 @@
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
+		"civilopediaText": [
+		{
+			"text": "sss"
+		}]
 	},
 
 	{
