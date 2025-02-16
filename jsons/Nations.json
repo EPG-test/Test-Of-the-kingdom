@@ -19,20 +19,10 @@
     "outerColor": [6, 132, 120]
     "innerColor":  [132, 6, 19],
     "uniqueName":"Golden Dynasty"
-   // Possible change if FKW is too strong: +20% production when constructing World National and World wonders only,
 "uniques":[
-"Comment [+20% [Production] when constructing National Wonders and buildings required for National Wonders]",
+"Comment [+20% [Production] when constructing National Wonders and World Wonders]",
 "[+20]% Production when constructing [National] wonders [in all cities] <hidden from users>",
-"[+20]% Production when constructing [Library] buildings [in all cities] <hidden from users>",
-"[+20]% Production when constructing [Areospace Facility] buildings [in all cities] <hidden from users>",
-"[+20]% Production when constructing [Town Hall] buildings [in all cities] <hidden from users>",
-"[+20]% Production when constructing [Medical Lab] buildings [in all cities] <hidden from users>",
-"[+20]% Production when constructing [Baracks] buildings [in all cities] <hidden from users>",
-"[+20]% Production when constructing [Hospital] buildings [in all cities] <hidden from users>",
-"[+20]% Production when constructing [Monastery] buildings [in all cities] <hidden from users>",
-"[+20]% Production when constructing [Televison Studio] buildings [in all cities] <hidden from users>",
-"[+20]% Production when constructing [Field Office] buildings [in all cities] <hidden from users>",
-"[+20]% Production when constructing [Water Storage] buildings [in all cities] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+"[+20]% Production when constructing [All] wonders [in all cities] <hidden from users>",
 //"+1 Culture, +1 Faith from every Natural Wonder",
 "[+1 Happiness, +1 Culture, +1 Faith, +1 Science, +1 Gold] for every known Natural Wonder",
 "[+100]% Yield from every [Natural Wonder]",
