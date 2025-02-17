@@ -34,7 +34,7 @@ BuildingIcons/Golden Castle
   index: -1
 BuildingIcons/Great Metals Foundry
   rotate: false
-  xy: 976, 174
+  xy: 1084, 174
   size: 75, 75
   orig: 75, 75
   offset: 0, 0
@@ -83,7 +83,7 @@ BuildingIcons/The Blue Wall
   index: -1
 BuildingIcons/Tinkerer's Workshop
   rotate: false
-  xy: 868, 41
+  xy: 976, 41
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -97,7 +97,7 @@ NationIcons/New Eden's Gate
   index: -1
 NationIcons/The Forgotten Kingdom of Wasteland
   rotate: false
-  xy: 868, 149
+  xy: 868, 41
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -109,30 +109,44 @@ TileSets/FantasyHex/Tiles/Artificial Bay
   orig: 32, 29
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Bunker Alfa
+  rotate: false
+  xy: 1084, 138
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Crystal Waterfall
   rotate: false
-  xy: 976, 130
+  xy: 1167, 213
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Oil Platform
+  rotate: false
+  xy: 1124, 130
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Representation Center
   rotate: false
-  xy: 976, 87
+  xy: 1207, 214
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Guardsman
   rotate: false
-  xy: 1059, 221
+  xy: 44, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hawk Eye
   rotate: false
-  xy: 44, 5
+  xy: 1084, 102
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -168,6 +182,20 @@ UnitIcons/Guardsman
 UnitIcons/Hawk Eye
   rotate: false
   xy: 436, 149
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/The Father's Judge
+  rotate: false
+  xy: 868, 149
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/The Security Captain
+  rotate: false
+  xy: 976, 149
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
