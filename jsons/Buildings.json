@@ -971,12 +971,12 @@
 	"requeiredTech": "Hoplology"
 	"cost": 400,
 	"uniques": [
-	"Must have an owned [Bunker Alfa] within [3] tiles",
 	"Provides [4] [Weapons]",
 	"[2] free [Infantry] units appear",
 	"[2] free [Marksman] units appear",
 	"[1] free [Forward Observer] units appear",
-	"[+1 Production] from [Bunker Alfa] tiles [in all cities]"]
+	"[+1 Production] from [Bunker Alfa] tiles [in all cities]",
+	"Must have an owned [Bunker Alfa] within [3] tiles",]
 },
 {
 	"name": "Bunker 2st Floor Reactivation",
@@ -984,11 +984,11 @@
 	"requeiredTech": "Networking"
 	"cost": 800,
 	"uniques": [
-	"Must have an owned [Bunker Alfa] within [3] tiles",
 	"Provides [4] [Encrypted Data]",
 	"[+2 Science] <for every [1] [Encrypted Data]>",
 	"[+2 Science] from [Bunker Alfa] tiles [in all cities]",
-	"Only available <in cities with a [Data Center]>"]
+	"Only available <in cities with a [Data Center]>",
+	"Must have an owned [Bunker Alfa] within [3] tiles"]
 },
 {
 	"name": "Bunker 3st Floor Reactivation",
@@ -996,12 +996,12 @@
 	"requeiredTech": "Nuclear Power"
 	"cost": 1250,
 	"uniques": [
-	"Must have an owned [Bunker Alfa] within [3] tiles",
 	"Provides [8] [Power]",
 	"Provides [2] [Uranium]",
 	"Gain a free [Nuclear Plant] [in this city]",
 	"[+4 Production] from [Bunker Alfa] tiles [in all cities]",
-	"[+4 Science] from [Bunker Alfa] tiles [in all cities]"]
+	"[+4 Science] from [Bunker Alfa] tiles [in all cities]",
+	"Must have an owned [Bunker Alfa] within [3] tiles",]
 },
 {
 	"name": "Sea Platform Port",
@@ -1009,10 +1009,10 @@
 	"requeiredTech": "Oceanography"
 	"cost": 1250,
 	"uniques": [
-	"Must have an owned [Sea Platform] within [3] tiles",
-	"Only available <in cities with a [Seaport]>",
 	"[+4 Production, +2 Gold] from [Sea Platform] tiles [in all cities]",
-	"[+1 Culture] from [Water] tiles [in this city]"]
+	"[+1 Production] from [Water] tiles [in this city]",
+	"Must have an owned [Sea Platform] within [3] tiles",
+	"Only available <in cities with a [Seaport]>",]
 },
 
 // Other Wonders
