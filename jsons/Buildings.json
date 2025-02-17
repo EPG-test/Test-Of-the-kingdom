@@ -928,9 +928,9 @@
 			"[+1 Production] from every [Supervisor] <in this city> <hidden from users>"],
 		"requiredTech": "Plastics"
 	},
-	
+// Ancient Wonder associated Wonders	
 		{
-		"name": "Crystal Mountain Resort",
+		"name": "White Snow Resort",
 		"isWonder": true,
 		"requiredTech": "Mountain Exploration",
 		"happinness": 2,
@@ -954,7 +954,8 @@
 			"Unbuildable <if [Crystal Mountain Resort] is constructed>"]
 		"civilopediaText": [{"text": "."}]
 	},
-		{"name": "Megalopolis Renewal",
+// create Desolate Megalopolis		
+	{"name": "Megalopolis Renewal",
 		"isWonder": true,
 		"requiredTech": "Incentivization"
 		"cost":1500,
@@ -964,6 +965,57 @@
 			"[+2] population [in this city]",]
 		"civilopediaText": [{"text": "."}]
 	},
+{
+	"name": "Bunker 1st Floor Reactivation",
+	"isWonder": true,
+	"requeiredTech": "Hoplology"
+	"cost": 400,
+	"uniques": [
+	"Must have an owned [Bunker Alfa] within [3] tiles",
+	"Provides [4] [Weapons]",
+	"[2] free [Infantry] units appear",
+	"[2] free [Marksman] units appear",
+	"[1] free [Forward Observer] units appear",
+	"[+1 Production] from [Bunker Alfa] tiles [in all cities]"]
+},
+{
+	"name": "Bunker 2st Floor Reactivation",
+	"isWonder": true,
+	"requeiredTech": "Networking"
+	"cost": 800,
+	"uniques": [
+	"Must have an owned [Bunker Alfa] within [3] tiles",
+	"Provides [4] [Encrypted Data]",
+	"[+2 Science] <for every [1] [Encrypted Data]>",
+	"[+2 Science] from [Bunker Alfa] tiles [in all cities]",
+	"Only available <in cities with a [Data Center]>"]
+},
+{
+	"name": "Bunker 3st Floor Reactivation",
+	"isWonder": true,
+	"requeiredTech": "Nuclear Power"
+	"cost": 1250,
+	"uniques": [
+	"Must have an owned [Bunker Alfa] within [3] tiles",
+	"Provides [8] [Power]",
+	"Provides [2] [Uranium]",
+	"Gain a free [Nuclear Power Plant] [in this city]",
+	"[+4 Production] from [Bunker Alfa] tiles [in all cities]",
+	"[+4 Science] from [Bunker Alfa] tiles [in all cities]"]
+},
+{
+	"name": "Sea Platform Port",
+	"isWonder": true,
+	"requeiredTech": "Oceanography"
+	"cost": 1250,
+	"uniques": [
+	"Must have an owned [Sea Platform] within [3] tiles",
+	"Only available <in cities with a [Seaport]>",
+	"[+4 Production, +2 Gold] from [Sea Platform] tiles [in all cities]",
+	"[+1 Culture] from [Water] tiles [in this city]"]
+},
+
+// Other Wonders
 	{ 
 "name": "Oceanic De-extinction Project",
 "cost":1250,
@@ -997,8 +1049,9 @@
 				"text": "After the fall, comes the rise.",
 		}]
 },
-	
-	{ 
+// TODO factory blueprints event, improvement that creates Laser Cutting facility Ancient wonder tile
+// Change \/ into factory activation wonder
+{ 
 "name": "Laser Cutting Facility",
 "cost": 1250,
 "culture": 1,
@@ -1017,6 +1070,7 @@
 				"text": "An cutting edge of technology has opened its sharp arms to us",
 		}]
 },
+	
 	{
 		"name": "Transportation Logistics",
 		"isNationalWonder": true,
