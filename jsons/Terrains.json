@@ -57,7 +57,7 @@
 },
 
 		{
-		"name": "Oil Platform",
+		"name": "Sea Platform",
 		"type": "NaturalWonder",
 		"science": 1,
 		"production": 1,
