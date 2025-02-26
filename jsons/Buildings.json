@@ -351,7 +351,7 @@
 	"uniques":[
 	"[+1 Science] [in this city] <with [Books]>",
 	"[+1 Culture] [in this city] <with [Artifacts]>",
-	"[+1 Faith] [in this city] <in cities following our religion>"
+	"[+1 Faith, +1 Production] [in this city] <in cities following our religion>"
 	]
 	"civilopediaText": [
 			{
@@ -401,14 +401,14 @@
 		"name": "Bliss Refinery",
 		"uniqueTo": "New Eden's Gate",
 		"replaces": "Distillery",
-		"Faith": "1"
+		"Faith": "2"
 		"happiness": 2,
 		"maintenance": 1,
 		"uniques": ["Provides [1] [Bliss Drug]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Chemistry"
 	},
-	// Should Wolves be a resourece?,
+	// Should Wolves be a tile resourece?,
 	{
 		"name": "Wolf Beacon",
 		"cost": 60,
@@ -494,7 +494,7 @@
 		"uniques": [
 			"[+1 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
 			"[+1 Science] per [2] population [in this city]",
-			"[+2 Science, +1 Culture, +1 Happiness] from [Books] tiles [in this city]"
+			"[+2 Science, +1 Culture, +1 Happiness] [in this city] <with [Books]>",
 		],
 		"requiredTech": "Writing",
 		"civilopediaText": [
@@ -534,7 +534,8 @@
 		"specialistSlots": { "Administrator": 1 },
 		"uniques": [
 			"Consumes [1] [Power]",
-			"Only available <in cities with a [Übermensch College]>"
+			"Only available <in cities with a [Übermensch College]>",
+			"Comment [This building culture precentage is reduced to 5 when Outlaws of the wastes mod is enabled]",
 		],
 		"requiredTech": "Radio"
 	},
@@ -668,7 +669,8 @@
 		   
 		]
 	},
-			{
+	// Test with the Human-progression Lab
+	{
 		"name": "Exploitation Council",
 		"cost": 150,
 		"replaces": "Council",
@@ -678,7 +680,7 @@
 		    	"[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in all cities]",
 			"[+25]% Production when constructing [Enslaved] units [in all cities]",
-
+			"Quantity of strategic resources produced by the empire +[100]%",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Domestic Council]>",
