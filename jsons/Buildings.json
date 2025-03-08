@@ -1011,7 +1011,7 @@
 	"requeiredTech": "Oceanography"
 	"cost": 1250,
 	"uniques": [
-	"[+4 Production, +2 Gold] from [Sea Platform] tiles [in all cities]",
+	"[+4 Production, +3 Gold] from [Sea Platform] tiles [in all cities]",
 	"[+1 Production] from [Water] tiles [in this city]",
 	"Must have an owned [Sea Platform] within [3] tiles",
 	"Only available <in cities with a [Seaport]>",]
