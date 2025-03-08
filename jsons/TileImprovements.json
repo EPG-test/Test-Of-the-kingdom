@@ -5,11 +5,12 @@
     		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
-        "[+1 Gold] <after discovering [Trade]>",
+     	"[+1 Culture] for each adjacent [Great Improvement]",
+	"[+1 Gold] <after discovering [Trade]>",
         "[+2 Gold] <after discovering [Currency]>",
         "[+2 Gold, +2 Science, +2 Culture] <after discovering [Flight]>",
-	"[+2 Culture] <after discovering [Civil Service]>",
-	"[+2 Culture] <after discovering [Social Engineering]>",
+	"[+1 Culture] <after discovering [Civil Service]>",
+	"[+1 Culture] <after discovering [Social Engineering]>",
 	"[+2 Culture] <after discovering [Incentivization]>",
 
 	"Removes removable features when built",
@@ -20,7 +21,6 @@
 		"name": "Artificial Bay",
 		"techRequired": "Optics",
 		"terrainsCanBeBuiltOn": ["Sunken Ruins"],
-		"food": 1,
 		"production": 1,
 		"turnsToBuild": 6,
 		"uniques": [
