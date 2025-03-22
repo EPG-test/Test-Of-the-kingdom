@@ -123,18 +123,18 @@ TileSets/FantasyHex/Tiles/Crystal Waterfall
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Oil Platform
-  rotate: false
-  xy: 1124, 130
-  size: 32, 36
-  orig: 32, 36
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Tiles/Representation Center
   rotate: false
-  xy: 1207, 214
+  xy: 1124, 131
   size: 32, 35
   orig: 32, 35
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Sea Platform
+  rotate: false
+  xy: 1207, 213
+  size: 32, 36
+  orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Guardsman
