@@ -351,6 +351,7 @@
     	"movement": 3,
   	"strength": 30,
     	"rangedStrength": 35,
+	"requiredTech": "Steel",
 	"upgradesTo": "Helicopter",
 	"uniques": [
 	"Consumes [1] [Oil]",
