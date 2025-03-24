@@ -970,9 +970,10 @@
 {
 	"name": "Bunker 1st Floor Reactivation",
 	"isWonder": true,
-	"requeiredTech": "Hoplology"
+	"requiredTech": "Hoplology"
 	"cost": 400,
 	"uniques": [
+	"New [Military] units start with [15] Experience [in this city]",
 	"Provides [4] [Weapons]",
 	"[2] free [Infantry] units appear",
 	"[2] free [Marksman] units appear",
@@ -983,7 +984,7 @@
 {
 	"name": "Bunker 2st Floor Reactivation",
 	"isWonder": true,
-	"requeiredTech": "Networking"
+	"requiredTech": "Networking"
 	"cost": 800,
 	"uniques": [
 	"Provides [4] [Encrypted Data]",
@@ -995,7 +996,7 @@
 {
 	"name": "Bunker 3st Floor Reactivation",
 	"isWonder": true,
-	"requeiredTech": "Nuclear Power"
+	"requiredTech": "Nuclear Power"
 	"cost": 1250,
 	"uniques": [
 	"Provides [8] [Power]",
@@ -1008,13 +1009,13 @@
 {
 	"name": "Sea Platform Port",
 	"isWonder": true,
-	"requeiredTech": "Oceanography"
+	"requiredTech": "Oceanography"
 	"cost": 1250,
 	"uniques": [
 	"[+4 Production, +3 Gold] from [Sea Platform] tiles [in all cities]",
 	"[+1 Production] from [Water] tiles [in this city]",
 	"Must have an owned [Sea Platform] within [3] tiles",
-	"Only available <in cities with a [Seaport]>",]
+	"Only available <in cities with a [Seaport]>"]
 },
 
 // Other Wonders
