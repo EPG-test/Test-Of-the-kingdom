@@ -996,7 +996,7 @@
 {
 	"name": "Bunker 3st Floor Reactivation",
 	"isWonder": true,
-	"requiredTech": "Nuclear Power"
+	"requiredTech": "Nuclear Fission"
 	"cost": 1250,
 	"uniques": [
 	"Provides [8] [Power]",
