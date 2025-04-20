@@ -196,101 +196,9 @@
    "attackSound": "machinegun"
   },
 	
-	{
-		"name": "Over-Shooter",
-		"replaces": "Crossbowman",
-    		"uniqueTo": "Vultures",
-		"unitType": "Shooter",
-		"range": 2,
-		"movement": 2,
-		"strength": 18,
-		"rangedStrength": 20,
-		"cost": 35,
-		"hurryCostModifier": 20,
-		"requiredTech": "Steel",
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Gunman",
-		"uniques": [
-			"Low Tech", "Enslaved",
-			"[+25]% Strength <vs [Low Tech] units>",
-			"Ranged attacks may be performed over obstacles"
 
-		],
-		"attackSound": "arrow"
-	},
-{
-		"name": "Wasteland Horseman",
-    		"uniqueTo": "Vultures",
-		"replaces": "Horseman",
-		"unitType": "Scrapper",
-		"movement": 3,
-		"strength": 20,
-		"cost": 50,
-		"requiredTech": "Redomestication",
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Hussar",
-		"uniques": [
-		"Low Tech", "Personnel", "Enslaved",
-		"Mounted",
-		"[+50]% Strength <vs [Low Tech] units>",
-		"[+1] Movement <in [Open terrain] tiles>",
-		"No defensive terrain bonus",
-		"Can move after attacking",
-		"[-25]% Strength <vs cities> <when attacking>",
-		"Can only be built <in cities with a [Stable]>"
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
-	},
 	{
-		"name": "Wasteland Hussar",
-    		"uniqueTo": "Vultures",
-		"replaces": "Hussar",
-		"unitType": "Scrapper",
-		"movement": 4,
-		"strength": 36,
-		"interceptRange": 1,
-		"cost": 60,
-		"requiredTech": "Redomestication",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Cavalry",
-		"uniques": [
-			"Personnel", "Consumes [1] [Weapons]", "Enslaved",
-			"[+1] Movement <in [Open terrain] tiles>",
-			"Mounted",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"Can only be built <in cities with a [Stable]>",
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "shot"
-	},
-			{
-		"name": "Vulture Cavalry",
-    		"uniqueTo": "Vultures",
-		"replaces": "Cavalry",
-		"unitType": "Scrapper",
-		"movement": 4,
-		"strength": 40,
-		"interceptRange": 1,
-		"cost": 120,
-		"requiredTech": "Rifling",
-		"upgradesTo": "Tank",
-		"uniques": [
-			"Personnel", "Enslaved",
-			"[+1] Movement <in [Open terrain] tiles>",
-			"Mounted",
-			"No defensive terrain bonus",
-			"Can move after attacking",
-			"[-33]% Strength <vs cities> <when attacking>",
-			"Can only be built <in cities with a [Stable]>",
-		],
-		"hurryCostModifier": 20,
-		"attackSound": "shot"
-	},
-	{
-		"name": "Frontal Assault Corps",
+		"name": "Vulture Assault Corps",
 		"unitType": "Scrapper",
 		"uniqueTo": "Vultures",
 		"replaces": "NBC Conscript",
@@ -344,46 +252,6 @@
 		"attackSound": "phasers"
 	},
 
-	{ 
-    	"name":"Slave Runner",
-    	"uniqueTo": "Vultures",
-    	"unitType": "Helicopter",
-    	"movement": 3,
-  	"strength": 30,
-    	"rangedStrength": 35,
-	"requiredTech": "Steel",
-	"upgradesTo": "Helicopter",
-	"uniques": [
-	"Consumes [1] [Oil]",
-	"Can move after attacking",
-	"No defensive terrain bonus",
-	"[-33]% Strength <vs cities>",
-	"Uncapturable",
-	"Unbuildable"
-	],
-  	"promotions": ["Slave Runner Ability"],
-	"attackSound": "shot"
-  },
-
-	{
-		"name": "Outlands Controller",
-		"uniqueTo": "Vultures",
-		"replaces": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
-			"All adjacent units heal [+15] HP when healing",
-			"Can transform to [Slave Runner]",
-			"Can instantly construct a [Prison farm] improvement <once> <for [2] movement>",
-			"Great Person - [War]",
-			"Can be earned through combat",
-			"Uncapturable",
-			"Unbuildable"
-		],
-		"movement": 2
-	},
-	
 	// Names taken straight out frome Far cry 5
 	{
 		"name": "Pistolero",
@@ -444,7 +312,7 @@
 		"promotions": ["Forage","March","Survivalism"],
 		"attackSound": "machinegun"
 	},
-		// Hero of the wastes Replacement for New Eden's Gate. TODO ask Silent-S to add this to outlaws of the wastes
+		// Hero of the wastes Replacement for New Eden's Gate. TODO ask Silent-S to add this to outlaws of the wastes if possible
 	//{
 //		"name": "The Father's Judge",
 //		"uniqueTo": "New Eden's Gate",
