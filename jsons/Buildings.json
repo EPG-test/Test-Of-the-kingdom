@@ -988,7 +988,7 @@
 	"cost": 800,
 	"uniques": [
 	"Provides [4] [Encrypted Data]",
-	"[+2 Science] <for every [1] [Encrypted Data]>",
+	"[+2 Science] from [Encrypted Data] tiles [in all cities]",
 	"[+2 Science] from [Bunker Alfa] tiles [in all cities]",
 	"Only available <in cities with a [Data Center]>",
 	"Must have an owned [Bunker Alfa] within [3] tiles"]
