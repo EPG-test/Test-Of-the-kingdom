@@ -316,7 +316,7 @@
 			"Low Tech",
 			"Can only be built <in cities with a [Wolf Beacon]>"
 		],
-		"promotions": ["Forage", "Loose Fomration"],
+		"promotions": ["Forage", "Loose Formation"],
 		"attackSound": "nonmetalhit"
 	},
 	// kinda like hero of the wastes unit - Main protagonist from Far Cry New Dawn (Sequel to Far Cry 5),
