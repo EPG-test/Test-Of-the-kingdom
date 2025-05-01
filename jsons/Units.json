@@ -286,6 +286,8 @@
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
+	
+	// Should it consume slaves? Probs not.
 	{
 		"name": "Angel",
 		"uniqueTo": "New Eden's Gate",
@@ -302,7 +304,21 @@
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
-
+	{
+		"name": "Judge",
+		"unitType": "Scrapper",
+		"uniqueTo": "New Eden's Gate",
+		"movement": 3,
+		"strength": 18,
+		"cost": 60,
+		"obsoleteTech": "Rifling",
+		"uniques": [
+			"Low Tech",
+			"Can only be built <in cities with a [Wolf Beacon]>"
+		],
+		"promotions": ["Forage", "Loose Fomration"],
+		"attackSound": "nonmetalhit"
+	},
 	// kinda like hero of the wastes unit - Main protagonist from Far Cry New Dawn (Sequel to Far Cry 5),
 	{
 		"name": "The Security Captain",
