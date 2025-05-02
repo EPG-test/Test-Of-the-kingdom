@@ -227,6 +227,7 @@
 	},
 	{
 		"name": "Proto Tank",
+		"replaces": "Armored Car",
 		"uniqueTo": "Vultures",
 		"unitType": "Armor",
 		"movement": 4,
