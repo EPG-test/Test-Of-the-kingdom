@@ -232,8 +232,8 @@
 		"unitType": "Armor",
 		"movement": 4,
 		"strength": 50,
-		"cost": 145,
-		"requiredTech": "Replaceable Parts",
+		"cost": 160,
+		"requiredTech": "Steel",
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
@@ -242,7 +242,7 @@
 			"[-33]% Strength <before discovering [Replaceable Parts]>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Only available <if [Factory] is constructed>",
+			"Only available <if [Blast Furnace] is constructed>",
 			"Consumes [1] [Oil]"
 		],
 		"hurryCostModifier": 20,
