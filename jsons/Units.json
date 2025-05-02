@@ -161,15 +161,15 @@
 	"name": "Land Reacher",
 	"replaces": "Civilian Convoy",
    	"uniqueTo": "Vultures",
-	"unitType": "Scrapper",
+	"unitType": "Civilian",
 	"movement": 3,
 	"strength": 30,
-	"cost": 96,
+	"cost": 106,
 	"uniques": [
 		"Founds a new city <by consuming this unit>",
-		"[-25]% Strength <when attacking>",
-		"[+25]% Strength <when defending>",
 		"[+15] HP when healing",
+		"All adjacent units heal [+15] HP when healing",
+		"Ignores terrain cost",
 		"Excess Food converted to Production when under construction",
 		"Requires at least [2] population",
 		"Limited to [1] per Civilization",
@@ -187,7 +187,7 @@
 	"requiredTech": "The Wheel",
 	"obsoleteTech": "Replaceable Parts",
 	"upgradesTo": "Soldier",
-    	"uniques": ["Personnel", "Consumes [1] [Weapons]", "Enslaved",
+    	"uniques": ["Personnel", "Consumes [1] [Weapons]",
 		"[-25]% construction time for [All] improvements",
 		"Can build [All Road] improvements on tiles",
 		"Can build [Fort] improvements on tiles",
@@ -196,31 +196,6 @@
    "attackSound": "machinegun"
   },
 	
-
-	{
-		"name": "Vulture Assault Corps",
-		"unitType": "Scrapper",
-		"uniqueTo": "Vultures",
-		"replaces": "NBC Conscript",
-		"movement": 2,
-		"strength": 45,
-		"interceptRange": 1,
-		"cost": 125,
-		"requiredTech": "Combined Arms",
-		"hurryCostModifier": 20,
-		"upgradesTo": "Exo-Trooper",
-		"uniques": [
-			"Personnel", "Enslaved", "Consumes [1] [Slaves]",
-			"Only available <if [Factory] is constructed>",
-			"[-25]% construction time for [All] improvements",
-			"Can build [All Road] improvements on tiles",
-			"Can build [Fort] improvements on tiles",
-			"Can build [Trench] improvements on tiles",
-			"Only available <with [Slaves]>",
-		],
-		"promotions": ["Gas Mask", "Tool"],
-		"attackSound": "machinegun"
-	},
 	{
 		"name": "Vulture Task Force",
 		"uniqueTo": "Vultures",
@@ -233,7 +208,7 @@
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 20,
 		"uniques": [
-			"Personnel", "Enslaved", 
+			"Personnel",
 			"[-25]% construction time for [All] improvements",
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
@@ -246,28 +221,32 @@
 		],
 		"promotions": [
 			"Powered Armor",
-			"Gas Mask",
-			"Tool"
+			"Gas Mask"
 		],
 		"attackSound": "phasers"
 	},
 	{
- 		"name": "Outlands Controller",
- 		"uniqueTo": "Vultures",
- 		"replaces": "Great General",
- 		"unitType": "Civilian",
- 		"uniques": [
- 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
- 			"[+15]% Strength bonus for [Military] units within [2] tiles",
- 			"All adjacent units heal [+15] HP when healing",
- 			"Can instantly construct a [Prison farm] improvement <once> <for [2] movement>",
- 			"Great Person - [War]",
- 			"Can be earned through combat",
- 			"Uncapturable",
- 			"Unbuildable"
- 		],
- 		"movement": 2
- 	},
+		"name": "Proto Tank",
+		"uniqueTo": "Vultures",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 50,
+		"cost": 145,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"[-33]% Strength <vs [Armor] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[-33]% Strength <before discovering [Replaceable Parts]>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
 	// Names taken straight out frome Far cry 5
 	{
 		"name": "Pistolero",
