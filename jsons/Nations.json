@@ -105,11 +105,11 @@
     "innerColor":  [242, 235, 227],
     "uniqueName":"Nothing Left To Restore, Only To Use",
    "uniques":[
-"[{Military} {Land}] units gain the [Utilization] promotion",
+
 "May not annex cities", "May buy items in puppet cities",
 "Comment [Capital gains +1 Gold/Production for every Luxury/Strategic resource you own]",
 "Cannot build [Civilian Convoy] units <when number of [Cities] is more than [5]>",
-"Starts with [Supremacy] adopted",
+"Adopt [Bionics] <upon entering the [Industrial era]>",
 	"[+1 Gold] [in capital] <with [Books]> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Data]> <hidden from users>",
 	"[+1 Gold] [in capital] <with [Machine Parts]> <hidden from users>",
@@ -172,8 +172,8 @@
   "cities": [ 
 "Nesting grounds",
 "Fox's Den",
-"Beaver Dam",
-"Rabbit Burrow",
+"Beaver's Dam",
+"Rabbit's Burrow",
 "Hen's Coop",  
 "Goat's Pen",
 "Horse's Stable",
