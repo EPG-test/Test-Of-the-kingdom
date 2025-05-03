@@ -450,7 +450,6 @@
 	"production": 1,
 	"isWonder": true,
 	"uniques":[
-	"Provides [2] [Slaves]",
 	"Provides [1] [Weapons]",
 	"Gain a free [Resource Office] [in this city]",
 	"[1] free [Stabilizer] units appear",
@@ -458,21 +457,20 @@
 	"Automatically built in all cities where it is buildable",
 ]
 	"quote": "S"
-},
-			{
-		"name": "Exort Survivors",
+	},
+{
+		"name": "Recruit Survivors",
 		"replaces": "Search for Survivors",
 		"uniqueTo": "Vultures",
 		"cost": 30,
 		"isNationalWonder": true,
 		"uniques": [
 			"[+1] population [in this city]",
-			"Free [Civilian Convoy] appears",
-			"Provides [2] [Slaves]",
+			"Free [Worker] appears",
 		
 		]
 	},
-	{
+{
 		"name": "Collection Point",
 		"replaces": "Market",
 		"uniqueTo": "Vultures",
@@ -486,7 +484,7 @@
 	},
 	
 
-	{
+{
 		"name": "Educatorium",
 		"replaces": "Library",
 		"uniqueTo": "Vultures",
@@ -503,25 +501,6 @@
 			}
 		]
 	},
-{
-		"name": "Übermensch College",
-		"replaces": "University",
-		"uniqueTo": "Vultures",
-		"maintenance": 1,
-		"hurryCostModifier": 15,
-		"percentStatBonus": { "science": 33 },
-		"specialistSlots": { "Scientist": 1 },
-		"greatPersonPoints": {"Great General": 1},
-		"uniques": [
-			"[+1 Science, +1 Culture] [in this city] <when above [2] [Slaves]>",
-			"[+1 Science] [in this city] <when above [0] [Power]>",
-			"[+1 Science] from [Jungle] tiles [in this city]",
-			"[+1 Science] from [Forest] tiles [in this city]",
-			"[+1 Science] from [Sunken Ruins] tiles [in this city]",
-			"Only available <in cities with a [Library]>"
-		],
-		"requiredTech": "Education"
-	},
 
 	{
 		"name": "Ideals Radio",
@@ -534,27 +513,11 @@
 		"specialistSlots": { "Administrator": 1 },
 		"uniques": [
 			"Consumes [1] [Power]",
-			"Only available <in cities with a [Übermensch College]>",
 			"Comment [This building culture precentage is reduced to 5 when Outlaws of the wastes mod is enabled]",
 		],
 		"requiredTech": "Radio"
 	},
-		{
-		"name": "Human Progression Lab",
-		"replaces":"Research Lab",
-		"uniqueTo": "Vultures",
-		"percentStatBonus": { "science": 50 },
-		"specialistSlots": { "Scientist": 1 },
-		"maintenance": 4,
-		"uniques": [
-			"[+1 Faith] per [4] population [in this city]",
-			"Only available <in cities with a [Übermensch College]>",
-			"Consumes [1] [Power]"
-		],
-		"requiredTech": "Laboratory"
-	},
-    // <if Outlaws of the Wastes is not enabled>
-// <if Outlaws of the Wastes is enabled>
+
 	{
 		"name": "Inter-city Social Network",
 		"replaces": "Transport Network",
@@ -592,64 +555,8 @@
 		"text": "This building enables the construction of resource extraction missions."
 	}]
 },	
-	{
-		"name": "Outsider-Quarters",
-		"replaces": "Barracks",
-		"uniqueTo": "Vultures",
-		"hurryCostModifier": 25,
-		"cost":60
-		"production": 1,
-		"requiredTech": "Construction",
-		"maintenance": 1,
-		"uniques": [
-			"Provides [1] [Slaves]",
-			"New [Military] units start with [15] Experience [in this city]",
-			"Destroyed when the city is captured"]
-	},
-{
-		"name": "Human Reservoir",
-		"replaces": "Armory",
-		"uniqueTo": "Vultures",
-		"hurryCostModifier": 25,
-		"cost": 220
-		"requiredTech": "Hoplology",
-		"production": 1,
-		"uniques": [
-			"Provides [2] [Slaves]",
-			"New [Military] units start with [15] Experience [in this city]",
-			"All newly-trained [Land] units [in this city] receive the [Under Control] promotion",
-			"Destroyed when the city is captured"
-		]
-	},
-{
-	"name": "Utilization Camp",
-	"replaces": "Prison Camp",
-	"uniqueTo": "Vultures",
-	"percentStatBonus": { "production": 25 , "food": -25 },
-	"cost": 20,
-	"uniques": [
-		"Can only be built <in [Puppeted] cities>",
-		"Provides [3] [Slaves]",
-		"Destroyed when the city is captured"
-		],
-	"requiredTech": "Construction"
-
-	},
-	{
-		"name": "Outsiders Office",
-		"replaces": "Work Camp",
-		"uniqueTo": "Vultures",
-		"percentStatBonus": { "production": 15 },
-		"production": 2,
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": [
-			"[+2 Production] [in this city] <when above [0] [Slaves]>",
-			"Consumes [1] [Slaves]",
-			"Only available <with [Slaves]>"
-		],
-		"requiredTech": "Construction"
-	},
+	
+,
 
 
 	{
@@ -697,19 +604,19 @@
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Coal"],
 	"uniques": [
-	"Consumes [1] [Slaves]",
+	"[-1] population [in this city]",
 	"Provides [2] [Coal]",
 	"[+2 Production] from [Coal] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
 	},
 {
-	"name": "Oil Extraction Mission"
+	"name": "Oil Extraction Expansion"
 	"uniqueTo": "Vultures",
 	"cost":200,
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Oil"],
 	"uniques": [
-	"Consumes [1] [Slaves]",
+	"[-1] population [in this city]",
 	"Provides [2] [Oil]",
 	"[+2 Production] from [Oil] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
@@ -721,7 +628,7 @@
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Aluminum"],
 	"uniques": [
-	"Consumes [1] [Slaves]",
+	"[-1] population [in this city]",
 	"Provides [2] [Aluminum]",
 	"[+2 Production] from [Aluminum] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
@@ -746,7 +653,7 @@
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Uranium"],
 	"uniques": [
-	"Consumes [1] [Slaves]",
+	"[-1] population [in this city]",
 	"Provides [2] [Uranium]",
 	"[+2 Production] from [Uranium] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
