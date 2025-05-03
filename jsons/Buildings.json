@@ -466,9 +466,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[+1] population [in this city]",
-			"Free [Worker] appears",
-		
-		]
+			"Free [Worker] appears"]
 	},
 {
 		"name": "Collection Point",
@@ -535,6 +533,7 @@
 		] 
 		"requiredTech": "Incentivization"
 	},
+	
 	{
 	"name": "Resource Office",
 	"replaces": "Town Hall",
@@ -556,9 +555,6 @@
 	}]
 },	
 	
-,
-
-
 	{
 		"name": "Domestic Council",
 		"replaces": "Congress",
@@ -577,7 +573,7 @@
 		   
 		]
 	},
-	// Test with the Human-progression Lab
+
 	{
 		"name": "Exploitation Council",
 		"cost": 150,
