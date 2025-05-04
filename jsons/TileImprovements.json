@@ -27,9 +27,10 @@
 			"Food source",
 			"[+1 Food] <after discovering [Oceanography]>",
 			"[+1 Food] <after discovering [Ocean Remediation]>",
-			"[+1 Production] for each adjacent [Fishing Boats]",
-			"[+1 Production] for each adjacent [Bioculture]",
-			"[+1 Production] for each adjacent [Artificial Bay]",
+			"[+1 Production] <with [1] to [6] neighboring [Fishing Boats] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Bioculture] tiles>",
+			"[+1 Production] <with [1] to [6] neighboring [Artificial Bay] tiles>",
+
 			"Can only be built on [Water] tiles",
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		]
