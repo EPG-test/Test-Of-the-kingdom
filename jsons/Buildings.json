@@ -866,7 +866,7 @@
 		"percentStatBonus": { "science": 10, "production": 10, "culture": 10 },
 		"uniques": ["Must have an owned [Desolate Megalopolis] within [3] tiles",
 			"[+5 Food, +1 Culture] from [Desolate Megalopolis] tiles [in all cities]",
-			"[+2] population [in this city]",]
+			"[+2] population [in this city]"]
 		"civilopediaText": [{"text": "."}]
 	},
 {
@@ -881,7 +881,7 @@
 	"[2] free [Marksman] units appear",
 	"[1] free [Forward Observer] units appear",
 	"[+1 Production] from [Bunker Alfa] tiles [in all cities]",
-	"Must have an owned [Bunker Alfa] within [3] tiles",]
+	"Must have an owned [Bunker Alfa] within [3] tiles"]
 },
 {
 	"name": "Bunker 2nd Floor Reactivation",
@@ -906,7 +906,7 @@
 	"Gain a free [Nuclear Plant] [in this city]",
 	"[+4 Production] from [Bunker Alfa] tiles [in all cities]",
 	"[+4 Science] from [Bunker Alfa] tiles [in all cities]",
-	"Must have an owned [Bunker Alfa] within [3] tiles",]
+	"Must have an owned [Bunker Alfa] within [3] tiles"]
 },
 {
 	"name": "Sea Platform Port",
@@ -937,7 +937,9 @@
 "civilopediaText": [
 			{
 				"text": "And God said, Let the waters bring forth abundantly the moving creature that hath life' - Genesis 1:20"
-	},	
+			}
+		]
+	},
 	{ 
 "name": "Humanity's Revival Memorial",
 "cost":1250,
