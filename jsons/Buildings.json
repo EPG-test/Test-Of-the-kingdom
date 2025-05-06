@@ -886,7 +886,7 @@
 {
 	"name": "Bunker 2nd Floor Reactivation",
 	"isWonder": true,
-	"requiredTech": "Dectryption"
+	"requiredTech": "Decryption"
 	"cost": 800,
 	"uniques": [
 	"Provides [4] [Encrypted Data]",
