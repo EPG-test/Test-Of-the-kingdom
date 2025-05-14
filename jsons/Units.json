@@ -212,11 +212,8 @@
 			"Can build [All Road] improvements on tiles",
 			"Can build [Fort] improvements on tiles",
 			"Can build [Trench] improvements on tiles",
-	
 			"Only available <if [Automated Factory] is constructed>",
-			"Consumes [1] [Weapons]",
-			"Consumes [1] [Slaves]",
-			"Only available <with [Slaves]>",
+			"Consumes [1] [Weapons]"
 		],
 		"promotions": [
 			"Powered Armor",
