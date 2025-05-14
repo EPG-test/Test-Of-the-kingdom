@@ -525,9 +525,9 @@
 			"[+2 Food, +2 Production] from [Borough] tiles [in this city] <if [Outlaws of the Wastes] is not enabled>",
 			"[+1 Production] from [Borough] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
 			"[+1 Science, +1 Food, +1 Production] from each Trade Route",
+			"[+25]% [Production] from Trade Routes",
 			"[+25]% [Food] from Trade Routes",
 			"[+25]% [Science] from Trade Routes",
-			"[+25]% [Production] from Trade Routes",
 			"Consumes [1] [Power]"
 		] 
 		"requiredTech": "Incentivization"
@@ -794,6 +794,24 @@
 },
 
 // Other Wonders
+	{ 
+"name": "DataKrash Agency",
+"cost":1250,
+"science": 3,
+"culture": 1,
+"isWonder": true,
+"uniques":[ 
+	"[+2 Science] from [Encrypted Data] tiles [in all cities]",
+	"Only available <in cities with a [Decryption Center]>"],
+"requiredTech": "Decryption",
+"quote": "...",
+	
+"civilopediaText": [
+			{
+				"text": "..."
+			}
+		]
+	},
 	{ 
 "name": "Oceanic De-extinction Project",
 "cost":1250,
