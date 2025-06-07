@@ -13,6 +13,7 @@
     "attacked": "What a cruel thing to do. Nothing more to show? To say? Let my people show what are they capable of. "
     "defeated": "We have fallen...? But man like me is not made for defeat, my people strong and resilient... Please... Don't be so rough on them. H-How could have this came to be?!",
     "denounced": "Huh? I think the winds today are little... Noisy",
+    "declaringFriendship": "And from now our people shall celebrate this freindship! C'mon grab a drink!",
     "introduction":" Welcome, welcome to my dearest Kingdom. Take a seat with me and don't worry about my citizens, come on we don't bite... We just like to watch outsiders out of curiosity and interest."
     "neutralHello": "What do you want to say?"
     "hateHello": "You are a blister to this world. A Scar that should be left alone!"
@@ -245,5 +246,19 @@
 		"cities": ["Prosperity"]
 }	
 // Note to CS Rework for Deciv: this city state suzerain bonus would give +1 food, +1 production, +1 Happiness from each great improvement
+{
+		"name": "Nomad nations council",
+		"adjective": ["Nomads"],
+		"cityStateType": "Labor",
+		"style": "",
+		"uniques": ["Starts with [Secrets of the Past]", "Starts with [Construction]"],
+		"declaringWar": "L",
+		"attacked": "S",
+		"defeated": "P",
+		"outerColor": [0, 0, 0],
+		"innerColor": [33, 43, 240],
+		"cities": ["Basilisk Lair"]
+}
+// Note to CS Rework for Deciv: this city state suzerain bonus would give unique promotion to all civillian units. This promotion would be called "Nomadic Rollout" and it would give +1 movement unit in foregin lands
 ]
 
