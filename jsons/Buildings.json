@@ -748,7 +748,7 @@
 	"requiredTech": "Hoplology"
 	"cost": 400,
 	"uniques": [
-	"New [Military] units start with [15] Experience [in this city]",
+	"New [Military] units start with [15] XP [in this city]",
 	"Provides [4] [Weapons]",
 	"[2] free [Infantry] units appear",
 	"[2] free [Marksman] units appear",
