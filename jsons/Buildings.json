@@ -628,18 +628,6 @@
 	"Only available <in cities with a [Resource Office]>"]
 	},
 {
-	"name": "Weapons Salvage Mission"
-	"uniqueTo": "Vultures",
-	"cost":200,
-	"maintenance": 1,
-	"requiredNearbyImprovedResources": ["Weapons"],
-	"uniques": [
-	"Provides [2] [Weapons]",
-	"[+2 Production] from [Weapons] tiles [in this city]",
-	"Only available <in cities with a [Resource Office]>"]
-	},
-
-{
 	"name": "Uranium Extraction Mission"
 	"uniqueTo": "Vultures",
 	"cost":200,
@@ -651,7 +639,17 @@
 	"[+2 Production] from [Uranium] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
 	},
-
+{
+	"name": "Weapons Salvage Mission"
+	"uniqueTo": "Vultures",
+	"cost":200,
+	"maintenance": 1,
+	"requiredNearbyImprovedResources": ["Weapons"],
+	"uniques": [
+	"Provides [2] [Weapons]",
+	"[+2 Production] from [Weapons] tiles [in this city]",
+	"Only available <in cities with a [Resource Office]>"]
+	},
 
 // ALL-IN-ONE COMPANY BUILDINGS
 	
