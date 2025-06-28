@@ -755,19 +755,20 @@
 	"Must have an owned [Bunker Alfa] within [3] tiles"]
 },
 {
-	"name": "Bunker 2nd Floor Reactivation",
+	"name": "Bunker 2nd Floor Decontamination",
 	"isWonder": true,
-	"requiredTech": "Decryption"
-	"cost": 800,
+	"requiredTech": "Pharmaceuticals"
+	"cost": 1250,
 	"uniques": [
-	"Provides [4] [Encrypted Data]",
-	"[+2 Science] from [Encrypted Data] tiles [in all cities]",
+	"[50]% Production when constructing [Organ Lab] wonders [in all cities]",
+	"[+3 Science] from every [Hospital]",
+	"[+3 Science] from every [Medical Lab]",
 	"[+2 Science] from [Bunker Alfa] tiles [in all cities]",
-	"Only available <in cities with a [Data Center]>",
+	"Only available <in cities with a [Medical Lab]>",
 	"Must have an owned [Bunker Alfa] within [3] tiles"]
 },
 {
-	"name": "Bunker 3rd Floor Reactivation",
+	"name": "Bunker 3rd Floor Clearance",
 	"isWonder": true,
 	"requiredTech": "Nuclear Fission"
 	"cost": 1250,
@@ -799,6 +800,7 @@
 "culture": 1,
 "isWonder": true,
 "uniques":[ 
+	"[+2 Science] from [Encrypted Data] tiles [in all cities]",
 	"[+2 Science] from [Encrypted Data] tiles [in all cities]",
 	"Only available <in cities with a [Decryption Center]>"],
 "requiredTech": "Decryption",
@@ -864,19 +866,6 @@
 			{
 				"text": "An cutting edge of technology has opened its sharp arms to us",
 		}]
-},
-	
-	{
-		"name": "Transportation Logistics",
-		"isNationalWonder": true,
-		"culture": 1,
-		"cost": 1250,
-		"requiredTech": "Incentivization",
-		"uniques": [
-			"Only available <if [Transport Network] is constructed in all [non-[Puppeted]] cities>",
-			"[-25]% construction time for [All Road] improvements",
-			"[+1] Movement <in [Road] tiles> <for [All] units>",
-			"[+1] Movement <in [Railroad] tiles> <for [All] units>"]
 },
 
 ]
