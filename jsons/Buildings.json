@@ -30,7 +30,7 @@
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 ]
-	"quote": "Sometimes we feel familiar things. Sounds, smells, even touch. Most of feelings should resemble places improtant to a preson. And you know what,  Here I feel at home."
+	"quote": "Sometimes we feel familiar things. Sounds, sense of familiar smells, even touch of our closest people. Most of these feelings should resemble places improtant to a preson. And you know what,  Here I feel just like at home."
 }
 
 	
@@ -42,7 +42,10 @@
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"uniques":["Free [Great Representative] appears",
 		"Free [Civilian Convoy] appears"]
-		
+	"civilopediaText": [
+			{
+				"text": "from now this kingdom shall expand its frontiers"
+			}]	
 	},
 	{
 		"name":"Castle",
@@ -101,6 +104,10 @@
 			"Only available <when espionage is enabled>",
 			"Destroyed when the city is captured"]	   
 		"requiredTech": "Radio"
+	"civilopediaText": [
+			{
+				"text": "Previously people would say that this is a tourist trap and it still is."
+			}]	
 },
 		{
 		"name": "World's Cable",
@@ -116,6 +123,10 @@
 			"Only available <in cities with a [Broadcast Tower]>",
 			"Consumes [1] [Power]"
 		],
+				"civilopediaText": [
+			{
+				"text": "And now from the wastes of Americas, through the land of old Europe, to the Asian and Australian regions. We KED, present 'The World's Cable'! For more imformation please switch to channel two. "
+			}]
 		"requiredTech": "Electronics"},
 
 	{
@@ -133,6 +144,10 @@
 			"[+1 Production] [in this city] <when above [0] [Power]>",
 			"[+1 Production] [in this city] <with [Machine Parts]>"
 		]
+			"civilopediaText": [
+		{
+			"text": "Well with the prolonged time of isolation people get really creative with scarce resources"
+		}]
 	},
 
 	{
@@ -155,7 +170,7 @@
 		"requiredTech": "Manufacturing",
 		"civilopediaText": [
 			{
-				"text": "This building is required for the construction of advanced and 'Dark' line unit"
+				"text": "This building is required for the construction of advanced and 'Dark' line units."
 			}
 		]
 	},
@@ -325,8 +340,7 @@
 		"replaces": "Prison Camp",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	}
-//Last Bastion"Last Bastion",
+	},
 { 
 "name": "New Eden's Compound" 
 "uniqueTo": "New Eden's Gate",
