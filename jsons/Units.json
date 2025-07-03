@@ -276,7 +276,7 @@
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Personnel",
 		"Free [Angel] appears <upon being defeated> <with [33]% chance>",
-		"Free [Ghoul] appears <upon defeating a [Military] unit> <with [33]% chance>",
+		"Free [Angel] appears <upon defeating a [Military] unit> <with [33]% chance>",
 		"[+50]% to Flank Attack bonuses",
 		"Can only be built <in cities with a [Bliss Refinery]>"],
 		"hurryCostModifier": 20,
