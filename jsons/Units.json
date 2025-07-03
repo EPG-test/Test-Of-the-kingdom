@@ -276,12 +276,14 @@
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Personnel",
 		"Free [Angel] appears <upon being defeated> <with [33]% chance>",
+		"Free [Ghoul] appears <upon defeating a [Military] unit> <with [33]% chance>",
+		"[+50]% to Flank Attack bonuses",
 		"Can only be built <in cities with a [Bliss Refinery]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Judge",
+		"name": "Judge's Pack",
 		"unitType": "Scrapper",
 		"uniqueTo": "New Eden's Gate",
 		"movement": 3,
@@ -290,7 +292,8 @@
 		"obsoleteTech": "Rifling",
 		"uniques": [
 			"Low Tech",
-			"Can only be built <in cities with a [Wolf Beacon]>"
+			"Can only be built <in cities with a [Wolf Beacon]>",
+			"[+50]% Strength <when adjacent to a [Judge's Pack] unit>"
 		],
 		"promotions": ["Forage", "Loose Formation"],
 		"attackSound": "nonmetalhit"
