@@ -913,7 +913,7 @@
 		{
 		"name": "Pre-war Radio Tower",
 		"uniqueTo": "The Sounds",
-		"name": "Broadcast Tower",
+		"replaces": "Broadcast Tower",
 		"cost": 0,
 		"culture": 3,
 		"percentStatBonus": { "culture": 25 },
@@ -927,6 +927,7 @@
 	},
 		{
 		"name": "Entertainment Studio",
+		"uniqueTo": "The Sounds",
 		"happiness": 5,
 		"cost": 0,
 		"uniques": [
