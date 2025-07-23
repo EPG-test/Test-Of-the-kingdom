@@ -49,5 +49,15 @@
 		"name": "Eden's Gift",
 		"uniques": ["[+10]% Strength <when attacking>"]
 },
-
+//Tmelas Promotions
+	{
+		"name": "Tidal Flow",
+		"uniques": ["Ignores Zone of Control",
+			"Earn [50]% of killed [Water] unit's [Strength] as [Gold]"]
+},
+// Nomad council Promotions
+{
+		"name": "Nomadic Rollout",
+		"uniques": ["[+1] Movement",]
+},
 ]
