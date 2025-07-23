@@ -295,7 +295,6 @@
 		"greatPersonPoints": { "Great Administrator": 3 },
 		"isNationalWonder": true,
 		"uniques": [
-			"Only available <after adopting [Constitution]>",
 			"[+1 Production] [in all cities connected to capital]",
 			"Gain [75] [Culture] <upon declaring friendship>",
 			"Gain [75] [Culture] <upon declaring a defensive pact>",
@@ -880,5 +879,58 @@
 				"text": "An cutting edge of technology has opened its sharp arms to us",
 		}]
 },
+// City-state buildings
+		{
+		"name": "The old Ranch",
+		"uniqueTo": "Prosperity Commune",
+		"cost": 0,
+		"production": 3,
+		"food": 3,
+		"culture": 3,
+		"cityHealth": 50,
+		"cityStrength": 10,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"[10]% Food is carried over after population increases [in this city]",
+			"Provides [1] [Power]",
+			"Provides [2] [Power] <starting from the [Rebuilding era]>",
+			"Free [The Security Captain] appears"
+		]
+	},
+		{
+		"name": "Roger's Landing Pad",
+		"uniqueTo": "Prosperity Commune",
+		"replaces": "Monument",
+		"gold": 1,
+		"cost": 0,
+		"uniques": [
+			"Provides [1] [Oil]",
+			"Provides [1] [Weapons]",
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map",
+		]
+	},
+		{
+		"name": "Pre-war Radio Tower",
+		"uniqueTo": "The Sounds",
+		"name": "Broadcast Tower",
+		"cost": 0,
+		"culture": 3,
+		"percentStatBonus": { "culture": 25 },
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map",
+			"Free [Spearman] appears",
+			"Comment [What a sight to behold. One of the last standing pre war infrastructure, maybe the tallest one yet.]",
 
+		],
+	},
+		{
+		"name": "Entertainment Studio",
+		"happiness": 5,
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Provides [2] [Music Records]"],
+	},
 ]
