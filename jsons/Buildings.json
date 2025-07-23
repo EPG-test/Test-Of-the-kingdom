@@ -896,36 +896,53 @@
 			"Free [The Security Captain] appears"
 		]
 	},
-		{
-		"name": "Roger's Landing Pad",
+			{
+		"name": "Prosperity's Monument",
 		"uniqueTo": "Prosperity Commune",
 		"replaces": "Monument",
+		"culture": 2,
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Reveals the entire map",
+		]
+	},	
+	{
+		"name": "Roger's Landing Pad",
+		"uniqueTo": "Prosperity Commune",
 		"gold": 1,
 		"cost": 0,
 		"uniques": [
 			"Provides [1] [Oil]",
-			"Provides [1] [Weapons]",
-			"Reveals the entire map",
+			"Provides [2] [Weapons]",
 		]
 	},
 		{
+		"name":"Sound Barrier",
+		"uniqueTo": "The Sounds",
+		"replaces": "Monument",
+		"culture": 2,
+		"cost": 0,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Free [Spearman] appears",
+			"Reveals the entire map",
+		]
+	},	
+	{
 		"name": "Pre-war Radio Tower",
 		"uniqueTo": "The Sounds",
 		"replaces": "Broadcast Tower",
 		"cost": 0,
 		"culture": 3,
-		"percentStatBonus": { "culture": 25 },
-		"uniques": [
-			"Reveals the entire map",
-			"Free [Spearman] appears",
-			"Comment [What a sight to behold. One of the last standing pre war infrastructure, maybe the tallest one yet.]",
-
-		],
+		"percentStatBonus": { "culture": 30 },
+		"uniques": ["Never destroyed when the city is captured",
+			"Comment [What a sight to behold. One of the last standing pre war infrastructure, maybe the tallest one yet.]"],
 	},
 		{
 		"name": "Entertainment Studio",
 		"uniqueTo": "The Sounds",
-		"happiness": 5,
+		"happiness": 3,
 		"cost": 0,
 		"uniques": [
 			"Provides [2] [Music Records]"],
