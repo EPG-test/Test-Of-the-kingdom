@@ -217,9 +217,9 @@
     "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   },
 	{
-		"name": "Thelas Nation",
+		"name": "Tmelas Nation",
 		"leaderName": "John Willson",
-		"adjective": ["Capitalian"],
+		"adjective": ["Waterborn"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
@@ -241,10 +241,15 @@
 		"favoredReligion": "Humanism",
 		"uniqueName": "The Lost Wayfarers",
 		"uniques": [ 
-
-
-		],
-		"cities": ["Cove"],
+		"Starts with [Sailing]",
+		"Starts with [Oceanography]",
+		"[-66]% maintenance costs <for [Water] units>",
+		"[Water] units gain the [Tidal Flow] promotion"],
+		"cities": [
+			"Cove",
+			"MetaLock",
+			"Jackprawn",
+			"Pacificum"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	}
 {
@@ -278,11 +283,11 @@
 // Note to CS Rework for Deciv: this city state suzerain bonus would give +1 food, +1 production, +1 Happiness from each great improvement
 // Taken from Cyberpunk universe. The capital should be named Chicago?
 {
-		"name": "Nomad nations council",
+		"name": "Nomad Nations Council",
 		"adjective": ["Nomads"],
 		"cityStateType": "Labor",
 		"style": "",
-		"uniques": ["Starts with [Secrets of the Past]", "Starts with [Construction]"],
+		"uniques": ["Starts with [Secrets of the Past]", "Starts with [Construction]",  "[Land] units gain the [Nomadic Rollout] promotion"],
 		"declaringWar": "L",
 		"attacked": "S",
 		"defeated": "P",
