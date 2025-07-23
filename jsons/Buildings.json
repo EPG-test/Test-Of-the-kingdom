@@ -890,7 +890,6 @@
 		"cityHealth": 50,
 		"cityStrength": 10,
 		"uniques": [
-			"Will not be displayed in Civilopedia",
 			"[10]% Food is carried over after population increases [in this city]",
 			"Provides [1] [Power]",
 			"Provides [2] [Power] <starting from the [Rebuilding era]>",
@@ -906,7 +905,6 @@
 		"uniques": [
 			"Provides [1] [Oil]",
 			"Provides [1] [Weapons]",
-			"Will not be displayed in Civilopedia",
 			"Reveals the entire map",
 		]
 	},
@@ -918,7 +916,6 @@
 		"culture": 3,
 		"percentStatBonus": { "culture": 25 },
 		"uniques": [
-			"Will not be displayed in Civilopedia",
 			"Reveals the entire map",
 			"Free [Spearman] appears",
 			"Comment [What a sight to behold. One of the last standing pre war infrastructure, maybe the tallest one yet.]",
@@ -931,7 +928,6 @@
 		"happiness": 5,
 		"cost": 0,
 		"uniques": [
-			"Will not be displayed in Civilopedia",
 			"Provides [2] [Music Records]"],
 	},
 ]
