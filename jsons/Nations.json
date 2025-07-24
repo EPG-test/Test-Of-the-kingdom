@@ -229,7 +229,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
-		"startIntroPart1": "n",
+		"startIntroPart1": "I still remember that day. When ",
 		"startIntroPart2": "n",
 
 		"declaringWar": "m",
