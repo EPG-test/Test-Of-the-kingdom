@@ -300,7 +300,7 @@
 		"attacked": "S",
 		"defeated": "P",
 		"outerColor": [0, 0, 0],
-		"innerColor": [33, 43, 240],
+		"innerColor": [122, 64, 64],
 		"cities": ["Basilisk Lair"]
 }
 // Note to CS Rework for Deciv: this city state suzerain bonus would give unique promotion to all civillian units. This promotion would be called "Nomadic Rollout" and it would give +1 movement unit in foregin or open lands
