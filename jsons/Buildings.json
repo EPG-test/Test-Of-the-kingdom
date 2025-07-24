@@ -714,7 +714,22 @@
 		],
 		"requiredTech": "Construction"
 	},
-
+//Tmelas Nation UB
+{ 
+"name": "Island City" 
+"uniqueTo": "Tmelas Nation",
+"cost":0
+"culture": 1
+"isWonder": true,
+"cityStrength": 1,
+"cityHealth": 10,
+"uniques":[
+"[+2 Happiness] [in all coastal cities]",
+"Can only be built <in [Capital] cities>",
+"Automatically built in all cities where it is buildable",
+]
+	"quote": "Here at Tmelas island city we provide shelter and freedom to all whom were left behind."
+}
 // Ancient Wonder associated Wonders	
 		{
 		"name": "White Snow Resort",
