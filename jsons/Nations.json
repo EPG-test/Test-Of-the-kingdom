@@ -10,7 +10,7 @@
     "startIntroPart1":"How lucky we are to be spared from this disaster that happened upon us. Little to none problems, safe place and many great people are around us. Using our strenght, removing any weaknesses, utilizing anything we can a, kingdom was born. Kingdom which in, laws and order were made. Place with working and healthy to an extend society. But I have something to say. Today...  Today is the last day of our isolation. Now, without fear and prejudice we stand in front of a new world. Birthed by forces of the past and the future... As a King I'm obligated to serve my people and my kingdom until death takes me away. " ,
     "startIntroPart2": "I don't know how many bridges we will build, burn and replace. But I know one most improtant thing, whatever lies before our next step. We will overcome it no matter what. We shall show ourselfs to the world."
     "declaringWar": "I really dislike this option but I won't be sorry. Now, perish."
-    "attacked": "What a cruel thing to do. Nothing more to show? To say? Let my people show what are they capable of. "
+    "attacked": "What a cruel thing to do. Nothing more to show? To say? Let my people show what are they capable of."
     "defeated": "We have fallen...? But man like me is not made for defeat, my people strong and resilient... Please... Don't be so rough on them. H-How could have this came to be?!",
     "denounced": "Huh? I think the winds today are little... Noisy",
     "declaringFriendship": "And from now our people shall celebrate this freindship! C'mon grab a drink!",
@@ -64,8 +64,10 @@
     "startIntroPart2": "snake",
     "declaringWar": "If you are not willing to beg forgiveness so be it.",
     "attacked": "Y",
-    "defeated": "Like those who tried to stop us before, You too are a goddamn snake!",
-    "introduction":"May the God bless you like he did to us! We're the Last Bastion of old faith and its by God given image.",
+    "defeated": "Like those who tried to stop us before, You too shall be banished from Garden of Eden!",
+    "denounced": "Huy",
+    "declaringFriendship": "A",
+    "introduction":"May the God bless you like he did to us! We're the last lastion of old faith and its by God given image.",
     "neutralHello": "Make your confession to me, my friend.",
     "hateHello": "Remember even now, God still loves you.",
     "tradeRequest": "L",
@@ -98,8 +100,9 @@
     "startIntroPart2": "But THEY fucked up badly. That's the funny part and here the punch-line. We will overtake them!",
     "declaringWar": "*Radio Static* This is pre-recorded message from your saviours. Please do not respond. 'Consider yourserlf under new management. *Radio Static* ",
     "attacked": "R-really? You maim the last place of human progress? How wasteful of you.",
-   "defeated": "Now everthing we did is going to waste. Farewell Sub-human. Do your worst.",
+    "defeated": "Now everthing we did is going to waste. Farewell sub-human. Do your worst.",
     "denounced": "Your words are no match against our knowledge.",
+    "declaringFriendship": "Your're worthy so lets go reach the stars.",
     "introduction":"Oh hello. I'm Andrey Canbs, Leader of new world saviours. So what is your purpose here in this barren wasteland?",
     "neutralHello": "What is it?",
     "hateHello": "You can't stop us NOW!",
@@ -184,6 +187,7 @@
 "Bee's Nest" ]
     "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   },
+
 {
     "name":"All-in-One Company",
     "leaderName":"Alione Cynth",
@@ -197,6 +201,8 @@
     "declaringWar": "Your sectors are of great quality, but they are poorly managed. Now our interest is to take them.",
     "attacked": "What's that work ethic? I don't think this will make any profit for anyone.",
     "defeated": "Now, you are the new CEO. I'm retiring. Permamently",
+    "denounced": "You got a mouthful there!",
+    "declaringFriendship": "Seeing your management skills may I ask you. Want to cooperate?",
     "introduction":"*Everything you want. Evertyhing you need. We will grant it. Just like we agreed.* Now tell me how do you like our new commercial jingle? Is it catchy and annoying enough?.",
     "neutralHello": "How is it there? ",
     "hateHello": "Get. Out",
@@ -266,6 +272,7 @@
 		"cities": ["Color of Noise"]
 },
 // Note to CS Rework for Deciv: This city-state would give extra 33% production when building broadcast towers and television studios and both of these buildings would gain +1 culture
+
 // Far cry New dawn faction. Montana.
 {
 		"name": "Prosperity Commune",
@@ -277,11 +284,12 @@
 		"attacked": "S",
 		"defeated": "P",
 		"outerColor": [0, 0, 0],
-		"innerColor": [33, 43, 240],
+		"innerColor": [255, 197, 0],
 		"cities": ["Prosperity"]
 }	
 // Note to CS Rework for Deciv: this city state suzerain bonus would give +1 food, +1 production, +1 Happiness from each great improvement
-// Taken from Cyberpunk universe. The capital should be named Chicago?
+
+// Taken from Cyberpunk universe. The capital should be named Chicago? Whats its association with Tmelas Nation,
 {
 		"name": "Nomad Nations Council",
 		"adjective": ["Nomads"],
