@@ -301,6 +301,27 @@
 		"promotions": ["Forage", "Loose Formation"],
 		"attackSound": "nonmetalhit"
 	},
+	
+		{
+		"name": "Jacksuit",
+		"uniqueTo": "Tmelas Nation",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 75,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Personnel",
+			"[-1] Movement <in [land] tiles>",
+			"Double movement in [Coast]", 
+			"Double movement in [Ocean]" ],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},	
+	
+	
+	
 	// kinda like hero of the wastes unit - Main protagonist from Far Cry New Dawn (Sequel to Far Cry 5),
 	{
 		"name": "The Security Captain",
@@ -349,7 +370,7 @@
 //			"[+75]% Strength <starting from the [New Future era]>",
 //			"[-100]% maintenance costs",
 //			"Never appears as a Barbarian unit"
-//		,
+//		
 //		"attackSound": "machinegun"
 //	},
 ]
