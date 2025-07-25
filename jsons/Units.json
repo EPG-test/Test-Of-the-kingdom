@@ -313,7 +313,6 @@
 		"requiredTech": "The Wheel",
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Personnel",
-			"[-1] Movement <in [land] tiles>",
 			"Double movement in [Coast]", 
 			"Double movement in [Ocean]" ],
 		"hurryCostModifier": 20,
