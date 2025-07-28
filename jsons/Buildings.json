@@ -724,13 +724,78 @@
 "cityStrength": 1,
 "cityHealth": 10,
 "uniques":[
-"[+2 Happiness] [in all coastal cities]",
+"[+1 Happiness] [in all coastal cities]",
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 "[1] free [Jacksuit] units appear",
 ]
 	"quote": "Here at Tmelas island city we provide shelter and freedom to all whom were left behind."
 }
+
+	{
+		"name" : "Fisherman's huts",
+		"uniqueTo": "Tmelas Nation",
+		"replaces": "Harbor",
+		"food": 2
+		"uniques": [
+			"[+10]% Production when constructing [Water] units [in this city]",
+			"Connects trade routes over water",
+			"Must be next to [Coast]"
+		],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name" : "Sea Market",
+		"uniqueTo": "Tmelas Nation",
+		"replaces": "Seaport",
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"[+15]% Production when constructing [Water] units [in this city]",
+			"Must be next to [Coast]",
+			"Only available <in cities with a [Harbor]>"
+		],
+		"requiredTech": "Manufacturing"
+	},
+	{
+		"name": "Merchant Commission",
+		"uniqueTo": "Tmelas Nation",
+		"replaces": "Congress",
+		"cost": 100,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[+25]% [Gold] from Trade Routes",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Council]>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Pirate Council",
+		"uniqueTo": "Tmelas Nation",
+		"replaces": "Council",
+		"cost": 50,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[-33]% maintenance costs <for [Water] units>",
+			"[+25]% Production when constructing [Water] units [in all cities]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Congress]>",
+			"Destroyed when the city is captured"
+		]
+	},
+
+
+
+
+
+
+	
 // Ancient Wonder associated Wonders	
 		{
 		"name": "White Snow Resort",
