@@ -1,0 +1,12 @@
+[
+//Pantheon
+{		
+    "name": "God of The Mountains",
+		"type": "Pantheon",
+		"uniques": [
+			"[+1 Culture, +1 Faith, +1 Production] from every [Mountain]",
+  	  "[+1 Culture, +1 Faith, +1 Production] from every [Mountain Tunnel]",
+		 "[+1 Culture, +1 Faith, +1 Production] from every [Crystal Waterfall]",
+]
+}
+]
