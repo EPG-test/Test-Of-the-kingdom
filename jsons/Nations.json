@@ -115,12 +115,9 @@
 "May not annex cities", "May buy items in puppet cities",
 "[+1 Production] from every [Strategic resource] <hidden from users>",
 "[+1 Gold] from every [Luxury resource] <hidden from users>",
-"Comment [All strategic and luxury resources gain +1 [Production]and +1 [Gold] respectively.]",
+"Comment [All strategic and luxury resources gain +1 [Production] and +1 [Gold] respectively.]",
 "Cannot build [Civilian Convoy] units <when number of [Cities] is more than [5]>",
-
-
-	//"[+1 Production] [in capital] <with [Experimental Chemicals]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-  
+	
    	"[-5]% [Culture] from every [Ideals Radio] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
    ]
    
