@@ -322,10 +322,10 @@
 		{
 		"name": "Lusca-Class Submarine",
 		"unitType": "Submarine",
-		"movement": 5,
+		"movement": 6,
 		"strength": 40,
-		"rangedStrength": 55,
-		"cost": ,
+		"rangedStrength": 60,
+		"cost":300,
 		"upgradesTo": "Nuclear Submarine",
 		"requiredTech": "Gyroscopes",
 		"uniques": [
@@ -336,7 +336,6 @@
 			"Consumes [1] [Oil]",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["The Great Blue"],
 		"hurryCostModifier": 20,
 		"attackSound": "torpedo"
 	},
