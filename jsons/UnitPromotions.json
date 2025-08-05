@@ -55,6 +55,7 @@
 		"uniques": ["Ignores Zone of Control",
 			"Earn [50]% of killed [Water] unit's [Strength] as [Gold]"]
 },
+
 // Nomad council Promotions
 {
 		"name": "Nomadic Rollout",
