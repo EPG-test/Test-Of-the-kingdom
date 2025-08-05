@@ -319,7 +319,27 @@
 		"attackSound": "machinegun"
 	},	
 	
-	
+		{
+		"name": "Lusca-Class Submarine",
+		"unitType": "Submarine",
+		"movement": 5,
+		"strength": 40,
+		"rangedStrength": 55,
+		"cost": ,
+		"upgradesTo": "Nuclear Submarine",
+		"requiredTech": "Gyroscopes",
+		"uniques": [
+			"[+66]% Strength <when attacking>",
+			"[+33]% Strength <vs [Ranged Water] units> <when defending>",
+			"Can only attack [Water] tiles",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Oil]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["The Great Blue"],
+		"hurryCostModifier": 20,
+		"attackSound": "torpedo"
+	},
 	
 	// kinda like hero of the wastes unit - Main protagonist from Far Cry New Dawn (Sequel to Far Cry 5),
 	{
