@@ -321,6 +321,8 @@
 	
 		{
 		"name": "Lusca-Class Submarine",
+		"replaces": "Submarine"
+		"uniqueTo": "Tmelas Nation",
 		"unitType": "Submarine",
 		"movement": 6,
 		"strength": 40,
