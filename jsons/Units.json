@@ -320,15 +320,14 @@
 		"attackSound": "machinegun"
 	},	
 		{
-		"name": "Jacksuit",
+		"name": "Wavecoat",
 		"uniqueTo": "Tmelas Nation",
 		"unitType": "Scrapper",
 		"movement": 2,
-		"strength": 40,
+		"strength": 60,
 		"interceptRange": 1,
 		"cost": 75,
-		"requiredTech": "Iron Working",
-		"obsoleteTech": "Replaceable Parts",
+		"requiredTech": "Replaceable Parts",
 		"uniques": ["Personnel",
 			"Double movement in [Coast]", 
 			"Double movement in [Ocean]" ],
