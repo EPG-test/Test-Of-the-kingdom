@@ -310,15 +310,32 @@
 		"strength": 40,
 		"interceptRange": 1,
 		"cost": 75,
-		"requiredTech": "The Wheel",
+		"requiredTech": "Iron Working",
 		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["Personnel",
 			"Double movement in [Coast]", 
 			"Double movement in [Ocean]" ],
+		"promotions": ["Amphibious", "Seafarer"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},	
-	
+		{
+		"name": "Jacksuit",
+		"uniqueTo": "Tmelas Nation",
+		"unitType": "Scrapper",
+		"movement": 2,
+		"strength": 40,
+		"interceptRange": 1,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Personnel",
+			"Double movement in [Coast]", 
+			"Double movement in [Ocean]" ],
+		"promotions": ["Amphibious", "Seafarer"],
+		"hurryCostModifier": 20,
+		"attackSound": "machinegun"
+	},
 		{
 		"name": "Lusca-Class Submarine",
 		"replaces": "Submarine"
