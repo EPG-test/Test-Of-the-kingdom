@@ -176,17 +176,18 @@
 		"preferredVictoryType": "Diplomatic",
 
 		"startIntroPart1": "I still remember that day. When ",
-		"startIntroPart2": "n",
+		"startIntroPart2": "Well. I've heard that terrible starts have the best tales to tell.",
 
-		"declaringWar": "m",
-		"attacked": "n",
-		"defeated": "n",
-		"introduction": "n",
+		"declaringWar": "Your reign over the waters shall end!",
+		"attacked": "I hope you will drown in the blood of your people!",
+		"defeated": "You think you won? Never!",
+		"introduction": "H",
+		"denounced": "You think we are pest? It takes to be one to know one.",
+		"declaringFriendship": "In between the sea's land shall unite us both, crewmate.",
+		"neutralHello": "I can't heeaar youuu!",
+		"hateHello": "I hope you will drown",
 
-		"neutralHello": "n",
-		"hateHello": "n",
-
-		"tradeRequest": "n",
+		"tradeRequest": "I hope these aren't wet deals",
 
 		"outerColor": [34,52,52],
 		"innerColor": [255, 255, 255],
@@ -222,13 +223,13 @@
 // Far cry New dawn faction. Montana.
 {
 		"name": "Prosperity Commune",
-		"adjective": ["Hope Count's Survivors"],
+		"adjective": ["Hope County's Survivors"],
 		"cityStateType": "Farming",
 		"style": "",
 		"uniques": ["Starts with [Secrets of the Past]", "Starts with [Construction]"],
-		"declaringWar": "L",
-		"attacked": "S",
-		"defeated": "P",
+		"declaringWar": "We have endured enough evil in this world now, fall!",
+		"attacked": "We had to fight for far longer than you though. Do you really thin you can best us?",
+		"defeated": "Well, here the hope ends...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 197, 0],
 		"cities": ["Prosperity"]
@@ -251,4 +252,5 @@
 }
 // Note to CS Rework for Deciv: this city state suzerain bonus would give unique promotion to all civillian units. This promotion would be called "Nomadic Rollout" and it would give +1 movement unit in foregin or open lands
 ]
+
 
