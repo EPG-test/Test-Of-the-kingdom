@@ -744,18 +744,17 @@
 		],
 		"requiredTech": "Sailing"
 	},
-	{
-		"name" : "Sea Market",
+{
+		"name": "Sea Market",
+		"replaces": "Market",
 		"uniqueTo": "Tmelas Nation",
-		"replaces": "Seaport",
+		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
 		"uniques": [
-			"[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
-			"[+15]% Production when constructing [Water] units [in this city]",
-			"Must be next to [Coast]",
-			"Only available <in cities with a [Harbor]>"
-		],
-		"requiredTech": "Manufacturing"
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"[+1 Gold] from [Water resource] tiles [in this city]",
+		]
 	},
 	{
 		"name": "Merchant Commission",
