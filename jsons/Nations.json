@@ -197,6 +197,7 @@
 		"Starts with [Sailing]",
 		"Starts with [Oceanography]",
 		"[-66]% maintenance costs <for [Water] units>",
+		"When defeating a [{Military} {Water}] unit, earn [0] Gold and recruit it <with [25]% chance>",
 		"[Water] units gain the [Tidal Flow] promotion"],
 		"cities": [
 			"Cove",
@@ -252,5 +253,6 @@
 }
 // Note to CS Rework for Deciv: this city state suzerain bonus would give unique promotion to all civillian units. This promotion would be called "Nomadic Rollout" and it would give +1 movement unit in foregin or open lands
 ]
+
 
 
