@@ -764,7 +764,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture, +1 Gold] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
+			"[-10]% Unhappiness from [Population] [in all coastal cities]",
 			"[+25]% [Gold] from Trade Routes",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
