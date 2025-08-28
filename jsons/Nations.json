@@ -162,7 +162,35 @@
 	   "[+1] Movement <in [Friendly Land] tiles> <for [All] units>",
 	    "[-25]% construction time for [All] improvements",
    		"Comment [Gains acces to 'Supervisor' specialist slot which gives +1 of all yields with some buildings]",
-	  "[+1 Production] from every [Supervisor] <in cities with a [Forge]>",
+	  "[+1 Production] from every [Supervisor] <in cities with a [Forge]> <hidden from users>",
+		"[+1 Production] from every [Supervisor] <in cities with a [Forge]> <hidden from users>",
+		"[+1 Production] from every [Supervisor] <in cities with a [Blast Furnace]> <hidden from users>",
+		"[+1 Production] from every [Supervisor] <in cities with a [Factory]> <hidden from users>",
+		"[+1 Production] from every [Supervisor] <in cities with a [Plastics Reprocessor]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
+		"[+1 Production] from every [Supervisor] <in cities with a [Materials Recovery Facility]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+		"[+1 Production] from every [Supervisor] <in cities with a [Automated Factory]> <hidden from users>",
+	
+		"[+1 Science] from every [Supervisor] <in cities with a [Library]> <hidden from users>",
+		"[+1 Science] from every [Supervisor] <in cities with a [University]> <hidden from users>",
+		"[+1 Science] from every [Supervisor] <in cities with a [Public School]> <hidden from users>",
+		"[+1 Science] from every [Supervisor] <in cities with a [Laboratory]> <hidden from users>",
+		"[+1 Science] from every [Supervisor] <in cities with a [Data Center]> <hidden from users>",
+		"[+1 Science] from every [Supervisor] <in cities with a [Decryption Center]> <hidden from users>",
+
+		"[+1 Gold] from every [Supervisor] <in cities with a [Market]> <hidden from users>",
+		"[+1 Gold] from every [Supervisor] <in cities with a [Water Storage]> <hidden from users>",
+		"[+1 Gold] from every [Supervisor] <in cities with a [Condenser Cooler]> <hidden from users>",
+		"[+1 Gold] from every [Supervisor] <in cities with a [Greywater Treatment Plant]> <hidden from users>",
+		"[+1 Gold] from every [Supervisor] <in cities with a [Water Plant]> <hidden from users>",
+		"[+1 Gold] from every [Supervisor] <in cities with a [Desalination Plant]> <hidden from users>",
+		"[+1 Gold] from every [Supervisor] <in cities with a [Rainwater Purifier]> <hidden from users>",
+
+		"[+1 Culture] from every [Supervisor] <in cities with a [Town Hall]> <hidden from users>",
+		"[+1 Culture] from every [Supervisor] <in cities with a [Broadcast Tower]> <hidden from users>",
+		"[+1 Culture] from every [Supervisor] <in cities with a [Television Studio]> <hidden from users>",
+		"[+1 Culture] from every [Supervisor] <in cities with a [Media Center]> <hidden from users>",
+		"[+1 Culture] from every [Supervisor] <in cities with a [Stadium]> <hidden from users>",
+		"[+1 Culture] from every [Supervisor] <in cities with a [Monument]> <hidden from users>",
 	]
    
   "cities": [ 
@@ -255,6 +283,7 @@
 }
 // Note to CS Rework for Deciv: this city state suzerain bonus would give unique promotion to all civillian units. This promotion would be called "Nomadic Rollout" and it would give +1 movement unit in foregin or open lands
 ]
+
 
 
 
