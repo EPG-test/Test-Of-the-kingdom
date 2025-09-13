@@ -10,8 +10,12 @@ This mod Should be compatibatile with other mods and especially with the "Outlaw
 This mod addons:
 3 New Ancient Wonders
 - Crystal Waterfall - The only place of clear water deposits unaffected by radiation or contamination of the wasteland
-- Desolate Megalopolis - Ruins of the the greatest, the biggest and the now ruined city ever. Its rotten corpse is just a memory of the past
-- Codename "Death Grove" - Post cataclysm forest fields that just started to sprout. Whithin time it becomes the main source of bio-hazard in now regenerating wasteland (The looks of this wonder should change with eras)
+- Bunker Alfa - The Last place of the old world goverments and anyone willing to pay the stay. Now vacant, holds a lot of goodies.
+- Sea Platform - Forgotten even before the Cataclysm yet still stands proud above the sea. If you listen close there is a chance that you'll hear its lullaby
+
+Its Wonders
+- White Snow Resort - Sometimes scarcity can turn into a luxury. Gives culture to all mountian tiles.
+- Crystal Glacier Sanctuary
 
 3 New World Wonders
 Oceanic De-extinction Project -  a rather small project that aims to repopulate the seas with either with pre-cataclysm or post-cataclysm marine life
