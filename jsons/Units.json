@@ -381,6 +381,8 @@
 			"Only available <if [Automated Factory] is constructed>",
 			"Consumes [2] [Uranium]",
 			"Can carry [1] [Automated] units",
+			"Double movement in [Coast]", 
+			"Double movement in [Ocean]"
 		],
 		"promotions": ["Powered Armor", "Promotion Nullifier","Portable Power Cell", "Amphibious", "Seafarer"],
 		"attackSound": "gdrAttack"
