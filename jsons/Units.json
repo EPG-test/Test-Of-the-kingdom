@@ -331,7 +331,7 @@
 		"cost": 75,
 		"upgradesTo": "Mermonkey",
 		"requiredTech": "Replaceable Parts",
-		"obsoleteTech": "Full-spectrum Dominance",
+		"obsoleteTech": "Full-Spectrum Dominance",
 		"uniques": [
 			"Personnel",
 			"Consumes [1] [Weapons]",
@@ -350,7 +350,7 @@
 		"cost": 350,
 		"upgradesTo": "Sea Purger",
 		"obsoleteTech": "Future Power",
-		"requiredTech": "Full-spectrum Dominance",
+		"requiredTech": "Full-Spectrum Dominance",
 		"uniques": [
 			"Personnel",
 			"Consumes [1] [Aluminum]",
@@ -382,7 +382,7 @@
 			"Consumes [2] [Uranium]",
 			"Can carry [1] [Automated] units",
 		],
-		"promotions": ["Powered Armor", "Promotion Nullifier"," Portable Power Cell", "Amphibious", "Seafarer"],
+		"promotions": ["Powered Armor", "Promotion Nullifier","Portable Power Cell", "Amphibious", "Seafarer"],
 		"attackSound": "gdrAttack"
 	},
 	{
