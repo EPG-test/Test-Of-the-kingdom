@@ -319,7 +319,8 @@
 			"Double movement in [Coast]", 
 			"Double movement in [Ocean]",
 			"[+25]% Strength <vs [Water] units>",
-			"[This Unit] heals [5] HP <upon turn start> <in [Water] tiles>",],
+			"[This Unit] heals [5] HP <upon turn start> <in [Water] tiles>",
+			"[This Unit] heals [5] HP <upon turn start> <in [{Friendly} {Water}] tiles>"],
 		"promotions": ["Amphibious", "Seafarer", "Promotion Nullifier"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
