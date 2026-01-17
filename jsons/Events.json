@@ -5,7 +5,7 @@
 		"choices": [
 			{
 				"text": "test",
-				"uniques": ["Gain a free [monument] [in capital]"]
+				"uniques": ["Gain a free [Monument] [in capital]"]
 			}
 		]
 	}
