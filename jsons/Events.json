@@ -1,0 +1,12 @@
+[
+	{
+		"name": "The search",
+		"text": "test",
+		"choices": [
+			{
+				"text": "test",
+				"uniques": ["Gain a free [monument] [in capital]"]
+			}
+		]
+	}
+]
