@@ -941,23 +941,13 @@
 // TODO factory blueprints event, improvement that creates Laser Cutting facility Ancient wonder tile
 // Change \/ into factory activation wonder
 { 
-"name": "Laser Cutting Facility",
-"cost": 1250,
-"culture": 1,
-"production": 5,
-"percentStatBonus": { "production": 30 },
+"name": "Mega industry Facility Blueprints",
+"cost": 1250,,
 "isWonder": true,
-"uniques":[ 
-"[+30]% [Production] [in this City] <after discovering [Future Materials]>",
-"Consumes [2] [Power]",
-"Consumes [1] [Aluminum]"
-]
-	"quote": "An cutting edge of technology has opened its sharp arms to us",
-"requiredTech": "Lasers"
-"civilopediaText": [
-			{
-				"text": "An cutting edge of technology has opened its sharp arms to us",
-		}]
+	"uniques":["Comment [Starts 'The search' event]" ],
+	"quote": "Someone somewhere has found the Blueprints of a post-cataclysm Mega industry sector. Lets hope we can find this man as fast as possible.",
+"requiredTech": "Networking"
+
 },
 // City-state buildings
 		{
