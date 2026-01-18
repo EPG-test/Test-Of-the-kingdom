@@ -492,23 +492,7 @@
 			"[+1 Science, +1 Food] from each Trade Route",
 		]
 	},
-{
-		"name": "Educatorium",
-		"replaces": "Library",
-		"uniqueTo": "Vultures",
-		"hurryCostModifier": 25,
-		"uniques": [
-			"[+1 Science, +1 Happiness] [in this city] <when above [0] [Power]>",
-			"[+1 Science] per [2] population [in this city]",
-			"[+2 Science, +1 Culture, +1 Happiness] [in this city] <with [Books]>",
-		],
-		"requiredTech": "Writing",
-		"civilopediaText": [
-			{
-				"text": "This building enables the construction of factories and power plants.","link":"Building/Factory"
-			}
-		]
-	},
+
 
 	{
 		"name": "Ideals Radio",
@@ -516,7 +500,8 @@
 		"uniqueTo": "Vultures",
 		"culture": 1,
 		"science": 1,
-		"maintenance": 2
+		"happinness": 1,
+		"maintenance": 2,
 		"percentStatBonus": { "culture": 10, "science": 15 },
 		"specialistSlots": { "Administrator": 1 },
 		"uniques": [
@@ -592,7 +577,7 @@
 		"uniqueTo": "Vultures",
 		"requiredTech": "Civil Service",
 		"uniques": [
-		    	"[+10]% growth [in all cities]",
+		    "[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in all cities]",
 			"[+1 Science, +1 Production] from [Strategic resource] tiles [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
@@ -662,7 +647,27 @@
 	"[+2 Production] from [Weapons] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
 	},
-
+	{
+		"name": "Vultures cannot ally with Isolationists"
+		"uniqueTo": "Vultures",
+		"replaces": "Ally with Isolationists",
+		"cost": 5,
+		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Exile Isolationists"
+		"uniqueTo": "Vultures",
+		"replaces": "Annex Isolationists",
+		"isNationalWonder": true,
+		"requiredTech": "Sailing",
+		"cost": 200,
+		"uniques": [
+			"Must have an owned [Isolated Island] within [3] tiles",
+			"[+2 Food, +3 Gold, +2 Production] from [Isolated Island] tiles [in all cities]",
+			"Provides [3] [Weapons]",
+			"Unbuildable <if [Ally with Isolationists] is constructed>"
+		],
+	},
 // ALL-IN-ONE COMPANY BUILDINGS
 	
 	{ 
@@ -724,7 +729,7 @@
 "cityStrength": 1,
 "cityHealth": 10,
 "uniques":[
-"[+1 Happiness] [in all coastal cities]",
+"[+1 Happiness. +1 Gold] [in all coastal cities]",
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 "[1] free [Jacksuit] units appear",
