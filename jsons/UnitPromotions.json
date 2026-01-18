@@ -55,7 +55,20 @@
 		"uniques": ["Ignores Zone of Control",
 			"Earn [50]% of killed [Water] unit's [Strength] as [Gold]"]
 },
-
+	{
+		"name": "Adaptive Camouflage",
+		"uniques": ["[+25]% Strength <when defending in [Coast] tiles>"],
+		"unitTypes": ["Water Suit"],
+		"column": 1,
+		"row": 1
+	},
+		{
+		"name": "Pressure Dependent Weaponry ",
+		"uniques": ["[+20]% Strength <when attacking in [Water] tiles>"],
+		"unitTypes": ["Water Suit"],
+		"column": 1,
+		"row": 2
+	},
 // Nomad council Promotions
 {
 		"name": "Nomadic Rollout",
