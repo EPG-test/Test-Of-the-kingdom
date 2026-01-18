@@ -500,14 +500,11 @@
 		"uniqueTo": "Vultures",
 		"culture": 1,
 		"science": 1,
-		"happinness": 1,
+		"happiness": 1,
 		"maintenance": 2,
 		"percentStatBonus": { "culture": 10, "science": 15 },
 		"specialistSlots": { "Administrator": 1 },
-		"uniques": [
-			"Consumes [1] [Power]",
-			"Comment [This building culture precentage is reduced to 5 when Outlaws of the wastes mod is enabled]",
-		],
+		"uniques": ["Consumes [1] [Power]"],
 		"requiredTech": "Radio"
 	},
 
