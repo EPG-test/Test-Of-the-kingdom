@@ -60,14 +60,14 @@
 		"uniques": ["[+25]% Strength <when defending in [Coast] tiles>"],
 		"unitTypes": ["Water Suit"],
 		"column": 1,
-		"row": 1
+		"row": 10
 	},
 		{
 		"name": "Pressure Dependent Weaponry ",
 		"uniques": ["[+20]% Strength <when attacking in [Water] tiles>"],
 		"unitTypes": ["Water Suit"],
 		"column": 1,
-		"row": 2
+		"row": 11
 	},
 // Nomad council Promotions
 {
