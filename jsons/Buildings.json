@@ -504,7 +504,8 @@
 		"maintenance": 2,
 		"percentStatBonus": { "culture": 10, "science": 15 },
 		"specialistSlots": { "Administrator": 1 },
-		"uniques": ["Consumes [1] [Power]"],
+		"uniques": ["Consumes [1] [Power]",
+		"[+1 Culture] from each Trade Route"],
 		"requiredTech": "Radio"
 	},
 
@@ -519,9 +520,7 @@
 			"[+2 Food, +2 Production] from [Borough] tiles [in this city] <if [Outlaws of the Wastes] is not enabled>",
 			"[+1 Production] from [Borough] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
 			"[+1 Science, +1 Food, +1 Production] from each Trade Route",
-			"[+25]% [Production] from Trade Routes",
-			"[+25]% [Food] from Trade Routes",
-			"[+25]% [Science] from Trade Routes",
+			"[+25]% [Yield] from Trade Routes",
 			"Consumes [1] [Power]"
 		] 
 		"requiredTech": "Incentivization"
@@ -556,9 +555,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+1 Culture, +1 Science] per [4] population [in all cities]",
-			"[-10]% Unhappiness from [Population] [in all cities]",
-			"[+10]% [Production] [in all cities connected to capital]",
-			"[+10]% [Gold] [in all cities connected to capital]",
+			"[+1 Science, +1 Food, +1 Production, +1 Gold, +1 Culture, +1 Happiness] from each Trade Route",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Exploitation Council]>",
@@ -576,7 +573,7 @@
 		"uniques": [
 		    "[+10]% growth [in all cities]",
 			"[+5]% Production when constructing [All] buildings [in all cities]",
-			"[+1 Science, +1 Production] from [Strategic resource] tiles [in all cities]",
+			"[+1 Science, +1 Production. +1 Gold] from [Strategic resource] tiles [in all cities]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Domestic Council]>",
