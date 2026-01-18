@@ -57,17 +57,11 @@
 },
 	{
 		"name": "Adaptive Camouflage",
-		"uniques": ["[+25]% Strength <when defending in [Coast] tiles>"],
-		"unitTypes": ["Water Suit"],
-		"column": 1,
-		"row": 14
+		"uniques": ["[+25]% Strength <when fighting in [Coast] tiles>"],
 	},
 		{
 		"name": "Pressure Dependent Weaponry ",
-		"uniques": ["[+20]% Strength <when attacking in [Water] tiles>"],
-		"unitTypes": ["Water Suit"],
-		"column": 1,
-		"row": 15
+		"uniques": ["[+20]% Strength <when fighting in [Water] tiles>"],
 	},
 // Nomad council Promotions
 {
