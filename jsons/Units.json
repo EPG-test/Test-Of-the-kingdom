@@ -305,7 +305,7 @@
 		{
 		"name": "Jacksuit",
 		"uniqueTo": "Tmelas Nation",
-		"unitType": "Scrapper",
+		"unitType": "Water Suit",
 		"movement": 2,
 		"strength": 40,
 		"interceptRange": 1,
@@ -328,7 +328,7 @@
 		{
 		"name": "Wavecoat",
 		"uniqueTo": "Tmelas Nation",
-		"unitType": "Scrapper",
+		"unitType": "Water Suit",
 		"movement": 2,
 		"strength": 60,
 		"cost": 75,
@@ -348,7 +348,7 @@
 			{
 		"name": "Mermonkey",
 		"uniqueTo": "Tmelas Nation",
-		"unitType": "Scrapper",
+		"unitType": "Water Suit",
 		"movement": 3,
 		"strength": 90,
 		"cost": 350,
@@ -370,7 +370,7 @@
 		"name": "Sea Purger",
 		"uniqueTo": "Tmelas Nation",
 		"replaces": "Purge Robot",
-		"unitType": "Armor",
+		"unitType": "Water Suit",
 		"movement": 5,
 		"interceptRange": 2,
 		"strength": 125,
