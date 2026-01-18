@@ -1,0 +1,10 @@
+[
+  {
+		"name": "Water Suit",
+		"uniques": ["Cannot intercept [Missile] units", 
+      "Cannot intercept [Stealth] units",			
+      "[This Unit] heals [5] HP <upon turn start> <in [Water] tiles>", 
+      "[This Unit] heals [5] HP <upon turn start> <in [{Friendly} {Water}] tiles>"],
+		"movementType": "Land"
+	}
+]
