@@ -520,7 +520,7 @@
 			"[+2 Food, +2 Production] from [Borough] tiles [in this city] <if [Outlaws of the Wastes] is not enabled>",
 			"[+1 Production] from [Borough] tiles [in this city] <if [Outlaws of the Wastes] is enabled>",
 			"[+1 Science, +1 Food, +1 Production] from each Trade Route",
-			"Comment [+25% Yields frome Trade Routes]",
+			"Comment [+25% Yields from Trade Routes]",
 			"[+25]% [Production] from Trade Routes <hidden from users>",
 			"[+25]% [Food] from Trade Routes <hidden from users>",
 			"[+25]% [Gold] from Trade Routes <hidden from users>",
