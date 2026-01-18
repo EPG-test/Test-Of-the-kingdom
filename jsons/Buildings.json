@@ -729,7 +729,7 @@
 "cityStrength": 1,
 "cityHealth": 10,
 "uniques":[
-"[+1 Happiness. +1 Gold] [in all coastal cities]",
+"[+1 Happiness, +1 Gold] [in all coastal cities]",
 "Can only be built <in [Capital] cities>",
 "Automatically built in all cities where it is buildable",
 "[1] free [Jacksuit] units appear",
