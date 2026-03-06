@@ -63,6 +63,13 @@
 		"name": "Pressure Dependent Weaponry ",
 		"uniques": ["[+20]% Strength <when fighting in [Water] tiles>"],
 	},
+		{
+		"name": "Repair Kit",
+		"uniques": [		
+			"[This Unit] heals [5] HP <upon turn start> <in [Water] tiles>",
+			"[This Unit] heals [5] HP <upon turn start> <in [{Friendly} {Water}] tiles>"],
+	},
+	
 // Nomad council Promotions
 {
 		"name": "Nomadic Rollout",
