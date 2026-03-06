@@ -70,7 +70,6 @@
 		"Only available <in cities with a [Defensive Emplacements]>",
 		"Destroyed when the city is captured"]
 	},
-	// Idea: Buildable only with Representation Center also given +1 yield
 	{
 		"name": "King's Residence",
 		"replaces": "Town Hall",
@@ -123,7 +122,7 @@
 		],
 				"civilopediaText": [
 			{
-				"text": "And now from the wastes of Americas, through the land of old Europe, to the Asian and Australian regions. We KED, present 'The World's Cable'! For more imformation please switch to channel two. "
+				"text": "And now from the wastes of Americas, through the land of old Europe, to the Asian and Australian regions. We KCS, present 'The World's Cable'! For more imformation please switch to channel two. "
 			}]
 		"requiredTech": "Electronics"},
 
@@ -303,7 +302,7 @@
 			
 			"[+5 Happiness] [in this city] <after adopting [Representation]> <hidden from users>",
 
-			"[+33]% [Production] [in this city] <after adopting [Planned Economy]> <hidden from users>",
+			"[+33]% [Production] [in this city] <after adopting [Planned Economy]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
 			"[+25]% [Science] [in this city] <after adopting [Technocracy]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
 			"[+25]% [Culture] [in this city] <after adopting [Legislative Process]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
 			"[+10]% [Production] [in this city] <after adopting [Shared Vision]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
