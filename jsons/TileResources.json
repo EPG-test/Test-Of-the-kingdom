@@ -13,7 +13,7 @@
 	{
 		"name": "Saplings",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Badlands"],
+		"terrainsCanBeFoundOn": ["Badlands", "Wasteland"],
 		"food": 1,
 		"improvedBy": ["Lumber mill", "Tree plantation"],
 		"improvementStats": { "production": 1 },
