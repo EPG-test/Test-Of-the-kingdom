@@ -46,6 +46,7 @@
 		"name": "Lumber mill",
 		"techRequired": "Machinery",
 		"production": 1,
+		"food": -1,
 		"turnsToBuild": 9,
 		"uniques": [
 			"Food source",
