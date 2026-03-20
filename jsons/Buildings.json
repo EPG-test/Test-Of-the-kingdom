@@ -1,5 +1,16 @@
 [
-  {
+  // Extra buildings
+	{
+		"name": "Sawmill"
+		"production": 2,
+		"maintenance": 1,
+		"uniques": ["[+1 production] from [Saplings] tiles [in this city]"],
+		"requiredNearbyImprovedResources": ["Saplings"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Machinery"
+	},
+	//FoKW UB
+	{
 "name": "Golden Castle",
 "isNationalWonder": true,
 "replaces": "Bomb Shelter",
