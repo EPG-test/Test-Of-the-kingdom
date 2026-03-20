@@ -11,7 +11,7 @@
 		"resourceType": "Luxury"
 	},
 	{
-		"name": "Tree",
+		"name": "Saplings",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Badlands"],
 		"food": 1,
