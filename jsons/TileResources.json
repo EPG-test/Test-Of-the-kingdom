@@ -18,7 +18,8 @@
 		"improvedBy": ["Farm", "Grassland"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
-			"Generated on every [40] tiles <in [Badlands] tiles>",
+			"Generated on every [60] tiles <in [Badlands] tiles>",
+			"Generated on every [60] tiles <in [Wasteland] tiles>",
 		]
 	},
 ]
