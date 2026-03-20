@@ -6,7 +6,7 @@
 		"maintenance": 1,
 		"cityHealth": 25,
 		"uniques": ["[+1 Production] from [Saplings] tiles [in this city]",
-					"[+1 Production] from [Grassland] tiles [in this city]"],
+					"[+1 Production] from [Tree plantation] tiles [in this city]"],
 		"requiredNearbyImprovedResources": ["Saplings"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Machinery"
