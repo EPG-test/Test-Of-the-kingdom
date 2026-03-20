@@ -12,7 +12,7 @@
 	},
 	{
 		"name": "Tree",
-		"resourceType": "Bonus",
+		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Badlands"],
 		"food": 1,
 		"improvedBy": ["Farm", "Grassland"],
