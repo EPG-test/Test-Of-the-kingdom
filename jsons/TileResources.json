@@ -15,7 +15,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Badlands"],
 		"food": 1,
-		"improvedBy": ["Farm", "Grassland"],
+		"improvedBy": ["Lumber mill", "Tree plantation"],
 		"improvementStats": { "production": 1 },
 		"uniques": [
 			"Generated on every [80] tiles <in [Badlands] tiles>",
