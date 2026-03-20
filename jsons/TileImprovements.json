@@ -42,5 +42,16 @@
 			"Turn this tile into a [Great Monument] tile",
 			"Pillaging this improvement yields approximately [+10 Gold]"]
 	},
+	{
+		"name": "Lumber mill",
+		"techRequired": "Machinery",
+		"production": 1,
+		"turnsToBuild": 9,
+		"uniques": [
+			"Food source",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		]
+	},
 ]
 
