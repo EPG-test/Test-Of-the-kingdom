@@ -144,7 +144,7 @@ NationIcons/Vultures
   orig: 100, 100
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/ResourceIcons/Saplings
+ResourceIcons/Saplings
   rotate: false
   xy: 868, 41
   size: 100, 100
