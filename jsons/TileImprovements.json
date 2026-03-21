@@ -45,8 +45,9 @@
 	{
 		"name": "Flower Farm",
 		"culture": 1,
-		"terrainsCanBeBuiltOn": ["Pink Petals Sanctuary"],
+		"terrainsCanBeBuiltOn": ["Ruined Sanctuary"],
 		"uniques": [ 
+			"Turn this tile into a [Pink Petals Sanctuary] tile",
 			"Pillaging this improvement yields approximately [+10 Gold, +10 Culture, +10 Faith]"]
 	},
 	{
