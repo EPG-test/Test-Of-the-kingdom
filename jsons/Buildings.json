@@ -1,10 +1,6 @@
 [
   // Extra buildings
-{
-		"name": "flowa powa"
-		"uniques": ["Creates a [Flower Farm] improvement on a specific tile"],
 
-	},
 	{
 		"name": "Sawmill"
 		"production": 2,
@@ -929,7 +925,14 @@
 	"Must have an owned [Sea Platform] within [3] tiles",
 	"Only available <in cities with a [Seaport]>"]
 },
+{
+		"name": "Estabilish Flower Farm"
+		"isNationalWonder": true,
+		"requiredTech": "Botany"
+		"uniques": ["Creates a [Flower Farm] improvement on a specific tile",
+					"Must have an owned [Pink Petals Sanctuary] within [3] tiles",],
 
+	},
 // Other Wonders
 	{ 
 "name": "DataKrash Agency",
