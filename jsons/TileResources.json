@@ -22,4 +22,14 @@
 			"Generated on every [80] tiles <in [Wasteland] tiles>",
 		]
 	},
+		{
+		"name": "Pink Petals",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Wasteland"],
+		"improvedBy": ["Farm"],
+		"improvementStats": { "culture": 1 },
+		"uniques": [
+			"Generated on every [1] tiles <in [Pink Petals Sanctuary] tiles>",
+		]
+	},
 ]
