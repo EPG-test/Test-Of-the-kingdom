@@ -47,7 +47,7 @@
 		"culture": 1,
 		"terrainsCanBeBuiltOn": ["Pink Petals Sanctuary"],
 		"uniques": [ 
-			"Pillaging this improvement yields approximately [+10 Gold. +10 Culture, +10 Faith]"]
+			"Pillaging this improvement yields approximately [+10 Gold, +10 Culture, +10 Faith]"]
 	},
 	{
 		"name": "Lumber mill",
