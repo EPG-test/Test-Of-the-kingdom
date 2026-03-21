@@ -93,7 +93,26 @@
 			"text": "Last stand of old world elites and the only intact bunker left after those robots sweept."
 		}]
 	},
-// Test wonder
+		{
+		"name": "Pink Petals Sanctuary",
+		"type": "NaturalWonder",
+		"faith": 1,
+		"culture": 1,
+		"occursOn": ["Wasteland"],
+		"uniques": [
+			"Must be adjacent to [0] [Hill] tiles",
+			"Must be adjacent to [0] [Desert] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",],
+		"turnsInto": "Wasteland",
+		"impassable": false,
+		"unbuildable": false,
+		"weight": 10
+		"civilopediaText": [
+		{
+			"text": "The Last Bastion of peace and tranquillity"
+		}]
+	},
+	// Test wonder
 	{
 		"name": "Great Monument",
 		"type": "NaturalWonder",
