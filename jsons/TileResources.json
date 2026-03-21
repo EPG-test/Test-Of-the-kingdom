@@ -23,12 +23,7 @@
 		]
 	},
 		{
-		"name": "Pink Petals",
+		"name": "Pink Petals Flowers",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Pink Petals Sanctuary"],
-		"improvedBy": ["Farm"],
-		"improvementStats": { "culture": 1 },
-		"uniques": [
-		]
 	},
 ]
