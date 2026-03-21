@@ -96,8 +96,6 @@
 		{
 		"name": "Ruined Sanctuary",
 		"type": "NaturalWonder",
-		"faith": 1,
-		"culture": 1,
 		"occursOn": ["Wasteland"],
 		"uniques": [
 			"Must be adjacent to [0] [Hill] tiles",
@@ -110,9 +108,22 @@
 		"weight": 10
 		"civilopediaText": [
 		{
+			"text": "A broken Bastion of peace and tranquillity"
+		}]
+	},
+		{
+		"name": "Pink Petals Sanctuary",
+		"type": "NaturalWonder",
+		"uniques": ["Doesn't generate naturally",]
+		"impassable": false,
+		"unbuildable": false,
+		"weight": 10
+		"civilopediaText": [
+		{
 			"text": "The Last Bastion of peace and tranquillity"
 		}]
 	},
+	
 	// Test wonder
 	{
 		"name": "Great Monument",
