@@ -6,12 +6,12 @@
 		"uniques": ["Great Improvement",
 			"Gives a defensive bonus of [10]%",
      	"[+1 Culture] for each adjacent [Great Improvement]",
-	"[+1 Gold] <after discovering [Trade]>",
+		"[+1 Gold] <after discovering [Trade]>",
         "[+2 Gold] <after discovering [Currency]>",
         "[+2 Gold, +2 Science, +2 Culture] <after discovering [Flight]>",
-	"[+1 Culture] <after discovering [Civil Service]>",
-	"[+1 Culture] <after discovering [Social Engineering]>",
-	"[+2 Culture] <after discovering [Incentivization]>",
+		"[+1 Culture] <after discovering [Civil Service]>",
+		"[+1 Culture] <after discovering [Social Engineering]>",
+		"[+2 Culture] <after discovering [Incentivization]>",
 
 	"Removes removable features when built",
 	"Pillaging this improvement yields approximately [+20 Gold, +30 Culture]"]
@@ -41,6 +41,13 @@
 		"uniques": ["Great Improvement",
 			"Turn this tile into a [Great Monument] tile",
 			"Pillaging this improvement yields approximately [+10 Gold]"]
+	},
+	{
+		"name": "Flower Farm",
+		"culture": 1,
+		"terrainsCanBeBuiltOn": ["Pink Petals Sanctuary"],
+		"uniques": [ 
+			"Pillaging this improvement yields approximately [+10 Gold. +10 Culture, +10 Faith]"]
 	},
 	{
 		"name": "Lumber mill",
