@@ -1,5 +1,10 @@
 [
   // Extra buildings
+{
+		"name": "flowa powa"
+		"uniques": ["Creates a [Flower Farm] improvement on a specific tile"],
+
+	},
 	{
 		"name": "Sawmill"
 		"production": 2,
