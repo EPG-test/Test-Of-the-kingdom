@@ -106,7 +106,7 @@
 	"cost": 150
 	"requiredTech": "Replaceable Parts",
 	"obsoleteTech": "Energy Weapons",
-	"upgradesTo": "Dark Corruptor",
+	"upgradesTo": "Dark Reaper",
 	"uniques": [
 			"Low Tech","Personnel", "Dark Soldier",
 			"[+33]% Strength <vs [Ranged] units> <when defending>",
@@ -117,7 +117,7 @@
 		"attackSound": "metalhit",
 },
 {
-	"name": "Dark Corruptor",
+	"name": "Dark Reaper",
 	"replaces": "Exo-Trooper",
 	"uniqueTo": "The Forgotten Kingdom of Wasteland",
 	"unitType": "Scrapper",
