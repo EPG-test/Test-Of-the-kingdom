@@ -25,7 +25,7 @@
 		{
 		"name": "Pink Petals",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Wasteland"],
+		"terrainsCanBeFoundOn": ["Pink Petals Sanctuary"],
 		"improvedBy": ["Farm"],
 		"improvementStats": { "culture": 1 },
 		"uniques": [
