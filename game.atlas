@@ -172,37 +172,51 @@ TileSets/FantasyHex/Tiles/Crystal Waterfall
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Representation Center
+TileSets/FantasyHex/Tiles/Pink Petals Sanctuary
   rotate: false
   xy: 84, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Saplings
+TileSets/FantasyHex/Tiles/Representation Center
   rotate: false
   xy: 1639, 185
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Saplings+Lumber mill
+TileSets/FantasyHex/Tiles/Ruined Sanctuary
   rotate: false
   xy: 1679, 221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Saplings+Tree plantation
+TileSets/FantasyHex/Tiles/Saplings
   rotate: false
   xy: 124, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Saplings+Lumber mill
+  rotate: false
+  xy: 1679, 185
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Saplings+Tree plantation
+  rotate: false
+  xy: 1719, 221
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Sea Platform
   rotate: false
-  xy: 1679, 177
+  xy: 1719, 177
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
