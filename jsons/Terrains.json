@@ -104,7 +104,7 @@
 			"Must be adjacent to [0] [Desert] tiles",
 			"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] to [2] [Coast] tiles",
-			"Only [Farm] improvements may be built on this tile"],
+			"Only [Flower Farm] improvements may be built on this tile"],
 		"turnsInto": "Wasteland",
 		"impassable": false,
 		"unbuildable": false,
