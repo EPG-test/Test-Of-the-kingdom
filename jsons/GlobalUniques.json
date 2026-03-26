@@ -3,5 +3,6 @@
 	"uniques": [
 		"Triggers a [The search] event <for [Major] Civilizations> <upon constructing [Mega industry Facility Blueprints] [in all cities]>",
 		"Triggers a [The Last Man] event <for [Major] Civilizations> <upon turn end> <with [3]% chance> <during the [Rediscovering era]>",
+		"Triggers a [Flare Sighting] event <for [Major] Civilizations> <upon turn end> <with [2]% chance> <after turn number [15]> <before the [Neofeudal era]>",
 	]
 }
