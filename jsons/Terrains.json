@@ -97,6 +97,9 @@
 		"name": "Ruined Sanctuary",
 		"type": "NaturalWonder",
 		"occursOn": ["Wasteland"],
+		"culture": 1,
+		"faith" : 1
+		"happiness": 1
 		"uniques": [
 			"Must be adjacent to [0] [Hill] tiles",
 			"Must be adjacent to [0] [Desert] tiles",
@@ -114,6 +117,9 @@
 		{
 		"name": "Pink Petals Sanctuary",
 		"type": "NaturalWonder",
+		"culture": 1,
+		"faith" : 1
+		"happiness": 1
 		"uniques": ["Doesn't generate naturally",]
 		"impassable": false,
 		"unbuildable": false,
