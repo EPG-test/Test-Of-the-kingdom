@@ -510,7 +510,7 @@
 		"requiredTech": "Steel",
 		"upgradesTo": "Modern Armor",
 		"obsoleteTech": "Full-Spectrum Dominance",
-		"uniques": 
+		"uniques": [
 			"[-33]% Strength <vs cities> <when attacking>",
 			"[-25]% Strength <before discovering [Replaceable Parts]>",
 			"Can move after attacking",
