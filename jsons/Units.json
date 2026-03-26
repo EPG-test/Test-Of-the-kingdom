@@ -497,5 +497,28 @@
 //			"Never appears as a Barbarian unit"
 //		
 //		"attackSound": "machinegun"
-//	},
+//	
+	
+			{
+		"name": "Basilisk",
+		"replaces": "Armored Car",
+		"uniqueTo": "Nomad Nations Council",
+		"unitType": "Armor",
+		"movement": 3,
+		"strength": 50,
+		"cost": 150,
+		"requiredTech": "Steel",
+		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Full-Spectrum Dominance",
+		"uniques": 
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[-25]% Strength <before discovering [Replaceable Parts]>",
+			"Can move after attacking",
+			"No defensive terrain bonus"
+			"Consumes [1] [Oil]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	},
+	
 ]
