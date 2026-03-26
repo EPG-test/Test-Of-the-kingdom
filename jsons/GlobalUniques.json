@@ -1,6 +1,7 @@
 {
 	"name": "Global uniques",
 	"uniques": [
-		"Triggers a [The search] event <for [Major] Civilizations> <upon constructing [Mega industry Facility Blueprints] [in all cities]>"
+		"Triggers a [The search] event <for [Major] Civilizations> <upon constructing [Mega industry Facility Blueprints] [in all cities]>",
+		"Triggers a [The Last Man] event <for [Major] Civilizations> <upon turn end> <with [3]% chance> <during the [Rediscovering era]>",
 	]
 }
