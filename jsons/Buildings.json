@@ -12,7 +12,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Machinery"
 	},
-	//FoKW UB
+	//FKoW UB
 	{
 "name": "Golden Castle",
 "isNationalWonder": true,
@@ -937,6 +937,7 @@
 		"isWonder": true,
 		"requiredTech": "Ecotheory"
 		"uniques": ["[+1 Culture] from [Land] tiles [in this city]",
+					"[+1 Faith, +1 Culture] from [Pink Petals Sanctuary] tiles [in all cities]",
 					"Provides [3] [Pink Petals Flowers]",
 					"Must have an owned [Pink Petals Sanctuary] within [3] tiles",],
 
