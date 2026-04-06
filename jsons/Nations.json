@@ -83,7 +83,10 @@
     ]
     "spyNames": [ "The Cook", "Dimitri", "Sara", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
   }
-{
+
+	// A GODDAMN WALL OF TEXT,
+	
+	{
     "name":"Vultures",
     "leaderName":"Andrey Canbs",
     "adjective":["False Saviours"],
@@ -111,10 +114,53 @@
 "May not annex cities", "May buy items in puppet cities",
 "[+1 Production] from every [Strategic resource] <hidden from users>",
 "[+1 Gold] from every [Luxury resource] <hidden from users>",
+			
+	   		"[+5]% [Production] from Trade Routes <starting from the [Rediscovering era]> <hidden from users>",
+			"[+5]% [Food] from Trade Routes <starting from the [Rediscovering era]> <hidden from users>",
+			"[+5]% [Gold] from Trade Routes <starting from the [Rediscovering era]> <hidden from users>",
+			"[+5]% [Culture] from Trade Routes <starting from the [Rediscovering era]> <hidden from users>",
+			"[+5]% [Science] from Trade Routes <starting from the [Rediscovering era]> <hidden from users>",
+
+		   	"[+5]% [Production] from Trade Routes <starting from the [Neofeudal era]> <hidden from users>",
+			"[+5]% [Food] from Trade Routes <starting from the [Neofeudal era]> <hidden from users>",
+			"[+5]% [Gold] from Trade Routes <starting from the [Neofeudal era]> <hidden from users>",
+			"[+5]% [Culture] from Trade Routes <starting from the [Neofeudal era]> <hidden from users>",
+			"[+5]% [Science] from Trade Routes <starting from the [Neofeudal era]> <hidden from users>",
+		
+		 	"[+5]% [Production] from Trade Routes <starting from the [Rebuilding era]> <hidden from users>",
+			"[+5]% [Food] from Trade Routes <starting from the [Rebuilding era]> <hidden from users>",
+			"[+5]% [Gold] from Trade Routes <starting from the [Rebuilding era]> <hidden from users>",
+			"[+5]% [Culture] from Trade Routes <starting from the [Rebuilding era]> <hidden from users>",
+			"[+5]% [Science] from Trade Routes <starting from the [Rebuilding era]> <hidden from users>",
+
+		 	"[+5]% [Production] from Trade Routes <starting from the [Industrial era]> <hidden from users>",
+			"[+5]% [Food] from Trade Routes <starting from the [Industrial era] > <hidden from users>",
+			"[+5]% [Gold] from Trade Routes <starting from the [Industrial era]> <hidden from users>",
+			"[+5]% [Culture] from Trade Routes <starting from the [Industrial era]> <hidden from users>",
+			"[+5]% [Science] from Trade Routes <starting from the [Industrial era]> <hidden from users>",
+
+	   		 "[+5]% [Production] from Trade Routes <starting from the [Postmodern era]> <hidden from users>",
+			"[+5]% [Food] from Trade Routes <starting from the [Postmodern era] > <hidden from users>",
+			"[+5]% [Gold] from Trade Routes <starting from the [Postmodern era]> <hidden from users>",
+			"[+5]% [Culture] from Trade Routes <starting from the [Postmodern era]> <hidden from users>",
+			"[+5]% [Science] from Trade Routes <starting from the [Postmodern era]> <hidden from users>",
+
+	   	   	"[+5]% [Production] from Trade Routes <starting from the [Information era]> <hidden from users>",
+			"[+5]% [Food] from Trade Routes <starting from the [Information era] > <hidden from users>",
+			"[+5]% [Gold] from Trade Routes <starting from the [Information era]> <hidden from users>",
+			"[+5]% [Culture] from Trade Routes <starting from the [Information era]> <hidden from users>",
+			"[+5]% [Science] from Trade Routes <starting from the [Information era]> <hidden from users>",
+
+	   	   	"[+5]% [Production] from Trade Routes <starting from the [New Future era]> <hidden from users>",
+			"[+5]% [Food] from Trade Routes <starting from the [New Future era] > <hidden from users>",
+			"[+5]% [Gold] from Trade Routes <starting from the [New Future era]> <hidden from users>",
+			"[+5]% [Culture] from Trade Routes <starting from the [New Future era]> <hidden from users>",
+			"[+5]% [Science] from Trade Routes <starting from the [New Future era]> <hidden from users>",
+	"Comment [Entereing next era gives +5% to trade route yields]",
 "Comment [All strategic and luxury resources gain +1 [Production] and +1 [Gold] respectively.]",
 "Cannot build [Civilian Convoy] units <when number of [Cities] is more than [5]>",
 	
-   	"[-5]% [Culture] from every [Ideals Radio] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+
    ]
    
   "cities": [ 
