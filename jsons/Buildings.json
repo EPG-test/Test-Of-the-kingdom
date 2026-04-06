@@ -475,6 +475,7 @@
 	"isWonder": true,
 	"uniques":[
 	"[+1 Production] from each Trade Route",
+	"[+3 Production] from each Trade Route <after discovering [Railroads]>",
 	"Provides [1] [Weapons]",
 	"Gain a free [Resource Office] [in this city]",
 	"[1] free [Stabilizer] units appear",
@@ -502,7 +503,7 @@
 		"requiredTech": "Trade",
 		"uniques": [
 			"[+1 Gold] from [Luxury resource] tiles [in this city]",
-			"[+1 Science, +1 Food] from each Trade Route",
+			"[ +1 Food] from each Trade Route",
 		]
 	},
 
@@ -514,11 +515,10 @@
 		"culture": 1,
 		"science": 1,
 		"happiness": 1,
-		"maintenance": 2,
-		"percentStatBonus": { "culture": 10, "science": 15 },
+		"percentStatBonus": { "culture": 10},
 		"specialistSlots": { "Administrator": 1 },
 		"uniques": ["Consumes [1] [Power]",
-		"[+1 Culture] from each Trade Route"],
+		"[+1 Culture, +1 Science] from each Trade Route"],
 		"requiredTech": "Radio"
 	},
 
@@ -610,7 +610,7 @@
 	"requiredNearbyImprovedResources": ["Coal"],
 	"uniques": [
 	"[-1] population [in this city]",
-	"Provides [2] [Coal]",
+	"Provides [3] [Coal]",
 	"[+2 Production] from [Coal] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
 	},
@@ -622,7 +622,7 @@
 	"requiredNearbyImprovedResources": ["Oil"],
 	"uniques": [
 	"[-1] population [in this city]",
-	"Provides [2] [Oil]",
+	"Provides [3] [Oil]",
 	"[+2 Production] from [Oil] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
 	},
@@ -634,7 +634,7 @@
 	"requiredNearbyImprovedResources": ["Aluminum"],
 	"uniques": [
 	"[-1] population [in this city]",
-	"Provides [2] [Aluminum]",
+	"Provides [3] [Aluminum]",
 	"[+2 Production] from [Aluminum] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
 	},
@@ -646,7 +646,7 @@
 	"requiredNearbyImprovedResources": ["Uranium"],
 	"uniques": [
 	"[-1] population [in this city]",
-	"Provides [2] [Uranium]",
+	"Provides [3] [Uranium]",
 	"[+2 Production] from [Uranium] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
 	},
@@ -657,7 +657,7 @@
 	"maintenance": 1,
 	"requiredNearbyImprovedResources": ["Weapons"],
 	"uniques": [
-	"Provides [2] [Weapons]",
+	"Provides [3] [Weapons]",
 	"[+2 Production] from [Weapons] tiles [in this city]",
 	"Only available <in cities with a [Resource Office]>"]
 	},
@@ -665,7 +665,6 @@
 		"name": "Vultures cannot ally with Isolationists"
 		"uniqueTo": "Vultures",
 		"replaces": "Ally with Isolationists",
-		"cost": 5,
 		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
 	},
 	{
