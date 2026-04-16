@@ -1,6 +1,13 @@
 [
   // Extra buildings
-
+	{
+		"name": "Sewerage"
+		"maintenance": 1,
+		"uniques": ["[10]% Food is carried over after population increases [in this city]",
+					"[+2 food] [in this city] <after discovering [Railroads]>"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Engineering"
+	},
 	{
 		"name": "Sawmill"
 		"production": 2,
