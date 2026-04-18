@@ -471,7 +471,7 @@
 },
 
 
-	// Extractors UB
+	// Vultures UB
 	
 { 
 	"name": "Vulture Berau" 
@@ -514,7 +514,6 @@
 		]
 	},
 
-
 	{
 		"name": "Ideals Radio",
 		"replaces": "Broadcast Tower",
@@ -528,7 +527,29 @@
 		"[+1 Culture, +1 Science] from each Trade Route"],
 		"requiredTech": "Radio"
 	},
-	
+		{
+		"name": "Inter-city Terminal",
+		"uniqueTo": "Vultures",
+		"replaces": "Factory",
+		"percentStatBonus": { "production": 20 },
+		"specialistSlots": { "Engineer": 2 },
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"Only available <in cities with a [Resource Office]>",
+			"[+2 Production] from each Trade Route"],
+			"[+3 Production] [in this city] <when above [0] [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Railroads",
+		"civilopediaText": [
+			{
+				"text": "This building is required for the construction of advanced units."
+			}
+		]
+	},
 	{
 	"name": "Resource Office",
 	"replaces": "Town Hall",
@@ -539,8 +560,7 @@
 	"uniques": [
 	"[-25]% Culture cost of natural border growth [in this city]",
 	"[-25]% Gold cost of acquiring tiles [in this city]",
-	"[+2 Production, +1 Culture] [in this city] <when above [0] [Power]>",
-	"Comment [Enables resource extraction missions]",
+	"[+2 Production, +1 Culture, +1 Happiness] [in this city] <when above [0] [Power]>",
 	]
 
 	"requiredTech": "Civil Service",
@@ -585,71 +605,6 @@
 		]
 	},
 
-{
-	"name": "Coal Extraction Mission"
-	"uniqueTo": "Vultures",
-	"cost":200,
-	"maintenance": 1,
-	"requiredNearbyImprovedResources": ["Coal"],
-	"uniques": [
-	"[-1] population [in this city]",
-	"Provides [3] [Coal]",
-	"[+2 Production] from [Coal] tiles [in this city]",
-	"Only available <in cities with a [Resource Office]>"]
-	},
-{
-	"name": "Oil Extraction Expansion"
-	"uniqueTo": "Vultures",
-	"cost":200,
-	"maintenance": 1,
-	"requiredNearbyImprovedResources": ["Oil"],
-	"uniques": [
-	"[-1] population [in this city]",
-	"Provides [3] [Oil]",
-	"[+2 Production] from [Oil] tiles [in this city]",
-	"Only available <in cities with a [Resource Office]>"]
-	},
-{
-	"name": "Aluminum Extraction Mission"
-	"uniqueTo": "Vultures",
-	"cost":200,
-	"maintenance": 1,
-	"requiredNearbyImprovedResources": ["Aluminum"],
-	"uniques": [
-	"[-1] population [in this city]",
-	"Provides [3] [Aluminum]",
-	"[+2 Production] from [Aluminum] tiles [in this city]",
-	"Only available <in cities with a [Resource Office]>"]
-	},
-{
-	"name": "Uranium Extraction Mission"
-	"uniqueTo": "Vultures",
-	"cost":200,
-	"maintenance": 1,
-	"requiredNearbyImprovedResources": ["Uranium"],
-	"uniques": [
-	"[-1] population [in this city]",
-	"Provides [3] [Uranium]",
-	"[+2 Production] from [Uranium] tiles [in this city]",
-	"Only available <in cities with a [Resource Office]>"]
-	},
-{
-	"name": "Weapons Salvage Mission"
-	"uniqueTo": "Vultures",
-	"cost":200,
-	"maintenance": 1,
-	"requiredNearbyImprovedResources": ["Weapons"],
-	"uniques": [
-	"Provides [3] [Weapons]",
-	"[+2 Production] from [Weapons] tiles [in this city]",
-	"Only available <in cities with a [Resource Office]>"]
-	},
-	{
-		"name": "Vultures cannot ally with Isolationists"
-		"uniqueTo": "Vultures",
-		"replaces": "Ally with Isolationists",
-		"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"]
-	},
 	{
 		"name": "Exile Isolationists"
 		"uniqueTo": "Vultures",
