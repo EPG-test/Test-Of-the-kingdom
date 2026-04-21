@@ -155,7 +155,7 @@
 			"[+10]% [Gold] from Trade Routes <starting from the [New Future era]> <hidden from users>",
 			"[+10]% [Culture] from Trade Routes <starting from the [New Future era]> <hidden from users>",
 			"[+10]% [Science] from Trade Routes <starting from the [New Future era]> <hidden from users>",
-	"Comment [Entereing next era gives +10% to trade route yields]",
+	"Comment [Entering next era gives +10% to trade route yields]",
 "Comment [All strategic resources gain +1 [Production] and +1 [Gold]]",
 	
    ]
@@ -175,7 +175,7 @@
 "Chiken's Coop",
   "Lion's Cage",
   "Cattle Barn"],
-    "spyNames": [ "Spy1", "Spy2", "Spy3", "Spy4", "Spy5","Spy6","Spy7","Spy8", "Spy9", "Spy10"]
+    "spyNames": [ "Orcinus", "Canis", "Pavo", "Panthera", "Capra","Bison","Ursus","Felis", "Rodentia", "Hippopotamus"]
   },
 
 {
