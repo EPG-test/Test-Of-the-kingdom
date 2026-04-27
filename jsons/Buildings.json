@@ -14,10 +14,24 @@
 		"maintenance": 1,
 		"cityHealth": 25,
 		"uniques": ["[+1 Production] from [Saplings] tiles [in this city]",
-					"[+1 Production] from [Tree plantation] tiles [in this city]"],
+					"[+1 Production] from [Zinc] tiles [in this city]"],
 		"requiredNearbyImprovedResources": ["Saplings"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Machinery"
+	},
+		{
+		"name": "Electrical Workshop"
+		"production": 2,
+		"maintenance": 2,
+		"percentStatBonus": { "production": 5 },
+		"uniques": [ "[+1 Happiness] from [Electronics] tiles [in this city]",
+					"[+1 Production, +1 Gold] from [Copper] tiles [in this city]",
+					"[+2 Production] from [Zinc] tiles [in this city]",
+					"Only available <in cities with a [Factory]>",
+					"Consumes [1] [Power]"],
+		"requiredNearbyImprovedResources": ["Zinc", "Copper"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Electronics"
 	},
 	//FKoW UB
 	{
