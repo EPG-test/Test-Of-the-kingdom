@@ -221,6 +221,13 @@ TileSets/FantasyHex/Tiles/Sea Platform
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Zinc
+  rotate: false
+  xy: 164, 5
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Guardsman
   rotate: false
   xy: 44, 5
