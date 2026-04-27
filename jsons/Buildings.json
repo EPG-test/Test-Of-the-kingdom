@@ -24,7 +24,7 @@
 		"production": 2,
 		"maintenance": 2,
 		"percentStatBonus": { "production": 5 },
-		"uniques": [ "[+1 Happiness] from [Electronics] tiles [in this city]",
+		"uniques": [ 	"[+1 Happiness] [in this city] <with [Electronics]>",
 					"[+1 Production, +1 Gold] from [Copper] tiles [in this city]",
 					"[+2 Production] from [Zinc] tiles [in this city]",
 					"Only available <in cities with a [Factory]>",
