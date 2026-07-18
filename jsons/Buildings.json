@@ -191,7 +191,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"Only available <in cities with a [Library]>",
-			"[+10]% Production when constructing [Dark Soldier] units [in this city]",
+			"[+15]% Production when constructing [Dark Soldier] units [in this city]",
 			"[+1 Production] [in this city] <with [Machine Parts]>",
 			"[+1 Production] [in this city] <when above [0] [Power]>",
 			"[+3 Production] [in this city] <when above [0] [Coal]>",
@@ -206,96 +206,38 @@
 		]
 	},
 	//Advisors 
-	{	
-		"name":"Cultural Advisor"
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"requiredTech": "Civil Service",
-		"uniques": [
-		"[+1 Culture] from every [Walls]",
-		"[+1 Culture] from every [Defensive Emplacements]",
-		"[+1 Culture] from every [Castle]",
-		"[+1 Culture] from every [Golden Castle] <hidden from users>",
-		"[+1 Culture] from every [Bastions]",
-		"[+2 Culture] from every [King's Residence]",
-		"[+2 Culture] from every [Relocation Office]",
-
-		"[+5]% [Culture] from every [Castle]",
-		"[+5]% [Culture] from every [Golden Castle] <hidden from users>",
-		"[+5]% [Culture] from every [Bastions]",
-		
-		
-		"[-33]% City Strength from defensive buildings",
-		"[-40]% Strength for cities <with a garrison> <when attacking> <after adopting [Castle Doctrine]>",
-		"[-25]% Strength for cities <when attacking>",
-		"[-15]% [Gold] [in all cities] <hidden from users>",
-		
-		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
-		"Only available <in cities without a [Research Advisor]> <hidden from users>",
-		
-		"Only available <if [Search for Survivors] is constructed>",
-		"Can only be built <in [Capital] cities>",
-		"Destroyed when the city is captured"]
-	},
-// actually good when at war ???
-	{
-		"name":"Economic Advisor"
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"requiredTech": "Civil Service",
-		"uniques": [
-		"[+1 Gold] from every [Market]",
-		"[+1 Gold] from every [Water Storage]",
-		"[+2 Gold] from every [Water Plant]",
-		"[+2 Gold] from every [Greywater Treatment Plant]",
-		"[+3 Gold] from every [Desalination Plant]",
-		"[+5 Gold] from every [Rainwater Purifier]",
-		"Comment [+5%/+10%/+15% Gold in all cities during Neofeudal/Rebuilding/Industrual Era]",
-		"[+5]% [Gold] [in all cities] <during the [Neofeudal era]> <hidden from users>",
-		"[+10]% [Gold] [in all cities] <during the [Rebuilding era]> <hidden from users>",
-		"[+15]% [Gold] [in all cities] <starting from the [Industrial era]> <hidden from users>",
-		
-		"[-15]% Production when constructing [All] buildings [in all cities]",
-		"[-25]% Production when constructing [All] units [in all cities]",
-	
-		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
-		"Only available <in cities without a [Research Advisor]> <hidden from users>",
-		
-		"Only available <if [Search for Survivors] is constructed>",
-		"Can only be built <in [Capital] cities>",
-		"Destroyed when the city is captured"]
-		
-	},
-	
 	//GOLD SLIDER HAS BEEN REMOVED SO IT GETS A BUFF
 	{
-		"name":"Research Advisor"
+		"name":"Social Advisor"
+		"replaces": "Congress",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
-		"[+1 Science] from every [Library]",
-		"[+1 Science] from every [University]",
-		"[+2 Science] from every [Public School]",
-		"[+3 Science] from every [Research Lab]",
-		"[+4 Science] from every [Data Center]",
-		"Comment [+15%/+10%/+5% Science in all cities during Neofeudal/Rebuilding/Industrual Era]",
-		"Comment [-5% Gold and -10%/-7%/-5% Culture in all cities during Neofeudal/Rebuilding/Industrual Era]",
-		"[+15]% [Science] [in all cities] <during the [Neofeudal era]><hidden from users>",
-		"[+10]% [Science] [in all cities] <during the [Rebuilding era]> <hidden from users>",
-		"[+5]% [Science] [in all cities] <starting from the [Industrial era]> <hidden from users>",
-		"[-5]% [Gold] [in all cities] <during the [Neofeudal era]> <hidden from users>",
-		"[-5]% [Gold] [in all cities] <during the [Rebuilding era]> <hidden from users>",
-		"[-5]% [Gold] [in all cities] <starting from the [Industrial era]> <hidden from users>",
-		"[-10]% [Culture] [in all cities] <during the [Neofeudal era]> <hidden from users>",
-		"[-7]% [Culture] [in all cities] <during the [Rebuilding era]> <hidden from users>",
-		"[-5]% [Culture] [in all cities] <starting from the [Industrial era]> <hidden from users>",
-		"Only available <in cities without a [Cultural Advisor]> <hidden from users>",
-		"Only available <in cities without a [Economic Advisor]> <hidden from users>",
-		
+		"[+1 Culture. +1 Gold] per [4] population [in all cities]",
+		"[-10]% Unhappiness from [Population] [in all cities connected to capital]",
+		"When declaring friendship, both parties gain a [25]% boost to great person generation",
 		"Only available <if [Search for Survivors] is constructed>",
+		"Only available <in cities without a [Internal Advisor]>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
-		
-	},
+		},
 {
+		"name": "Internal Advisor",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+10]% growth [in all cities]",
+			"[+5]% Production when constructing [All] buildings [in this city]",
+			"[+4 Gold] <for every [Remaining [City-State] Civilizations]>",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Social Advisor]>",
+			"Destroyed when the city is captured"
+		   
+		]
+	},
+
+	{
 		"name":"Relocation Office",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"replaces":"Work Camp",
@@ -329,7 +271,7 @@
 		"isNationalWonder": true,
 		"uniques": [
 			"[+1 Production] [in all cities connected to capital]",
-			"Gain [75] [Culture] <upon declaring friendship>",
+			"Gain [150] [Culture] <upon declaring friendship>",
 			"Gain [75] [Culture] <upon declaring a defensive pact>",
 
 			"Comment [Every Congress/Council related Policy affects this building]",
@@ -353,18 +295,7 @@
 				"text": "Diplomatic capital of Kingdom. Place where ambassadors from all over the world have talks with our representation."
 			}]
 },
-{
-		"name": "The King is Congress",
-		"replaces": "Congress",
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "The King is Council",
-		"replaces": "Council",
-		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
-	}
+
 {
 		"name": "No Prison Camps for The King",
 		"replaces": "Prison Camp",
