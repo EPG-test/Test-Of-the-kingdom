@@ -108,10 +108,11 @@
 		"name": "King's Residence",
 		"replaces": "Town Hall",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
-		"cost":160,
+		"cost":120,
 		"maintenance": 1,
 		"happiness": 1,
 		"uniques": [
+		"Only available <in cities with a [Castle]>",
 		"[-25]% Culture cost of natural border growth [in this city]",
 		"[-25]% Gold cost of acquiring tiles [in this city]",
 		"[+1 Culture] from [Natural Wonder] tiles [in this city]",
@@ -213,7 +214,7 @@
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
-		"[+1 Culture. +1 Gold] per [4] population [in all cities]",
+		"[+1 Culture, +1 Gold] per [4] population [in all cities]",
 		"[-10]% Unhappiness from [Population] [in all cities connected to capital]",
 		"When declaring friendship, both parties gain a [25]% boost to great person generation",
 		"Only available <if [Search for Survivors] is constructed>",
