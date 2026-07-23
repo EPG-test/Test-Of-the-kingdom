@@ -23,7 +23,7 @@
 		"production": 2,
 		"maintenance": 2,
 		"percentStatBonus": { "production": 5 },
-		"uniques": [ 	"[+1 Happiness] [in this city] <with [Electronics]>",
+		"uniques": [ "[+1 Happiness] [in this city] <with [Electronics]>",
 					"[+1 Production, +1 Gold] from [Copper] tiles [in this city]",
 					"[+2 Production] from [Zinc] tiles [in this city]",
 					"Only available <in cities with a [Factory]>",
@@ -126,7 +126,7 @@
 			}]
 			},
 {		
-		"name":"Foreigners Agency",
+		"name":"Foreigner Agency",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"replaces":"Listening Post",
 		"happiness":1,
@@ -209,27 +209,26 @@
 	//Advisors 
 	//GOLD SLIDER HAS BEEN REMOVED SO IT GETS A BUFF
 	{
-		"name":"Social Advisor"
-		"replaces": "Congress",
+		"name":"Citizens' assembly"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
 		"[+1 Culture, +1 Gold] per [4] population [in all cities]",
 		"[-10]% Unhappiness from [Population] [in all cities connected to capital]",
-		"When declaring friendship, both parties gain a [25]% boost to great person generation",
+		"[+5]% Production when constructing [All] buildings [in all cities]",
 		"Only available <if [Search for Survivors] is constructed>",
 		"Only available <in cities without a [Internal Advisor]>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 		},
 {
-		"name": "Internal Advisor",
+		"name": "International Affairs Agency",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+10]% growth [in all cities]",
-			"[+5]% Production when constructing [All] buildings [in this city]",
-			"[+4 Gold] <for every [Remaining [City-State] Civilizations]>",
+			"When declaring friendship, both parties gain a [25]% boost to great person generation",
+			"Allied City-States provide [Gold] equal to [75]% of what they produce for themselves",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
 			"Only available <in cities without a [Social Advisor]>",
@@ -296,7 +295,18 @@
 				"text": "Diplomatic capital of Kingdom. Place where ambassadors from all over the world have talks with our representation."
 			}]
 },
-
+{
+		"name": "No Council for The King",
+		"replaces": "Council",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "No Congress for The King",
+		"replaces": "Congress",
+		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+	},
 {
 		"name": "No Prison Camps for The King",
 		"replaces": "Prison Camp",
