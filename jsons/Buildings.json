@@ -211,27 +211,29 @@
 	{
 		"name":"Citizens' assembly"
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
+		"replaces": "Congress",
 		"requiredTech": "Civil Service",
 		"uniques": [
 		"[+1 Culture, +1 Gold] per [4] population [in all cities]",
 		"[-10]% Unhappiness from [Population] [in all cities connected to capital]",
 		"[+5]% Production when constructing [All] buildings [in all cities]",
 		"Only available <if [Search for Survivors] is constructed>",
-		"Only available <in cities without a [Internal Advisor]>",
+		"Only available <in cities without a [International Affairs Agency]>",
 		"Can only be built <in [Capital] cities>",
 		"Destroyed when the city is captured"]
 		},
 {
 		"name": "International Affairs Agency",
+		"replaces": "Council",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+10]% growth [in all cities]",
-			"When declaring friendship, both parties gain a [25]% boost to great person generation",
-			"Allied City-States provide [Gold] equal to [75]% of what they produce for themselves",
+			"[+25]% [Culture] from every [Foreigner Agency]",
+			"Allied City-States provide [Gold] equal to [150]% of what they produce for themselves",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Social Advisor]>",
+			"Only available <in cities without a [Citizens' assembly]>",
 			"Destroyed when the city is captured"
 		   
 		]
@@ -266,26 +268,15 @@
 		"replaces": "Public Works Administration",
 		"uniqueTo": "The Forgotten Kingdom of Wasteland",
 		"culture":1,
-		"cost": 300,
+		"cost": 200,
 		"greatPersonPoints": { "Great Administrator": 3 },
 		"isNationalWonder": true,
 		"uniques": [
 			"[+1 Production] [in all cities connected to capital]",
 			"Gain [150] [Culture] <upon declaring friendship>",
 			"Gain [75] [Culture] <upon declaring a defensive pact>",
-
-			"Comment [Every Congress/Council related Policy affects this building]",
-			
-			"[+5 Happiness] [in this city] <after adopting [Representation]> <hidden from users>",
-
-			"[+33]% [Production] [in this city] <after adopting [Planned Economy]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
-			"[+25]% [Science] [in this city] <after adopting [Technocracy]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
-			"[+25]% [Culture] [in this city] <after adopting [Legislative Process]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
-			"[+10]% [Production] [in this city] <after adopting [Shared Vision]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
-			"[+33]% [Gold] [in this city] <after adopting [Monopoly]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
-			
-			"[+33]% [Culture] [in this city] <after adopting [Legislative Process]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-			"[+15]% [Production] [in this city] <after adopting [Shared Vision]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+			"Only available <after adopting [Constitution]>",
+			"When declaring friendship, both parties gain a [25]% boost to great person generation",
 			"Only available <if [King's Residence] is constructed in all [non-[Puppeted]] cities>",
 		],
 		"requiredTech": "Civil Service"
