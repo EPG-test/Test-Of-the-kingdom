@@ -25,11 +25,9 @@
 "[+20]% Production when constructing [All] wonders [in all cities] <hidden from users>",
 //"+1 Culture, +1 Faith from every Natural Wonder",
 "[+1 Happiness, +1 Culture, +1 Faith, +1 Science, +1 Gold] for every known Natural Wonder",
-"[+100]% Yield from every [Natural Wonder]",
+"[+150]% Yield from every [Natural Wonder]",
 "Starts with [Construction]",
 "Starts with [Iron Working]",
-"Starts with [Expansionism] adopted",
-"Comment [Congress and Council buildings are replaced with Royal Advisors]",
 "Comment [Cannot build Prison Camps]",
 "Cannot build [Enslaved] units"]
     "cities": [ 
