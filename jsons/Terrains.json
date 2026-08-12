@@ -26,15 +26,15 @@
 	"science": 3,
 	"production": 2,
 	"turnsInto": "Mountain",
-	"occursOn": "Wasteland", "Badlands",
-	"uniques": "Must be adjacent to 4 to 6 Jungle tiles",
+	"occursOn": ["Wasteland", "Badlands"]
+	"uniques": ["Must be adjacent to 4 to 6 Jungle tiles"]
 	"impassable": true,
 	"unbuildable": true,
-	"weight": 10
-	"civilopediaText": 
+	"weight": 10,
+	"civilopediaText": [
 		{
 			"text": "Gaint, fully illuminated, prosperous and maybe the only place where life wasn't hell before the end. Now that's just a sad corpse of past."
-		}
+		}]
 },
 {
 		"name": "Crystal Waterfall",
